@@ -25,7 +25,7 @@ Through a combination of lectures and practical sessions, attendees will gain ex
 
 INSTRUCTORS
 -----------
-M Sanchez del Rio (ESRF), Luca Rebuffi (APS), Xianbo Shi (APS), Rafael Celestre (Soleil), Juan Reyes-Herrera (ELETTRA), Philipp Brumund (ESRF), Simone Manti (LNF-INFN), Nazanin Samadi (DESY)
+M Sanchez del Rio (ESRF), Luca Rebuffi (APS), Xianbo Shi (APS), Rafael Celestre (ESRF), Juan Reyes-Herrera (ELETTRA), Philipp Brumund (ESRF), Simone Manti (LNF-INFN), Nazanin Samadi (DESY)
 
 
 LOCAL ORGANIZERS
