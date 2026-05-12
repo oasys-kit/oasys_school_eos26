@@ -42,7 +42,7 @@ SHORTCUT TO WORKSPACES
 |-----|--------------|------------------------|------------------------|
 | 1   | Juan         | Hands-on-XOPPY         | [xoppy1.ows](https://raw.githubusercontent.com/oasys-kit/oasys_school_eos26/main/juan/xoppy1.ows) |
 | 1   | Juan         | Hands-on-XOPPY         | [xoppy2.ows](https://raw.githubusercontent.com/oasys-kit/oasys_school_eos26/main/juan/xoppy2.ows) |
-| 1   | Manuel       | hands-on SHADOW4       | [introduction.ows](https://raw.githubusercontent.com/oasys-kit/oasys_school_eos26/main/srio/introduction.ows) [beampropagation.ows](https://raw.githubusercontent.com/oasys-kit/oasys_school_eos26/main/srio/beampropagation.ows) |
+| 1   | Manuel       | hands-on SHADOW4       | [introduction.ows](https://raw.githubusercontent.com/oasys-kit/oasys_school_eos26/main/srio/introduction.ows) [beampropagation.ows](https://raw.githubusercontent.com/oasys-kit/oasys_school_eos26/main/srio/beampropagation.ows) [undulator.ows](https://raw.githubusercontent.com/oasys-kit/oasys_school_eos26/main/srio/undulator.ows) [aberrations.ows](https://raw.githubusercontent.com/oasys-kit/oasys_school_eos26/main/srio/aberrations.ows) [kirkpatrickbaez.ows](https://raw.githubusercontent.com/oasys-kit/oasys_school_eos26/main/srio/kirkpatrickbaez.ows)|
 | 1   | Manuel       | Gratings               | [gratings1.ows](https://raw.githubusercontent.com/oasys-kit/oasys_school_eos26/main/srio/gratings1.ows) |
 | 1   | Manuel       | Gratings               | [gratings2.ows](https://raw.githubusercontent.com/oasys-kit/oasys_school_eos26/main/srio/gratings2.ows) |
 | 2   | Juan+Manuel  | hands-on beamlines     | [crystals2.ows](https://raw.githubusercontent.com/oasys-kit/oasys_school_eos26/main/srio/crystals2.ows) |
