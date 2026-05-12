@@ -26,13 +26,14 @@ SHORTCUT TO TALKS
 
 | Day | Speaker | ShortTitle    | File                        |
 |-----|---------|---------------|-----------------------------|
-| 1   | Rafael  | History       | [history.pptx](https://github.com/oasys-kit/oasys_school_eos26/blob/main/rcelestre/history.pptx) |
+| 1   | Rafael  | History       | [xxx.pptx](https://github.com/oasys-kit/oasys_school_eos26/blob/main/rcelestre/xxx.pptx) |
 | 1   | Manuel  | Ray-tracing   | [intro.pptx](https://github.com/oasys-kit/oasys_school_eos26/blob/main/srio/raytracing.pptx) |
-| 1   | Juan    | Sources, Flux | [xoppy.pptx](https://github.com/oasys-kit/oasys_school_eos26/blob/main/juan/xoppy.pptx) |
-| 1   | Rafael  | Soft x-ray    | [soft.pptx](https://github.com/oasys-kit/oasys_school_eos26/blob/main/rcelestre/soft.pptx) |
+| 1   | Juan    | Sources, Flux | [xxx.pptx](https://github.com/oasys-kit/oasys_school_eos26/blob/main/juan/xxx.pptx) |
+| 1   | Rafael  | Soft x-ray    | [xxx.pptx](https://github.com/oasys-kit/oasys_school_eos26/blob/main/rcelestre/xxx.pptx) |
 | 2   | Manuel  | Crystals      | [crystals.pptx](https://github.com/oasys-kit/oasys_school_eos26/blob/main/srio/crystals.pptx) |
-| 2   | Rafael  | Lenses        | [lenses.pptx](https://github.com/oasys-kit/oasys_school_eos26/blob/main/rcelestre/lenses.pptx) |
-| 2   | xxx     | Coherence     | xxx                         |
+| 2   | Rafael  | Lenses        | [xxx.pptx](https://github.com/oasys-kit/oasys_school_eos26/blob/main/rcelestre/xxx.pptx) |
+| 2   | Rafael  | Coherence     | [xxx.pptx](https://github.com/oasys-kit/oasys_school_eos26/blob/main/rcelestre/xxx.pptx) |
+| 2   | Manuel  | Coherence     | [xxx.pptx](https://github.com/oasys-kit/oasys_school_eos26/blob/main/srio/xxx.pptx) |
 
 
 SHORTCUT TO WORKSPACES
@@ -40,13 +41,18 @@ SHORTCUT TO WORKSPACES
 
 | Day | Speaker      | ShortTitle             | File                   |
 |-----|--------------|------------------------|------------------------|
-| 1   | Juan         | Hands-on-XOPPY         | [xoppy1.ows](https://raw.githubusercontent.com/oasys-kit/oasys_school_eos26/main/juan/xoppy1.ows) |
-| 1   | Juan         | Hands-on-XOPPY         | [xoppy2.ows](https://raw.githubusercontent.com/oasys-kit/oasys_school_eos26/main/juan/xoppy2.ows) |
+| 1   | Juan         | Hands-on-XOPPY         | [xxx.ows](https://raw.githubusercontent.com/oasys-kit/oasys_school_eos26/main/juan/xxx.ows) |
 | 1   | Manuel       | hands-on SHADOW4       | [introduction.ows](https://raw.githubusercontent.com/oasys-kit/oasys_school_eos26/main/srio/introduction.ows) [beampropagation.ows](https://raw.githubusercontent.com/oasys-kit/oasys_school_eos26/main/srio/beampropagation.ows) [undulator.ows](https://raw.githubusercontent.com/oasys-kit/oasys_school_eos26/main/srio/undulator.ows) [aberrations.ows](https://raw.githubusercontent.com/oasys-kit/oasys_school_eos26/main/srio/aberrations.ows) [kirkpatrickbaez.ows](https://raw.githubusercontent.com/oasys-kit/oasys_school_eos26/main/srio/kirkpatrickbaez.ows)|
-| 1   | Manuel       | Gratings               | [gratings1.ows](https://raw.githubusercontent.com/oasys-kit/oasys_school_eos26/main/srio/gratings1.ows) |
-| 1   | Manuel       | Gratings               | [gratings2.ows](https://raw.githubusercontent.com/oasys-kit/oasys_school_eos26/main/srio/gratings2.ows) |
-| 2   | Juan+Manuel  | hands-on beamlines     | [crystals2.ows](https://raw.githubusercontent.com/oasys-kit/oasys_school_eos26/main/srio/crystals2.ows) |
-| 2   | Manuel       | hands-on coherence     | [coherence.ows](https://raw.githubusercontent.com/oasys-kit/oasys_school_eos26/main/srio/coherence.ows) |
+| 1   | Manuel       | Gratings               | [01_SGM_1000eV.ows](https://raw.githubusercontent.com/oasys-kit/oasys_school_eos26/main/srio/01_SGM_1000eV.ows)  [02_SGM_1600eV.ows](https://raw.githubusercontent.com/oasys-kit/oasys_school_eos26/main/srio/02_SGM_1600eV.ows)  [03_CollimatedPGM1000eVc2_Vertical.ows](https://raw.githubusercontent.com/oasys-kit/oasys_school_eos26/main/srio/03_CollimatedPGM1000eVc2_Vertical.ows)  [04_CollimatedPGM1000eVc2.ows](https://raw.githubusercontent.com/oasys-kit/oasys_school_eos26/main/srio/04_CollimatedPGM1000eVc2.ows)  [05_CollimatedPGM1000eVc5.ows](https://raw.githubusercontent.com/oasys-kit/oasys_school_eos26/main/srio/05_CollimatedPGM1000eVc5.ows)  [06_FVLSPGM1000eVc2M2WithWithout.ows](https://raw.githubusercontent.com/oasys-kit/oasys_school_eos26/main/srio/06_FVLSPGM1000eVc2M2WithWithout.ows)|
+| 2   | Juan+Manuel  | hands-on beamlines     | [xxx.ows](https://raw.githubusercontent.com/oasys-kit/oasys_school_eos26/main/srio/xxx.ows) |
+| 2   | Rafael       | hands-on coherence     | [xxx.ows](https://raw.githubusercontent.com/oasys-kit/oasys_school_eos26/main/rcelestre/xxx.ows) |
+| 2   | Manuel       | hands-on coherence     | [xxx.ows](https://raw.githubusercontent.com/oasys-kit/oasys_school_eos26/main/srio/xxx.ows) |
+
+To load in OASYS the ows files, several possibillities are available:
+- Direct load:  From this README, right-click on the file name and "Copy Link". in OASYS2 - File-Open Remote, paste in the window.
+- Direct download: From this README, right-click on the file name and "Save Link As...". in OASYS2 - File-Open, and select the just downloaded file.
+- Install all this project in your local directory. Foe that either use "git clone https://github.com/oasys-kit/oasys_school_eos26" or use the option "Download to zip" for then uncompressing and moving the folder to any local place (~/Oasys2 recommended)
+
 
 INSTRUCTORS
 -----------
