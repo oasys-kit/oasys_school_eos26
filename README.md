@@ -51,7 +51,7 @@ SHORTCUT TO WORKSPACES
 To load in OASYS the ows files, several possibillities are available:
 - Direct load:  From this README, right-click on the file name and "Copy Link". in OASYS2 - File-Open Remote, paste in the window.
 - Direct download: From this README, right-click on the file name and "Save Link As...". in OASYS2 - File-Open, and select the just downloaded file.
-- Install all this project in your local directory. Foe that either use "git clone https://github.com/oasys-kit/oasys_school_eos26" or use the option "Download to zip" for then uncompressing and moving the folder to any local place (~/Oasys2 recommended)
+- Install all this project in your local directory. For that either use "git clone https://github.com/oasys-kit/oasys_school_eos26" or use the github option "<> CODE - Download ZIP" for then uncompressing and moving the folder to any local place (~/Oasys2 recommended)
 
 
 INSTRUCTORS
