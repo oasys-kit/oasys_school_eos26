@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="Spherical grating mono 1600 eV" description="" working_directory="\users\srio\Oasys">
+	<nodes>
+		<node id="0" name="Python Script" qualified_name="oasys2.widgets.tools.ow_python_script.OWPythonScript" project_name="oasys2" version="" title="Python Script" position="(888.0, 164.0)" />
+		<node id="1" name="Geometrical Source" qualified_name="orangecontrib.shadow4.widgets.sources.ow_geometrical.OWGeometrical" project_name="OASYS2-SHADOW4" version="" title="Geometrical Source" position="(199.0, 167.0)" />
+		<node id="2" name="Generic Grating" qualified_name="orangecontrib.shadow4.widgets.optics.ow_grating.OWGrating" project_name="OASYS2-SHADOW4" version="" title="Generic Grating" position="(444.0, 164.0)" />
+		<node id="3" name="Plot XY" qualified_name="orangecontrib.shadow4.widgets.tools.ow_plot_xy.PlotXY" project_name="OASYS2-SHADOW4" version="" title="Plot XY retraced to focus" position="(695.0, 158.0)" />
+		<node id="4" name="FocNew" qualified_name="orangecontrib.shadow4.widgets.tools.ow_focnew.FocNew" project_name="OASYS2-SHADOW4" version="" title="FocNew" position="(610.0, 253.0)" />
+	</nodes>
+	<links>
+		<link id="0" source_node_id="2" sink_node_id="4" source_channel="Shadow Data" sink_channel="Shadow Data" enabled="true" source_channel_id="shadow_data" sink_channel_id="shadow_data" />
+		<link id="1" source_node_id="1" sink_node_id="2" source_channel="Shadow Data" sink_channel="Shadow Data" enabled="true" source_channel_id="shadow_data" sink_channel_id="shadow_data" />
+		<link id="2" source_node_id="2" sink_node_id="3" source_channel="Shadow Data" sink_channel="Shadow Data" enabled="true" source_channel_id="shadow_data" sink_channel_id="shadow_data" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties node_id="0" format="pickle">gASVsAYAAAAAAAB9lCiMDGF1dG9fZXhlY3V0ZZSJjBJjb250cm9sQXJlYVZpc2libGWUiIwSY3Vy
+cmVudFNjcmlwdEluZGV4lEsAjAlmb250X3NpemWUSwSMEWxpYnJhcnlMaXN0U291cmNllF2UjCVv
+YXN5czIud2lkZ2V0cy50b29scy5vd19weXRob25fc2NyaXB0lIwGU2NyaXB0lJOUKYGUfZQojAZz
+Y3JpcHSUWPQEAABpbXBvcnQgbnVtcHkgYXMgbnAKCiMKIwojCnIgPSAzMC4wCnRoZXRhX2RlZyA9
+IDg4LjIgCgpkMCA9IDEuMC84MDAKRTAgPSAxNjAwLjAKbSA9IC0xCgoKIwojIGlucHV0cwojCnRo
+ZXRhID0gdGhldGFfZGVnICogbnAucGkgLyAxODAKCgpwcmludCgiLS0tLS0tLS0tLS0tLSBJTlBV
+VFMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSIpCnByaW50KCJ0aGV0YSA9ICVmIGRlZyA9ICVmIHJh
+ZCIlKHRoZXRhX2RlZyx0aGV0YSkpCnByaW50KCIxL2QwID0gJWYgbGluZXMvbW0iJSgxL2QwKSkK
+cHJpbnQoInIgPSAlZiBtIiUocikpCnByaW50KCJvcmRlciA9ICVkIG0iJShtKSkKcHJpbnQoInBo
+b3RvbiBlbmVyZ3kgPSAlZiBlViIlKEUwKSkKIwojIGNhbGN1bGF0aW9ucwojCgoKbGFtYmRhX0Eg
+PSAxMjM5OC4wL0UwIApsYW1iZGFfbW0gPSBsYW1iZGFfQSAqIDFlLTcKbGFtYmRhXzEwMDBfbW0g
+PSAxMjM5OC4wLzEwMDAuMCAqIDFlLTcKCmJldGFfMTAwMCA9IG5wLmFyY3NpbihtKmxhbWJkYV8x
+MDAwX21tLzIvZDAvbnAuY29zKHRoZXRhKSkgLSB0aGV0YQphbHBoYV8xMDAwID0gMip0aGV0YSAr
+IGJldGFfMTAwMAoKYmV0YSA9IG5wLmFyY3NpbihtKmxhbWJkYV9tbS8yL2QwL25wLmNvcyh0aGV0
+YSkpIC0gdGhldGEKYWxwaGEgPSAyKnRoZXRhICsgYmV0YQoKClIgPSByIC8gbnAuY29zKGFscGhh
+XzEwMDApCnJwID0gUiAqIG5wLmNvcyhiZXRhXzEwMDApCgojCiMgcmVzdWx0cwojCgpwcmludCgi
+LS0tLS0tLS0tLS0tLSBPVVRQVVRTIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0iKQpwcmludCgiTGFt
+YmRhID0gJWYgQSA9ICVnIG1tICIlKGxhbWJkYV9BLGxhbWJkYV9tbSkpCnByaW50KCJhbHBoYT0l
+ZiBkZWcsIGJldGE9JWYgZGVnIiUoYWxwaGEqMTgwL25wLnBpLGJldGEqMTgwL25wLnBpKSkKcHJp
+bnQoIlI9JWYsIHI9JWYsIHInPSVmIiUoUixyLHJwKSkKCmRlbHRhTGFtYmRhID0gZDAvbSozNWUt
+My8ocnAqMWUzKSpucC5jb3MoYmV0YSkKcHJpbnQoImVzdGltYXRlZCBEZWx0YSBMYW1iZGEgPSAl
+ZiBBIiUoZGVsdGFMYW1iZGEqMWU3KSkKcHJpbnQoIlJlc29sdmluZyBwb3dlciA9ICVmICIlKGxh
+bWJkYV9tbS9kZWx0YUxhbWJkYSkpCnByaW50KCJlc3RpbWF0ZWQgZm9jYWwgc2l6ZSBGV0hNIFYg
+PSAlZiB1bSIlKDIuMzUqMTUqbnAuY29zKGFscGhhKS9ucC5jb3MoYmV0YSkqcnAvcikpCnByaW50
+KCJlc3RpbWF0ZWQgZm9jYWwgc2l6ZSBGV0hNIEggPSAlZiB1bSIlKDIuMzUqMjgwKm5wLmNvcyhh
+bHBoYSkvbnAuY29zKGJldGEpKnJwL3IpKZSMCGZpbGVuYW1llIxNL3VzZXJzL3NyaW8vT2FzeXMv
+U2hhZG93T3VpLVR1dG9yaWFsL1NDUklQVFMvc3BoZXJpY2FsX2dyYXRpbmdfY2FsY3VsYXRvcjIu
+cHmUjARuYW1llIwgc3BoZXJpY2FsX2dyYXRpbmdfY2FsY3VsYXRvcjIucHmUjAVmbGFnc5RLAHVi
+YYwTc2F2ZWRXaWRnZXRHZW9tZXRyeZRDQgHZ0MsAAwAAAAACgAAAARQAAAT/AAADEgAAAoAAAAEz
+AAAE/wAAAxIAAAAAAAAAAAeAAAACgAAAATMAAAT/AAADEpSMDXNwbGl0dGVyU3RhdGWUTowLX192
+ZXJzaW9uX1+USwF1Lg==
+</properties>
+		<properties node_id="1" format="literal">{'angular_distribution': 2, 'angular_distribution_limits': 0, 'coherent_beam': 1, 'cone_external_half_aperture': 0.002, 'cone_internal_half_aperture': 0.001, 'controlAreaVisible': True, 'depth': 0, 'ell_semiaxis_x': 0.1, 'ell_semiaxis_z': 0.2, 'gauss_sigma_x': 0.000279, 'gauss_sigma_z': 1.37317e-05, 'gaussian_central_value': 0.0, 'gaussian_maximum': 0.0, 'gaussian_minimum': 0.0, 'gaussian_sigma': 0.0, 'horizontal_div_x_minus': 5e-07, 'horizontal_div_x_plus': 5e-07, 'horizontal_lim_x_minus': 1e-05, 'horizontal_lim_x_plus': 1e-05, 'horizontal_sigma_x': 1.83855e-05, 'is_automatic_run': True, 'line_int_1': 0.0, 'line_int_10': 0.0, 'line_int_2': 0.0, 'line_int_3': 0.0, 'line_int_4': 0.0, 'line_int_5': 0.0, 'line_int_6': 0.0, 'line_int_7': 0.0, 'line_int_8': 0.0, 'line_int_9': 0.0, 'line_value_1': 1000.0, 'line_value_10': 0.0, 'line_value_2': 1010.0, 'line_value_3': 0.0, 'line_value_4': 0.0, 'line_value_5': 0.0, 'line_value_6': 0.0, 'line_value_7': 0.0, 'line_value_8': 0.0, 'line_value_9': 0.0, 'max_number_of_rejected_rays': 10000000, 'number_of_lines': 0, 'number_of_rays': 500000, 'optimize_file_name': 'NONESPECIFIED', 'optimize_source': 0, 'phase_diff': 0.0, 'photon_energy_distribution': 0, 'polarization_degree': 1.0, 'rect_height': 0.2, 'rect_width': 0.1, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00:\x00\x00\x00|\x00\x00\x05S\x00\x00\x03z\x00\x00\x00:\x00\x00\x00\x9b\x00\x00\x05S\x00\x00\x03z\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x00:\x00\x00\x00\x9b\x00\x00\x05S\x00\x00\x03z', 'seed': 5676561, 'sigma_y': 0.001, 'single_line_value': 1600.0, 'source_depth_y': 0.002, 'spatial_type': 3, 'uniform_maximum': 1000.2, 'uniform_minimum': 999.8, 'units': 0, 'user_defined_file': 'energy_spectrum.dat', 'user_defined_maximum': 0.0, 'user_defined_minimum': 0.0, 'user_defined_refining_factor': 5, 'user_defined_spectrum_binning': 10000, 'vertical_div_z_minus': 5e-06, 'vertical_div_z_plus': 5e-06, 'vertical_lim_z_minus': 1e-05, 'vertical_lim_z_plus': 1e-05, 'vertical_sigma_z': 1.42178e-05, 'view_type': 0, '__version__': 1}</properties>
+		<properties node_id="2" format="literal">{'angle_of_majax_and_pole': 1.0, 'angles_respect_to': 0, 'conic_coefficient_0': 0.0, 'conic_coefficient_1': 0.0, 'conic_coefficient_2': 0.0, 'conic_coefficient_3': 0.0, 'conic_coefficient_4': 0.0, 'conic_coefficient_5': 0.0, 'conic_coefficient_6': 0.0, 'conic_coefficient_7': 0.0, 'conic_coefficient_8': -1.0, 'conic_coefficient_9': 0.0, 'controlAreaVisible': True, 'cylinder_orientation': 0, 'dim_x_minus': 1.0, 'dim_x_plus': 1.0, 'dim_y_minus': 1.0, 'dim_y_plus': 1.0, 'ellipse_hyperbola_semi_major_axis': 1.0, 'ellipse_hyperbola_semi_minor_axis': 1.0, 'f_ruling': 0, 'focii_and_continuation_plane': 0, 'focus_location': 0, 'image_plane_distance': 9.93427, 'image_side_focal_distance': 0.0, 'incidence_angle_deg': 87.634598, 'incidence_angle_mrad': 41.284053, 'incidence_angle_respect_to_normal': 0.0, 'incidence_angle_respect_to_normal_type': 0, 'is_automatic_run': True, 'is_cylinder': 0, 'is_infinite': 1, 'modified_surface': 0, 'ms_defect_file_name': '&lt;none&gt;.hdf5', 'object_side_focal_distance': 0.0, 'oe_movement': 0, 'oe_movement_offset_x': 0.0, 'oe_movement_offset_y': 0.0, 'oe_movement_offset_z': 0.0, 'oe_movement_rotation_x': 0.0, 'oe_movement_rotation_y': 0.0, 'oe_movement_rotation_z': 0.0, 'oe_orientation_angle': 0, 'oe_orientation_angle_user_value': 0.0, 'oe_shape': 0, 'order': 1, 'paraboloid_parameter': 1.0, 'reflection_angle_deg': 88.765402, 'reflection_angle_mrad': 21.5478, 'ruling': 800000.0, 'ruling_coeff_cubic': 0.0, 'ruling_coeff_linear': 0.0, 'ruling_coeff_quadratic': 0.0, 'ruling_coeff_quartic': 0.0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\xff\xff\xff\xe6\x00\x00\x00\xb9\x00\x00\x04\xff\x00\x00\x03\xb7\xff\xff\xff\xe6\x00\x00\x00\xd8\x00\x00\x04\xff\x00\x00\x03\xb7\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\xff\xff\xff\xe6\x00\x00\x00\xd8\x00\x00\x04\xff\x00\x00\x03\xb7', 'source_plane_distance': 30.0, 'spherical_radius': 635.757, 'surface_curvature': 0, 'surface_shape_parameters': 1, 'surface_shape_type': 1, 'toroidal_mirror_pole_location': 0, 'torus_major_radius': 1.0, 'torus_minor_radius': 1.0, 'view_type': 0, '__version__': 1}</properties>
+		<properties node_id="3" format="literal">{'autosave': 0, 'autosave_file_name': 'autosave_xy_plot.hdf5', 'autosave_partial_results': 0, 'cartesian_axis': 0, 'controlAreaVisible': True, 'conversion_active': 1, 'flip_h': 0, 'flip_v': 0, 'image_plane': 1, 'image_plane_new_position': 1.07568, 'is_automatic_run': True, 'keep_result': 0, 'number_of_bins_h': 100, 'number_of_bins_v': 100, 'rays': 1, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x01,\x00\x00\x00\x97\x00\x00\x06S\x00\x00\x03\x90\x00\x00\x01,\x00\x00\x00\xb6\x00\x00\x06S\x00\x00\x03\x90\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x01,\x00\x00\x00\xb6\x00\x00\x06S\x00\x00\x03\x90', 'title': 'X,Z', 'weight_column_index': 23, 'x_column_index': 0, 'x_range': 0, 'x_range_max': 3500.0, 'x_range_min': -3500.0, 'y_column_index': 2, 'y_range': 0, 'y_range_max': 40.0, 'y_range_min': -40.0, '__version__': 1}</properties>
+		<properties node_id="4" format="literal">{'center_x': 0.0, 'center_z': 0.0, 'controlAreaVisible': True, 'is_automatic_run': True, 'mode': 0, 'npoints_beamline': 11, 'plot_beamline': 0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x01/\x00\x00\x00\x94\x00\x00\x06Q\x00\x00\x03\x92\x00\x00\x01/\x00\x00\x00\xb3\x00\x00\x06Q\x00\x00\x03\x92\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x01/\x00\x00\x00\xb3\x00\x00\x06Q\x00\x00\x03\x92', 'y_npoints': 1001, 'y_range_max': 2.0, 'y_range_min': -2.0, '__version__': 1}</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>
