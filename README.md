@@ -27,7 +27,7 @@ SHORTCUT TO TALKS
 | Day | Speaker | ShortTitle    | File                        |
 |-----|---------|---------------|-----------------------------|
 | 1   | Rafael  | History       | [history.pptx](https://github.com/oasys-kit/oasys_school_eos26/blob/main/rcelestre/history.pptx) |
-| 1   | Manuel  | Ray-tracing   | [intro.pptx](https://github.com/oasys-kit/oasys_school_eos26/blob/main/srio/intro.pptx) |
+| 1   | Manuel  | Ray-tracing   | [intro.pptx](https://github.com/oasys-kit/oasys_school_eos26/blob/main/srio/raytracing.pptx) |
 | 1   | Juan    | Sources, Flux | [xoppy.pptx](https://github.com/oasys-kit/oasys_school_eos26/blob/main/juan/xoppy.pptx) |
 | 1   | Rafael  | Soft x-ray    | [soft.pptx](https://github.com/oasys-kit/oasys_school_eos26/blob/main/rcelestre/soft.pptx) |
 | 2   | Manuel  | Crystals      | [crystals.pptx](https://github.com/oasys-kit/oasys_school_eos26/blob/main/srio/crystals.pptx) |
@@ -51,7 +51,7 @@ SHORTCUT TO WORKSPACES
 
 INSTRUCTORS
 -----------
-M Sanchez del Rio (ESRF), Luca Rebuffi (APS), Xianbo Shi (APS), Rafael Celestre (ESRF), Juan Reyes-Herrera (ELETTRA), Philipp Brumund (ESRF), Simone Manti (LNF-INFN), Nazanin Samadi (DESY)
+Manuel Sanchez del Rio (ESRF), Luca Rebuffi (APS), Xianbo Shi (APS), Rafael Celestre (ESRF), Juan Reyes-Herrera (ELETTRA), Philipp Brumund (ESRF), Simone Manti (LNF-INFN), Nazanin Samadi (DESY)
 
 
 LOCAL ORGANIZERS
