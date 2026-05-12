@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="ex14_beampropagation" description="Example 14: Beam propagation (phase space (z,z’) ellipses)" working_directory="C:\Users\srio\Oasys">
+	<nodes>
+		<node id="0" name="Geometrical Source" qualified_name="orangecontrib.shadow4.widgets.sources.ow_geometrical.OWGeometrical" project_name="OASYS2-SHADOW4" version="" title="Geometrical Source" position="(15.0, 292.0)" />
+		<node id="1" name="Generic Beam Screen/Slit/Stopper/Attenuator" qualified_name="orangecontrib.shadow4.widgets.optics.ow_screen_slits.OWScreenSlits" project_name="OASYS2-SHADOW4" version="" title="Generic Beam Screen/Slit/Stopper/Attenuator" position="(268.0, 163.0)" />
+		<node id="2" name="Generic Beam Screen/Slit/Stopper/Attenuator" qualified_name="orangecontrib.shadow4.widgets.optics.ow_screen_slits.OWScreenSlits" project_name="OASYS2-SHADOW4" version="" title="Generic Beam Screen/Slit/Stopper/Attenuator" position="(419.0, 161.0)" />
+		<node id="3" name="Generic Beam Screen/Slit/Stopper/Attenuator" qualified_name="orangecontrib.shadow4.widgets.optics.ow_screen_slits.OWScreenSlits" project_name="OASYS2-SHADOW4" version="" title="Generic Beam Screen/Slit/Stopper/Attenuator" position="(562.0, 164.0)" />
+		<node id="4" name="Generic Beam Screen/Slit/Stopper/Attenuator" qualified_name="orangecontrib.shadow4.widgets.optics.ow_screen_slits.OWScreenSlits" project_name="OASYS2-SHADOW4" version="" title="Generic Beam Screen/Slit/Stopper/Attenuator" position="(712.0, 162.0)" />
+		<node id="5" name="Python Script" qualified_name="oasys2.widgets.tools.ow_python_script.OWPythonScript" project_name="oasys2" version="" title="Python Script" position="(426.0, 312.0)" />
+		<node id="6" name="Generic Beam Screen/Slit/Stopper/Attenuator" qualified_name="orangecontrib.shadow4.widgets.optics.ow_screen_slits.OWScreenSlits" project_name="OASYS2-SHADOW4" version="" title="Generic Beam Screen/Slit/Stopper/Attenuator" position="(253.0, 416.0)" />
+		<node id="7" name="Generic Beam Screen/Slit/Stopper/Attenuator" qualified_name="orangecontrib.shadow4.widgets.optics.ow_screen_slits.OWScreenSlits" project_name="OASYS2-SHADOW4" version="" title="Generic Beam Screen/Slit/Stopper/Attenuator" position="(404.0, 414.0)" />
+		<node id="8" name="Generic Beam Screen/Slit/Stopper/Attenuator" qualified_name="orangecontrib.shadow4.widgets.optics.ow_screen_slits.OWScreenSlits" project_name="OASYS2-SHADOW4" version="" title="Generic Beam Screen/Slit/Stopper/Attenuator" position="(547.0, 417.0)" />
+		<node id="9" name="Generic Beam Screen/Slit/Stopper/Attenuator" qualified_name="orangecontrib.shadow4.widgets.optics.ow_screen_slits.OWScreenSlits" project_name="OASYS2-SHADOW4" version="" title="Generic Beam Screen/Slit/Stopper/Attenuator" position="(697.0, 415.0)" />
+		<node id="10" name="Python Script" qualified_name="oasys2.widgets.tools.ow_python_script.OWPythonScript" project_name="oasys2" version="" title="Python Script" position="(411.0, 565.0)" />
+		<node id="11" name="Plot XY" qualified_name="orangecontrib.shadow4.widgets.tools.ow_plot_xy.PlotXY" project_name="OASYS2-SHADOW4" version="" title="Plot XY" position="(366.0, 681.0)" />
+	</nodes>
+	<links>
+		<link id="0" source_node_id="0" sink_node_id="1" source_channel="Shadow Data" sink_channel="Shadow Data" enabled="true" source_channel_id="shadow_data" sink_channel_id="shadow_data" />
+		<link id="1" source_node_id="1" sink_node_id="2" source_channel="Shadow Data" sink_channel="Shadow Data" enabled="true" source_channel_id="shadow_data" sink_channel_id="shadow_data" />
+		<link id="2" source_node_id="2" sink_node_id="3" source_channel="Shadow Data" sink_channel="Shadow Data" enabled="true" source_channel_id="shadow_data" sink_channel_id="shadow_data" />
+		<link id="3" source_node_id="3" sink_node_id="4" source_channel="Shadow Data" sink_channel="Shadow Data" enabled="true" source_channel_id="shadow_data" sink_channel_id="shadow_data" />
+		<link id="4" source_node_id="6" sink_node_id="7" source_channel="Shadow Data" sink_channel="Shadow Data" enabled="true" source_channel_id="shadow_data" sink_channel_id="shadow_data" />
+		<link id="5" source_node_id="7" sink_node_id="8" source_channel="Shadow Data" sink_channel="Shadow Data" enabled="true" source_channel_id="shadow_data" sink_channel_id="shadow_data" />
+		<link id="6" source_node_id="8" sink_node_id="9" source_channel="Shadow Data" sink_channel="Shadow Data" enabled="true" source_channel_id="shadow_data" sink_channel_id="shadow_data" />
+		<link id="7" source_node_id="0" sink_node_id="6" source_channel="Shadow Data" sink_channel="Shadow Data" enabled="true" source_channel_id="shadow_data" sink_channel_id="shadow_data" />
+		<link id="8" source_node_id="1" sink_node_id="5" source_channel="Shadow Data" sink_channel="In Object #1" enabled="true" source_channel_id="shadow_data" sink_channel_id="object_1" />
+		<link id="9" source_node_id="2" sink_node_id="5" source_channel="Shadow Data" sink_channel="In Object #2" enabled="true" source_channel_id="shadow_data" sink_channel_id="object_2" />
+		<link id="10" source_node_id="3" sink_node_id="5" source_channel="Shadow Data" sink_channel="In Object #3" enabled="true" source_channel_id="shadow_data" sink_channel_id="object_3" />
+		<link id="11" source_node_id="4" sink_node_id="5" source_channel="Shadow Data" sink_channel="In Object #4" enabled="true" source_channel_id="shadow_data" sink_channel_id="object_4" />
+		<link id="12" source_node_id="6" sink_node_id="10" source_channel="Shadow Data" sink_channel="In Object #1" enabled="true" source_channel_id="shadow_data" sink_channel_id="object_1" />
+		<link id="13" source_node_id="7" sink_node_id="10" source_channel="Shadow Data" sink_channel="In Object #2" enabled="true" source_channel_id="shadow_data" sink_channel_id="object_2" />
+		<link id="14" source_node_id="8" sink_node_id="10" source_channel="Shadow Data" sink_channel="In Object #3" enabled="true" source_channel_id="shadow_data" sink_channel_id="object_3" />
+		<link id="15" source_node_id="9" sink_node_id="10" source_channel="Shadow Data" sink_channel="In Object #4" enabled="true" source_channel_id="shadow_data" sink_channel_id="object_4" />
+		<link id="16" source_node_id="0" sink_node_id="11" source_channel="Shadow Data" sink_channel="Shadow Data" enabled="true" source_channel_id="shadow_data" sink_channel_id="shadow_data" />
+	</links>
+	<annotations>
+		<text id="0" type="text/plain" rect="(42.0, 104.0, 150.0, 29.0)" font-family="Segoe UI" font-size="16">without slit</text>
+		<text id="1" type="text/plain" rect="(58.0, 395.0, 150.0, 29.0)" font-family="Segoe UI" font-size="16">with slit</text>
+	</annotations>
+	<thumbnail />
+	<node_properties>
+		<properties node_id="0" format="literal">{'angular_distribution': 2, 'angular_distribution_limits': 0, 'coherent_beam': 0, 'cone_external_half_aperture': 0.002, 'cone_internal_half_aperture': 0.001, 'controlAreaVisible': True, 'depth': 0, 'ell_semiaxis_x': 0.1, 'ell_semiaxis_z': 0.2, 'gauss_sigma_x': 0.001, 'gauss_sigma_z': 0.0001, 'gaussian_central_value': 0.0, 'gaussian_maximum': 0.0, 'gaussian_minimum': 0.0, 'gaussian_sigma': 0.0, 'horizontal_div_x_minus': 5e-07, 'horizontal_div_x_plus': 5e-07, 'horizontal_lim_x_minus': 1e-05, 'horizontal_lim_x_plus': 1e-05, 'horizontal_sigma_x': 0.001, 'is_automatic_run': True, 'line_int_1': 0.0, 'line_int_10': 0.0, 'line_int_2': 0.0, 'line_int_3': 0.0, 'line_int_4': 0.0, 'line_int_5': 0.0, 'line_int_6': 0.0, 'line_int_7': 0.0, 'line_int_8': 0.0, 'line_int_9': 0.0, 'line_value_1': 1000.0, 'line_value_10': 0.0, 'line_value_2': 1010.0, 'line_value_3': 0.0, 'line_value_4': 0.0, 'line_value_5': 0.0, 'line_value_6': 0.0, 'line_value_7': 0.0, 'line_value_8': 0.0, 'line_value_9': 0.0, 'max_number_of_rejected_rays': 10000000, 'number_of_lines': 0, 'number_of_rays': 10000, 'optimize_file_name': 'NONESPECIFIED', 'optimize_source': 0, 'phase_diff': 0.0, 'photon_energy_distribution': 0, 'polarization_degree': 1.0, 'rect_height': 0.2, 'rect_width': 0.1, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00R\x00\x00\x00,\x00\x00\x05y\x00\x00\x02\xe7\x00\x00\x00R\x00\x00\x00,\x00\x00\x05y\x00\x00\x02\xe7\x00\x00\x00\x00\x00\x00\x00\x00\x06f\x00\x00\x00R\x00\x00\x00,\x00\x00\x05y\x00\x00\x02\xe7', 'seed': 5676561, 'sigma_y': 0.001, 'single_line_value': 1000.0, 'source_depth_y': 0.002, 'spatial_type': 3, 'uniform_maximum': 1010.0, 'uniform_minimum': 1000.0, 'units': 0, 'user_defined_file': 'energy_spectrum.dat', 'user_defined_maximum': 0.0, 'user_defined_minimum': 0.0, 'user_defined_refining_factor': 5, 'user_defined_spectrum_binning': 10000, 'vertical_div_z_minus': 5e-06, 'vertical_div_z_plus': 5e-06, 'vertical_lim_z_minus': 1e-05, 'vertical_lim_z_plus': 1e-05, 'vertical_sigma_z': 0.0001, 'view_type': 0, '__version__': 1}</properties>
+		<properties node_id="1" format="literal">{'DABAX_CROSSSEC_FILE_INDEX': 4, 'absorption': 0, 'angles_respect_to': 0, 'aperture_shape': 0, 'aperturing': 0, 'controlAreaVisible': True, 'density': 19.3, 'image_plane_distance': 0.0, 'incidence_angle_deg': 88.8, 'incidence_angle_mrad': 0.0, 'is_automatic_run': True, 'material': 'Au', 'oe_orientation_angle': 0, 'oe_orientation_angle_user_value': 0.0, 'open_slit_solid_stop': 0, 'opt_const_file_name': '&lt;specify file name&gt;', 'reflection_angle_deg': 85.0, 'reflection_angle_mrad': 0.0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00R\x00\x00\x00\x0e\x00\x00\x05y\x00\x00\x03\x0b\x00\x00\x00R\x00\x00\x00,\x00\x00\x05y\x00\x00\x03\x0b\x00\x00\x00\x00\x00\x00\x00\x00\x06f\x00\x00\x00R\x00\x00\x00,\x00\x00\x05y\x00\x00\x03\x0b', 'slit_center_xaxis': 0.0, 'slit_center_zaxis': 0.0, 'slit_height_zaxis': 0.0, 'slit_width_xaxis': 0.0, 'source_plane_distance': 0.0, 'thickness': 0.0, 'view_type': 0, '__version__': 1}</properties>
+		<properties node_id="2" format="literal">{'DABAX_CROSSSEC_FILE_INDEX': 4, 'absorption': 0, 'angles_respect_to': 0, 'aperture_shape': 0, 'aperturing': 0, 'controlAreaVisible': True, 'density': 19.3, 'image_plane_distance': 0.0, 'incidence_angle_deg': 88.8, 'incidence_angle_mrad': 0.0, 'is_automatic_run': True, 'material': 'Au', 'oe_orientation_angle': 0, 'oe_orientation_angle_user_value': 0.0, 'open_slit_solid_stop': 0, 'opt_const_file_name': '&lt;specify file name&gt;', 'reflection_angle_deg': 85.0, 'reflection_angle_mrad': 0.0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00R\x00\x00\x00,\x00\x00\x05y\x00\x00\x02\xe7\x00\x00\x00R\x00\x00\x00,\x00\x00\x05y\x00\x00\x02\xe7\x00\x00\x00\x00\x00\x00\x00\x00\x06f\x00\x00\x00R\x00\x00\x00,\x00\x00\x05y\x00\x00\x02\xe7', 'slit_center_xaxis': 0.0, 'slit_center_zaxis': 0.0, 'slit_height_zaxis': 0.0, 'slit_width_xaxis': 0.0, 'source_plane_distance': 0.5, 'thickness': 0.0, 'view_type': 0, '__version__': 1}</properties>
+		<properties node_id="3" format="literal">{'DABAX_CROSSSEC_FILE_INDEX': 4, 'absorption': 0, 'angles_respect_to': 0, 'aperture_shape': 0, 'aperturing': 0, 'controlAreaVisible': True, 'density': 19.3, 'image_plane_distance': 0.0, 'incidence_angle_deg': 88.8, 'incidence_angle_mrad': 0.0, 'is_automatic_run': True, 'material': 'Au', 'oe_orientation_angle': 0, 'oe_orientation_angle_user_value': 0.0, 'open_slit_solid_stop': 0, 'opt_const_file_name': '&lt;specify file name&gt;', 'reflection_angle_deg': 85.0, 'reflection_angle_mrad': 0.0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00R\x00\x00\x00,\x00\x00\x05y\x00\x00\x02\xe7\x00\x00\x00R\x00\x00\x00,\x00\x00\x05y\x00\x00\x02\xe7\x00\x00\x00\x00\x00\x00\x00\x00\x06f\x00\x00\x00R\x00\x00\x00,\x00\x00\x05y\x00\x00\x02\xe7', 'slit_center_xaxis': 0.0, 'slit_center_zaxis': 0.0, 'slit_height_zaxis': 0.0, 'slit_width_xaxis': 0.0, 'source_plane_distance': 0.25, 'thickness': 0.0, 'view_type': 0, '__version__': 1}</properties>
+		<properties node_id="4" format="literal">{'DABAX_CROSSSEC_FILE_INDEX': 4, 'absorption': 0, 'angles_respect_to': 0, 'aperture_shape': 0, 'aperturing': 0, 'controlAreaVisible': True, 'density': 19.3, 'image_plane_distance': 0.0, 'incidence_angle_deg': 88.8, 'incidence_angle_mrad': 0.0, 'is_automatic_run': True, 'material': 'Au', 'oe_orientation_angle': 0, 'oe_orientation_angle_user_value': 0.0, 'open_slit_solid_stop': 0, 'opt_const_file_name': '&lt;specify file name&gt;', 'reflection_angle_deg': 85.0, 'reflection_angle_mrad': 0.0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00R\x00\x00\x00,\x00\x00\x05y\x00\x00\x02\xe7\x00\x00\x00R\x00\x00\x00,\x00\x00\x05y\x00\x00\x02\xe7\x00\x00\x00\x00\x00\x00\x00\x00\x06f\x00\x00\x00R\x00\x00\x00,\x00\x00\x05y\x00\x00\x02\xe7', 'slit_center_xaxis': 0.0, 'slit_center_zaxis': 0.0, 'slit_height_zaxis': 0.0, 'slit_width_xaxis': 0.0, 'source_plane_distance': 0.25, 'thickness': 0.0, 'view_type': 0, '__version__': 1}</properties>
+		<properties node_id="5" format="pickle">gASVggcAAAAAAAB9lCiMDGF1dG9fZXhlY3V0ZZSJjBJjb250cm9sQXJlYVZpc2libGWUiIwSY3Vy
+cmVudFNjcmlwdEluZGV4lEsAjAlmb250X3NpemWUSwSMEWxpYnJhcnlMaXN0U291cmNllF2UjCVv
+YXN5czIud2lkZ2V0cy50b29scy5vd19weXRob25fc2NyaXB0lIwGU2NyaXB0lJOUKYGUfZQojAhm
+aWxlbmFtZZSMJi91c2Vycy9zcmlvL09hc3lzL09hc3lzUnVuL3NjcmlwdDE0LnB5lIwEbmFtZZSM
+BzQgcGxvdHOUjAVmbGFnc5RLAIwGc2NyaXB0lFgGBgAAczBtbSAgICAgPSBpbl9vYmplY3RfMS5i
+ZWFtCnM1MDBtbSAgICA9IGluX29iamVjdF8yLmJlYW0Kczc1MG1tICAgID0gaW5fb2JqZWN0XzMu
+YmVhbQpzMTAwMG1tICA9IGluX29iamVjdF80LmJlYW0KCgppbXBvcnQgbWF0cGxvdGxpYi5weXBs
+b3QgYXMgcGx0CgojIEhPUklaT05UQUwKCmZpZywgYXhlcyA9IHBsdC5zdWJwbG90cygxLCA0LCBm
+aWdzaXplPSgxNSwgNCkpCgpkYXRhc2V0cyA9IFsKICAgIChzMG1tLmdldF9jb2x1bW4oMSksIHMw
+bW0uZ2V0X2NvbHVtbig0KSwgIjAgbSIpLAogICAgKHM1MDBtbS5nZXRfY29sdW1uKDEpLCBzNTAw
+bW0uZ2V0X2NvbHVtbig0KSwgIjAuNSBtIiksCiAgICAoczc1MG1tLmdldF9jb2x1bW4oMSksIHM3
+NTBtbS5nZXRfY29sdW1uKDQpLCAiMC43NSBtIiksCiAgICAoczEwMDBtbS5nZXRfY29sdW1uKDEp
+LCBzMTAwMG1tLmdldF9jb2x1bW4oNCksICIxIG0iKSwKXQoKZm9yIGF4LCAoeCwgeiwgbGFiZWwp
+IGluIHppcChheGVzLmZsYXQsIGRhdGFzZXRzKToKICAgIGF4LnNjYXR0ZXIoeCwgeiwgcz0xLCBt
+YXJrZXI9Jy4nLCBhbHBoYT0wLjYpCiAgICBheC5zZXRfdGl0bGUobGFiZWwpCiAgICBheC5zZXRf
+eGxhYmVsKCJ4IikKICAgIGF4LnNldF95bGFiZWwoIngnIikKICAgIGF4LnNldF94bGltKC0wLjAx
+LCAwLjAxKQogICAgYXguc2V0X3lsaW0oLTAuMDEsIDAuMDEpCiAgICBheC5zZXRfYXNwZWN0KCJl
+cXVhbCIpCgpmaWcuc3VwdGl0bGUoIkJlYW0gU2NhdHRlciBQbG90cyAtIEhvcml6b250YWwgcGhh
+c2Ugc3BhY2UgKFgsIFgnKSIsIGZvbnRzaXplPTE0KQpwbHQudGlnaHRfbGF5b3V0KCkKCiMgVkVS
+VElDQUwKZmlnLCBheGVzID0gcGx0LnN1YnBsb3RzKDEsIDQsIGZpZ3NpemU9KDE1LCA0KSkKCmRh
+dGFzZXRzID0gWwogICAgKHMwbW0uZ2V0X2NvbHVtbigzKSwgczBtbS5nZXRfY29sdW1uKDYpLCAi
+MCBtIiksCiAgICAoczUwMG1tLmdldF9jb2x1bW4oMyksIHM1MDBtbS5nZXRfY29sdW1uKDYpLCAi
+MC41IG0iKSwKICAgIChzNzUwbW0uZ2V0X2NvbHVtbigzKSwgczc1MG1tLmdldF9jb2x1bW4oNiks
+ICIwLjc1IG0iKSwKICAgIChzMTAwMG1tLmdldF9jb2x1bW4oMyksIHMxMDAwbW0uZ2V0X2NvbHVt
+big2KSwgIjEgbSIpLApdCgpmb3IgYXgsICh4LCB6LCBsYWJlbCkgaW4gemlwKGF4ZXMuZmxhdCwg
+ZGF0YXNldHMpOgogICAgYXguc2NhdHRlcih4LCB6LCBzPTEsIG1hcmtlcj0nLicsIGFscGhhPTAu
+NikKICAgIGF4LnNldF90aXRsZShsYWJlbCkKICAgIGF4LnNldF94bGFiZWwoIngiKQogICAgYXgu
+c2V0X3lsYWJlbCgieCciKQogICAgYXguc2V0X3hsYWJlbCgieCIpCiAgICBheC5zZXRfeWxhYmVs
+KCJ4JyIpCiAgICBheC5zZXRfeGxpbSgtMC4wMDEsIDAuMDAxKQogICAgYXguc2V0X3lsaW0oLTAu
+MDAxLCAwLjAwMSkKICAgIGF4LnNldF9hc3BlY3QoImVxdWFsIikKCmZpZy5zdXB0aXRsZSgiQmVh
+bSBTY2F0dGVyIFBsb3RzIC0gVmVydGljYWwgcGhhc2Ugc3BhY2UgKFosIFonKSIsIGZvbnRzaXpl
+PTE0KQpwbHQudGlnaHRfbGF5b3V0KCkKCnBsdC5zaG93KCkKlHViYYwTc2F2ZWRXaWRnZXRHZW9t
+ZXRyeZRDQgHZ0MsAAwAAAAABWwAAAJEAAAVnAAADBgAAAVsAAACvAAAFZwAAAwYAAAAAAAAAAAZm
+AAABWwAAAK8AAAVnAAADBpSMDXNwbGl0dGVyU3RhdGWUTowLX192ZXJzaW9uX1+USwF1Lg==
+</properties>
+		<properties node_id="6" format="literal">{'DABAX_CROSSSEC_FILE_INDEX': 4, 'absorption': 0, 'angles_respect_to': 0, 'aperture_shape': 0, 'aperturing': 1, 'controlAreaVisible': True, 'density': 19.3, 'image_plane_distance': 0.0, 'incidence_angle_deg': 88.8, 'incidence_angle_mrad': 0.0, 'is_automatic_run': True, 'material': 'Au', 'oe_orientation_angle': 0, 'oe_orientation_angle_user_value': 0.0, 'open_slit_solid_stop': 0, 'opt_const_file_name': '&lt;specify file name&gt;', 'reflection_angle_deg': 85.0, 'reflection_angle_mrad': 0.0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00R\x00\x00\x00,\x00\x00\x05y\x00\x00\x02\xe7\x00\x00\x00R\x00\x00\x00,\x00\x00\x05y\x00\x00\x02\xe7\x00\x00\x00\x00\x00\x00\x00\x00\x06f\x00\x00\x00R\x00\x00\x00,\x00\x00\x05y\x00\x00\x02\xe7', 'slit_center_xaxis': 0.0, 'slit_center_zaxis': 0.0, 'slit_height_zaxis': 5e-05, 'slit_width_xaxis': 0.0005, 'source_plane_distance': 0.0, 'thickness': 0.0, 'view_type': 0, '__version__': 1}</properties>
+		<properties node_id="7" format="literal">{'DABAX_CROSSSEC_FILE_INDEX': 4, 'absorption': 0, 'angles_respect_to': 0, 'aperture_shape': 0, 'aperturing': 0, 'controlAreaVisible': True, 'density': 19.3, 'image_plane_distance': 0.0, 'incidence_angle_deg': 88.8, 'incidence_angle_mrad': 0.0, 'is_automatic_run': True, 'material': 'Au', 'oe_orientation_angle': 0, 'oe_orientation_angle_user_value': 0.0, 'open_slit_solid_stop': 0, 'opt_const_file_name': '&lt;specify file name&gt;', 'reflection_angle_deg': 85.0, 'reflection_angle_mrad': 0.0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00R\x00\x00\x00,\x00\x00\x05y\x00\x00\x02\xe7\x00\x00\x00R\x00\x00\x00,\x00\x00\x05y\x00\x00\x02\xe7\x00\x00\x00\x00\x00\x00\x00\x00\x06f\x00\x00\x00R\x00\x00\x00,\x00\x00\x05y\x00\x00\x02\xe7', 'slit_center_xaxis': 0.0, 'slit_center_zaxis': 0.0, 'slit_height_zaxis': 0.0, 'slit_width_xaxis': 0.0, 'source_plane_distance': 0.5, 'thickness': 0.0, 'view_type': 0, '__version__': 1}</properties>
+		<properties node_id="8" format="literal">{'DABAX_CROSSSEC_FILE_INDEX': 4, 'absorption': 0, 'angles_respect_to': 0, 'aperture_shape': 0, 'aperturing': 0, 'controlAreaVisible': True, 'density': 19.3, 'image_plane_distance': 0.0, 'incidence_angle_deg': 88.8, 'incidence_angle_mrad': 0.0, 'is_automatic_run': True, 'material': 'Au', 'oe_orientation_angle': 0, 'oe_orientation_angle_user_value': 0.0, 'open_slit_solid_stop': 0, 'opt_const_file_name': '&lt;specify file name&gt;', 'reflection_angle_deg': 85.0, 'reflection_angle_mrad': 0.0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00R\x00\x00\x00,\x00\x00\x05y\x00\x00\x02\xe7\x00\x00\x00R\x00\x00\x00,\x00\x00\x05y\x00\x00\x02\xe7\x00\x00\x00\x00\x00\x00\x00\x00\x06f\x00\x00\x00R\x00\x00\x00,\x00\x00\x05y\x00\x00\x02\xe7', 'slit_center_xaxis': 0.0, 'slit_center_zaxis': 0.0, 'slit_height_zaxis': 0.0, 'slit_width_xaxis': 0.0, 'source_plane_distance': 0.25, 'thickness': 0.0, 'view_type': 0, '__version__': 1}</properties>
+		<properties node_id="9" format="literal">{'DABAX_CROSSSEC_FILE_INDEX': 4, 'absorption': 0, 'angles_respect_to': 0, 'aperture_shape': 0, 'aperturing': 0, 'controlAreaVisible': True, 'density': 19.3, 'image_plane_distance': 0.0, 'incidence_angle_deg': 88.8, 'incidence_angle_mrad': 0.0, 'is_automatic_run': True, 'material': 'Au', 'oe_orientation_angle': 0, 'oe_orientation_angle_user_value': 0.0, 'open_slit_solid_stop': 0, 'opt_const_file_name': '&lt;specify file name&gt;', 'reflection_angle_deg': 85.0, 'reflection_angle_mrad': 0.0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00R\x00\x00\x00\x0e\x00\x00\x05y\x00\x00\x03\x0b\x00\x00\x00R\x00\x00\x00,\x00\x00\x05y\x00\x00\x03\x0b\x00\x00\x00\x00\x00\x00\x00\x00\x06f\x00\x00\x00R\x00\x00\x00,\x00\x00\x05y\x00\x00\x03\x0b', 'slit_center_xaxis': 0.0, 'slit_center_zaxis': 0.0, 'slit_height_zaxis': 0.0, 'slit_width_xaxis': 0.0, 'source_plane_distance': 0.25, 'thickness': 0.0, 'view_type': 0, '__version__': 1}</properties>
+		<properties node_id="10" format="pickle">gASVFwgAAAAAAAB9lCiMDGF1dG9fZXhlY3V0ZZSJjBJjb250cm9sQXJlYVZpc2libGWUiIwSY3Vy
+cmVudFNjcmlwdEluZGV4lEsAjAlmb250X3NpemWUSwSMEWxpYnJhcnlMaXN0U291cmNllF2UjCVv
+YXN5czIud2lkZ2V0cy50b29scy5vd19weXRob25fc2NyaXB0lIwGU2NyaXB0lJOUKYGUfZQojAhm
+aWxlbmFtZZSMJi91c2Vycy9zcmlvL09hc3lzL09hc3lzUnVuL3NjcmlwdDE0LnB5lIwEbmFtZZSM
+DDQgcGxvdHMgc2xpdJSMBWZsYWdzlEsAjAZzY3JpcHSUWJYGAABzMG1tICAgICA9IGluX29iamVj
+dF8xLmJlYW0KczUwMG1tICAgID0gaW5fb2JqZWN0XzIuYmVhbQpzNzUwbW0gICAgPSBpbl9vYmpl
+Y3RfMy5iZWFtCnMxMDAwbW0gID0gaW5fb2JqZWN0XzQuYmVhbQoKCmltcG9ydCBtYXRwbG90bGli
+LnB5cGxvdCBhcyBwbHQKCiMgSE9SSVpPTlRBTAoKZmlnLCBheGVzID0gcGx0LnN1YnBsb3RzKDEs
+IDQsIGZpZ3NpemU9KDE1LCA0KSkKCmRhdGFzZXRzID0gWwogICAgKHMwbW0uZ2V0X2NvbHVtbigx
+LG5vbG9zdD0xKSwgczBtbS5nZXRfY29sdW1uKDQsbm9sb3N0PTEpLCAiMCBtIiksCiAgICAoczUw
+MG1tLmdldF9jb2x1bW4oMSxub2xvc3Q9MSksIHM1MDBtbS5nZXRfY29sdW1uKDQsbm9sb3N0PTEp
+LCAiMC41IG0iKSwKICAgIChzNzUwbW0uZ2V0X2NvbHVtbigxLG5vbG9zdD0xKSwgczc1MG1tLmdl
+dF9jb2x1bW4oNCxub2xvc3Q9MSksICIwLjc1IG0iKSwKICAgIChzMTAwMG1tLmdldF9jb2x1bW4o
+MSxub2xvc3Q9MSksIHMxMDAwbW0uZ2V0X2NvbHVtbig0LG5vbG9zdD0xKSwgIjEgbSIpLApdCgpm
+b3IgYXgsICh4LCB6LCBsYWJlbCkgaW4gemlwKGF4ZXMuZmxhdCwgZGF0YXNldHMpOgogICAgYXgu
+c2NhdHRlcih4LCB6LCBzPTEsIG1hcmtlcj0nLicsIGFscGhhPTAuNikKICAgIGF4LnNldF90aXRs
+ZShsYWJlbCkKICAgIGF4LnNldF94bGFiZWwoIngiKQogICAgYXguc2V0X3lsYWJlbCgieCciKQog
+ICAgYXguc2V0X3hsaW0oLTAuMDEsIDAuMDEpCiAgICBheC5zZXRfeWxpbSgtMC4wMSwgMC4wMSkK
+ICAgIGF4LnNldF9hc3BlY3QoImVxdWFsIikKCmZpZy5zdXB0aXRsZSgiQmVhbSBTY2F0dGVyIFBs
+b3RzIC0gSG9yaXpvbnRhbCBwaGFzZSBzcGFjZSAoWCwgWCcpIiwgZm9udHNpemU9MTQpCnBsdC50
+aWdodF9sYXlvdXQoKQoKIyBWRVJUSUNBTApmaWcsIGF4ZXMgPSBwbHQuc3VicGxvdHMoMSwgNCwg
+Zmlnc2l6ZT0oMTUsIDQpKQoKZGF0YXNldHMgPSBbCiAgICAoczBtbS5nZXRfY29sdW1uKDMsbm9s
+b3N0PTEpLCBzMG1tLmdldF9jb2x1bW4oNixub2xvc3Q9MSksICIwIG0iKSwKICAgIChzNTAwbW0u
+Z2V0X2NvbHVtbigzLG5vbG9zdD0xKSwgczUwMG1tLmdldF9jb2x1bW4oNixub2xvc3Q9MSksICIw
+LjUgbSIpLAogICAgKHM3NTBtbS5nZXRfY29sdW1uKDMsbm9sb3N0PTEpLCBzNzUwbW0uZ2V0X2Nv
+bHVtbig2LG5vbG9zdD0xKSwgIjAuNzUgbSIpLAogICAgKHMxMDAwbW0uZ2V0X2NvbHVtbigzLG5v
+bG9zdD0xKSwgczEwMDBtbS5nZXRfY29sdW1uKDYsbm9sb3N0PTEpLCAiMSBtIiksCl0KCmZvciBh
+eCwgKHgsIHosIGxhYmVsKSBpbiB6aXAoYXhlcy5mbGF0LCBkYXRhc2V0cyk6CiAgICBheC5zY2F0
+dGVyKHgsIHosIHM9MSwgbWFya2VyPScuJywgYWxwaGE9MC42KQogICAgYXguc2V0X3RpdGxlKGxh
+YmVsKQogICAgYXguc2V0X3hsYWJlbCgieCIpCiAgICBheC5zZXRfeWxhYmVsKCJ4JyIpCiAgICBh
+eC5zZXRfeGxhYmVsKCJ4IikKICAgIGF4LnNldF95bGFiZWwoIngnIikKICAgIGF4LnNldF94bGlt
+KC0wLjAwMSwgMC4wMDEpCiAgICBheC5zZXRfeWxpbSgtMC4wMDEsIDAuMDAxKQogICAgYXguc2V0
+X2FzcGVjdCgiZXF1YWwiKQoKZmlnLnN1cHRpdGxlKCJCZWFtIFNjYXR0ZXIgUGxvdHMgLSBWZXJ0
+aWNhbCBwaGFzZSBzcGFjZSAoWiwgWicpIiwgZm9udHNpemU9MTQpCnBsdC50aWdodF9sYXlvdXQo
+KQoKcGx0LnNob3coKQqUdWJhjBNzYXZlZFdpZGdldEdlb21ldHJ5lENCAdnQywADAAAAAAFaAAAA
+kAAABWgAAAMHAAABWwAAAK8AAAVnAAADBgAAAAAAAAAABmYAAAFbAAAArwAABWcAAAMGlIwNc3Bs
+aXR0ZXJTdGF0ZZROjAtfX3ZlcnNpb25fX5RLAXUu
+</properties>
+		<properties node_id="11" format="literal">{'autosave': 0, 'autosave_file_name': 'autosave_xy_plot.hdf5', 'autosave_partial_results': 0, 'cartesian_axis': 0, 'controlAreaVisible': True, 'conversion_active': 1, 'flip_h': 0, 'flip_v': 0, 'image_plane': 1, 'image_plane_new_position': 1.0, 'is_automatic_run': True, 'keep_result': 0, 'number_of_bins_h': 100, 'number_of_bins_v': 100, 'rays': 1, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x9f\x00\x00\x00H\x00\x00\x05\xc6\x00\x00\x03@\x00\x00\x00\x9f\x00\x00\x00f\x00\x00\x05\xc6\x00\x00\x03@\x00\x00\x00\x00\x00\x00\x00\x00\x06f\x00\x00\x00\x9f\x00\x00\x00f\x00\x00\x05\xc6\x00\x00\x03@', 'title': "X,X'", 'weight_column_index': 23, 'x_column_index': 0, 'x_range': 0, 'x_range_max': 0.0, 'x_range_min': 0.0, 'y_column_index': 3, 'y_range': 0, 'y_range_max': 0.0, 'y_range_min': 0.0, '__version__': 1}</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>
