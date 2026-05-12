@@ -1,0 +1,319 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="Undulator" description="Undulator" working_directory="/home/srio/Oasys">
+	<nodes>
+		<node id="0" name="ESRF-EBS ID Light Source" qualified_name="orangecontrib.esrf.syned.widgets.extension.ow_ebs.OWEBS" project_name="OASYS2-ESRF-EXTENSIONS" version="" title="ESRF-EBS ID Light Source" position="(145.0, 657.0)" />
+		<node id="1" name="Undulator Gaussian" qualified_name="orangecontrib.shadow4.widgets.sources.ow_undulator_gaussian.OWUndulatorGaussian" project_name="OASYS2-SHADOW4" version="" title="Undulator Gaussian E1" position="(331.0, 390.0)" />
+		<node id="2" name="Undulator Light Source" qualified_name="orangecontrib.shadow4.widgets.sources.ow_undulator.OWUndulator" project_name="OASYS2-SHADOW4" version="" title="Undulator Light Source (Polychromatic)" position="(357.0, 1046.0)" />
+		<node id="3" name="Histogram" qualified_name="orangecontrib.shadow4.widgets.tools.ow_histogram.Histogram" project_name="OASYS2-SHADOW4" version="" title="Histogram" position="(709.0, 396.0)" />
+		<node id="4" name="Python Script" qualified_name="oasys2.widgets.tools.ow_python_script.OWPythonScript" project_name="oasys2" version="" title="Python Script" position="(812.0, 404.0)" />
+		<node id="5" name="Undulator Gaussian" qualified_name="orangecontrib.shadow4.widgets.sources.ow_undulator_gaussian.OWUndulatorGaussian" project_name="OASYS2-SHADOW4" version="" title="Undulator Gaussian E9" position="(327.0, 485.0)" />
+		<node id="6" name="Python Script" qualified_name="oasys2.widgets.tools.ow_python_script.OWPythonScript" project_name="oasys2" version="" title="Python Script" position="(820.0, 487.0)" />
+		<node id="7" name="Undulator Gaussian" qualified_name="orangecontrib.shadow4.widgets.sources.ow_undulator_gaussian.OWUndulatorGaussian" project_name="OASYS2-SHADOW4" version="" title="Undulator Gaussian E1" position="(345.0, 626.0)" />
+		<node id="8" name="Python Script" qualified_name="oasys2.widgets.tools.ow_python_script.OWPythonScript" project_name="oasys2" version="" title="Python Script" position="(826.0, 641.0)" />
+		<node id="9" name="Undulator Gaussian" qualified_name="orangecontrib.shadow4.widgets.sources.ow_undulator_gaussian.OWUndulatorGaussian" project_name="OASYS2-SHADOW4" version="" title="Undulator Gaussian E9" position="(342.0, 721.0)" />
+		<node id="10" name="Python Script" qualified_name="oasys2.widgets.tools.ow_python_script.OWPythonScript" project_name="oasys2" version="" title="Python Script" position="(834.0, 724.0)" />
+		<node id="11" name="Histogram" qualified_name="orangecontrib.shadow4.widgets.tools.ow_histogram.Histogram" project_name="OASYS2-SHADOW4" version="" title="Histogram" position="(714.0, 495.0)" />
+		<node id="12" name="Histogram" qualified_name="orangecontrib.shadow4.widgets.tools.ow_histogram.Histogram" project_name="OASYS2-SHADOW4" version="" title="Histogram" position="(714.0, 623.0)" />
+		<node id="13" name="Histogram" qualified_name="orangecontrib.shadow4.widgets.tools.ow_histogram.Histogram" project_name="OASYS2-SHADOW4" version="" title="Histogram" position="(718.0, 723.0)" />
+		<node id="14" name="Undulator Light Source" qualified_name="orangecontrib.shadow4.widgets.sources.ow_undulator.OWUndulator" project_name="OASYS2-SHADOW4" version="" title="Undulator Light Source (Monochromatic, E1)" position="(357.0, 900.0)" />
+		<node id="15" name="Undulator Light Source" qualified_name="orangecontrib.shadow4.widgets.sources.ow_undulator.OWUndulator" project_name="OASYS2-SHADOW4" version="" title="Undulator Light Source (Monochromatic, E1+100eV)" position="(557.0, 885.0)" />
+		<node id="16" name="Undulator Light Source" qualified_name="orangecontrib.shadow4.widgets.sources.ow_undulator.OWUndulator" project_name="OASYS2-SHADOW4" version="" title="Undulator Light Source (Monochromatic, E1-100eV)" position="(775.0, 884.0)" />
+	</nodes>
+	<links>
+		<link id="0" source_node_id="1" sink_node_id="3" source_channel="Shadow Data" sink_channel="Shadow Data" enabled="true" source_channel_id="shadow_data" sink_channel_id="shadow_data" />
+		<link id="1" source_node_id="5" sink_node_id="11" source_channel="Shadow Data" sink_channel="Shadow Data" enabled="true" source_channel_id="shadow_data" sink_channel_id="shadow_data" />
+		<link id="2" source_node_id="7" sink_node_id="12" source_channel="Shadow Data" sink_channel="Shadow Data" enabled="true" source_channel_id="shadow_data" sink_channel_id="shadow_data" />
+		<link id="3" source_node_id="9" sink_node_id="13" source_channel="Shadow Data" sink_channel="Shadow Data" enabled="true" source_channel_id="shadow_data" sink_channel_id="shadow_data" />
+	</links>
+	<annotations>
+		<text id="0" type="text/plain" rect="(281.0, 310.0, 314.0, 69.0)" font-family="Helvetica" font-size="16">DE/E=0 (no electron energy dispersion)</text>
+		<text id="1" type="text/plain" rect="(300.0, 554.0, 269.0, 50.0)" font-family="Helvetica" font-size="16">finite electron energy dispersion</text>
+	</annotations>
+	<thumbnail />
+	<node_properties>
+		<properties node_id="0" format="literal">{'K_horizontal': 0.0, 'K_vertical': 0.360584, 'a0': '1.95', 'a1': '1.0', 'a2': '', 'a3': '', 'a4': '', 'a5': '', 'a6': '', 'auto_energy': 14999.998, 'auto_harmonic_number': 1, 'ebs_id_index': 6, 'electron_beam_alpha_h': -0.3882144022778641, 'electron_beam_alpha_v': -0.9948802187222183, 'electron_beam_beta_h': 7.904539224156938, 'electron_beam_beta_v': 5.2967372513701525, 'electron_beam_divergence_h': 4.52791e-06, 'electron_beam_divergence_v': 1.9382e-06, 'electron_beam_emittance_h': 1.4083346256836801e-10, 'electron_beam_emittance_v': 1e-11, 'electron_beam_eta_h': 0.0014820910314284207, 'electron_beam_eta_v': 4.816284410478983e-19, 'electron_beam_etap_h': 4.3952441380633594e-06, 'electron_beam_etap_v': 8.472695258595573e-20, 'electron_beam_size_h': 3.339457e-05, 'electron_beam_size_v': 7.27787e-06, 'electron_energy_in_GeV': 6.0, 'electron_energy_spread': 0.001, 'gap_max': 30.0, 'gap_min': 10.0, 'gap_mm': 16.213, 'harmonic_max': 3, 'moment_xpxp': 2.0501975607976616e-11, 'moment_xx': 1.1151972825893521e-09, 'moment_xxp': 5.467943149898911e-11, 'moment_ypyp': 3.75662706148026e-12, 'moment_yy': 5.296737251370152e-11, 'moment_yyp': 9.948802187222183e-12, 'number_of_bunches': 0.0, 'number_of_periods': 74.766, 'period_length': 0.0214, 'pow_dens_screen': 30.0, 'ring_current': 0.2, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x17\x00\x00\x00O\x00\x00\x05@\x00\x00\x03*\x00\x00\x00\x18\x00\x00\x00n\x00\x00\x05?\x00\x00\x03)\x00\x00\x00\x00\x00\x00\x00\x00\x06f\x00\x00\x00\x18\x00\x00\x00n\x00\x00\x05?\x00\x00\x03)', 'type_of_properties': 1, 'type_of_properties_initial_selection': 6}</properties>
+		<properties node_id="1" format="literal">{'controlAreaVisible': True, 'delta_e': 0.0, 'electron_beam_alpha_h': 0.0, 'electron_beam_alpha_v': 0.0, 'electron_beam_beta_h': 7.375272, 'electron_beam_beta_v': 3.754963, 'electron_beam_divergence_h': 4.5279e-06, 'electron_beam_divergence_v': 1.9382e-06, 'electron_beam_emittance_h': 1.512076e-10, 'electron_beam_emittance_v': 1.4106e-11, 'electron_beam_eta_h': 0.0, 'electron_beam_eta_v': 0.0, 'electron_beam_etap_h': 0.0, 'electron_beam_etap_v': 0.0, 'electron_beam_size_h': 3.33946e-05, 'electron_beam_size_v': 7.2779e-06, 'electron_energy_in_GeV': 6.0, 'electron_energy_spread': 0.001, 'energy': 15000.0, 'flag_autoset_flux_central_cone': 1, 'flag_energy_spread': 0, 'flux_central_cone': '1e10', 'harmonic_number': 9, 'is_automatic_run': True, 'moment_xpxp': 2.0502e-11, 'moment_xx': 1.1151973e-09, 'moment_xxp': 0.0, 'moment_ypyp': 3.7566e-12, 'moment_yy': 5.29674e-11, 'moment_yyp': 0.0, 'number_of_rays': 25000, 'period_length': 0.0214, 'plot_Kmax': 0.360584, 'plot_Kmin': 0.2, 'plot_max_harmonic_number': 11, 'plot_npoints': 100, 'plot_undulator_graph': 1, 'ring_current': 0.2, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x9f\x00\x00\x00W\x00\x00\x05\xc6\x00\x00\x03\x12\x00\x00\x00\x9f\x00\x00\x00W\x00\x00\x05\xc6\x00\x00\x03\x12\x00\x00\x00\x00\x00\x00\x00\x00\x06f\x00\x00\x00\x9f\x00\x00\x00W\x00\x00\x05\xc6\x00\x00\x03\x12', 'seed': 5676561, 'type_of_properties': 1, 'undulator_length': 1.5999924, 'view_type': 0, '__version__': 1}</properties>
+		<properties node_id="2" format="literal">{'K_vertical': 0.360584, 'code_undul_phot': 0, 'controlAreaVisible': True, 'delta_e': 1000.0, 'distance': 100.0, 'electron_beam_alpha_h': 0.0, 'electron_beam_alpha_v': 0.0, 'electron_beam_beta_h': 7.375295, 'electron_beam_beta_v': 3.754979, 'electron_beam_divergence_h': 4.5279e-06, 'electron_beam_divergence_v': 1.9382e-06, 'electron_beam_emittance_h': 1.512074e-10, 'electron_beam_emittance_v': 1.4106e-11, 'electron_beam_eta_h': 0.0, 'electron_beam_eta_v': 0.0, 'electron_beam_etap_h': 0.0, 'electron_beam_etap_v': 0.0, 'electron_beam_size_h': 3.33946e-05, 'electron_beam_size_v': 7.2779e-06, 'electron_energy_in_GeV': 6.0, 'electron_energy_spread': 0.001, 'emax': 16000.0, 'emin': 14000.0, 'flag_backprop_recalculate_source': 1, 'flag_backprop_weight': 1, 'flag_emittance': 0, 'flag_energy_spread': 0, 'flag_size': 2, 'harmonic': 1.0, 'is_automatic_run': True, 'is_monochromatic': 0, 'magnification': 0.05, 'maxangle': 3e-05, 'moment_xpxp': 2.05019e-11, 'moment_xx': 1.1151993e-09, 'moment_xxp': 0.0, 'moment_ypyp': 3.7566e-12, 'moment_yy': 5.29678e-11, 'moment_yyp': 0.0, 'ng_e': 30, 'ng_j': 51, 'ng_p': 31, 'ng_t': 100, 'number_of_periods': 74.766, 'number_of_rays': 25000, 'period_length': 0.0214, 'photon_energy': 15100.0, 'plot_undulator_graph': 1, 'ring_current': 0.2, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x07u\xff\xff\xff\xcf\x00\x00\x0c\xb2\x00\x00\x02\xdf\x00\x00\x07\x80\x00\x00\x00\x00\x00\x00\x0c\xa7\x00\x00\x02\xd4\x00\x00\x00\x01\x00\x00\x00\x00\x07\x80\x00\x00\x07\x80\x00\x00\x00\x00\x00\x00\x0c\xa7\x00\x00\x02\xd4', 'seed': 5676561, 'set_at_resonance': 0, 'srw_range': 0.05, 'srw_resolution': 50, 'srw_semianalytical': 0, 'type_of_properties': 1, 'view_type': 0, 'weight_ratio': 0.5, '__version__': 1}</properties>
+		<properties node_id="3" format="literal">{'autosave': 0, 'autosave_file_name': 'autosave_histogram_plot.hdf5', 'autosave_partial_results': 0, 'controlAreaVisible': True, 'conversion_active': 1, 'image_plane': 0, 'image_plane_new_position': 10.0, 'image_plane_rel_abs_position': 0, 'is_automatic_run': True, 'keep_result': 0, 'number_of_bins': 500, 'rays': 1, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00R\x00\x00\x00 \x00\x00\x05y\x00\x00\x03\x00\x00\x00\x00R\x00\x00\x00E\x00\x00\x05y\x00\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x00R\x00\x00\x00E\x00\x00\x05y\x00\x00\x03\x00', 'title': " 6: Z' direction or divergence", 'weight_column_index': 23, 'x_column_index': 5, 'x_range': 1, 'x_range_max': 100.0, 'x_range_min': -100.0, '__version__': 1}</properties>
+		<properties node_id="4" format="pickle">gASVnw4AAAAAAAB9lCiMDGF1dG9fZXhlY3V0ZZSJjBJjb250cm9sQXJlYVZpc2libGWUiIwSY3Vy
+cmVudFNjcmlwdEluZGV4lEsAjAlmb250X3NpemWUSwSMEWxpYnJhcnlMaXN0U291cmNllF2UjCVv
+YXN5czIud2lkZ2V0cy50b29scy5vd19weXRob25fc2NyaXB0lIwGU2NyaXB0lJOUKYGUfZQojARu
+YW1llIwdaGlzdG9ncmFtcyBFMSB6ZXJvIGRpc3BlcnNpb26UjAZzY3JpcHSUWDUNAABkZWYgcnVu
+X2JlYW1saW5lKCk6CiAgICBmcm9tIHNoYWRvdzQuYmVhbWxpbmUuczRfYmVhbWxpbmUgaW1wb3J0
+IFM0QmVhbWxpbmUKICAgIGltcG9ydCBudW1weSBhcyBucAogICAgCiAgICBiZWFtbGluZSA9IFM0
+QmVhbWxpbmUoKQogICAgCiAgICAjIGVsZWN0cm9uIGJlYW0KICAgIGZyb20gc2hhZG93NC5zb3Vy
+Y2VzLnM0X2VsZWN0cm9uX2JlYW0gaW1wb3J0IFM0RWxlY3Ryb25CZWFtCiAgICBlbGVjdHJvbl9i
+ZWFtID0gUzRFbGVjdHJvbkJlYW0oZW5lcmd5X2luX0dlVj02LGVuZXJneV9zcHJlYWQ9MC4wMDEs
+Y3VycmVudD0wLjIpCiAgICBlbGVjdHJvbl9iZWFtLnNldF9zaWdtYXNfYWxsKHNpZ21hX3g9My4z
+Mzk0NmUtMDUsIHNpZ21hX3k9Ny4yNzc4N2UtMDYsIHNpZ21hX3hwPTQuNTI3OTFlLTA2LCBzaWdt
+YV95cD0xLjkzODJlLTA2KQogICAgZWxlY3Ryb25fYmVhbS5zZXRfZGlzcGVyc2lvbl9hbGwoMCww
+LDAsIDApCiAgICAKICAgICMgbWFnbmV0aWMgc3RydWN0dXJlCiAgICBmcm9tIHNoYWRvdzQuc291
+cmNlcy51bmR1bGF0b3IuczRfdW5kdWxhdG9yX2dhdXNzaWFuIGltcG9ydCBTNFVuZHVsYXRvckdh
+dXNzaWFuCiAgICBzb3VyY2UgPSBTNFVuZHVsYXRvckdhdXNzaWFuKAogICAgICAgIHBlcmlvZF9s
+ZW5ndGggICAgID0gMC4wMjE0LCAgICAgIyBzeW5lZCBVbmR1bGF0b3IgcGFyYW1ldGVyIChsZW5n
+dGggaW4gbSkKICAgICAgICBudW1iZXJfb2ZfcGVyaW9kcyA9IDc0Ljc2NiwgIyBzeW5lZCBVbmR1
+bGF0b3IgcGFyYW1ldGVyCiAgICAgICAgcGhvdG9uX2VuZXJneSAgICAgPSAxNTAwMC4wLCAjIFBo
+b3RvbiBlbmVyZ3kgKGluIGVWKQogICAgICAgIGRlbHRhX2UgICAgICAgICAgID0gMC4wLCAjIFBo
+b3RvbiBlbmVyZ3kgd2lkdGggKGluIGVWKQogICAgICAgIG5nX2UgICAgICAgICAgICAgID0gMTAw
+LCAjIFBob3RvbiBlbmVyZ3kgc2NhbiBudW1iZXIgb2YgcG9pbnRzCiAgICAgICAgZmxhZ19lbWl0
+dGFuY2UgICAgPSAxLCAjIHdoZW4gc2FtcGxpbmcgcmF5czogVXNlIGVtaXR0YW5jZSAoMD1Obywg
+MT1ZZXMpCiAgICAgICAgZmxhZ19lbmVyZ3lfc3ByZWFkID0gMCwgIyB3aGVuIHNhbXBsaW5nIHJh
+eXM6IFVzZSBlLSBlbmVyZ3kgc3ByZWFkICgwPU5vLCAxPVllcykKICAgICAgICBoYXJtb25pY19u
+dW1iZXIgICAgPSA5LCAjIGhhcm1vbmljIG51bWJlcgogICAgICAgIGZsYWdfYXV0b3NldF9mbHV4
+X2NlbnRyYWxfY29uZSAgPSAxLCAjIHZhbHVlIHRvIHNldCB0aGUgZmx1eCBwZWFrCiAgICAgICAg
+Zmx1eF9jZW50cmFsX2NvbmUgID0gNDg1MDgxLjk4MDUyNjQ4ODA0LCAjIHZhbHVlIHRvIHNldCB0
+aGUgZmx1eCBwZWFrCiAgICAgICAgKQogICAgCiAgICAKICAgICMgbGlnaHQgc291cmNlCiAgICBm
+cm9tIHNoYWRvdzQuc291cmNlcy51bmR1bGF0b3IuczRfdW5kdWxhdG9yX2dhdXNzaWFuX2xpZ2h0
+X3NvdXJjZSBpbXBvcnQgUzRVbmR1bGF0b3JHYXVzc2lhbkxpZ2h0U291cmNlCiAgICBsaWdodF9z
+b3VyY2UgPSBTNFVuZHVsYXRvckdhdXNzaWFuTGlnaHRTb3VyY2UobmFtZT0nVW5kdWxhdG9yIEdh
+dXNzaWFuJywgZWxlY3Ryb25fYmVhbT1lbGVjdHJvbl9iZWFtLCBtYWduZXRpY19zdHJ1Y3R1cmU9
+c291cmNlLG5yYXlzPTI1MDAwLHNlZWQ9NTY3NjU2MSkKICAgIGJlYW0gPSBsaWdodF9zb3VyY2Uu
+Z2V0X2JlYW0oKQogICAgCiAgICBiZWFtbGluZS5zZXRfbGlnaHRfc291cmNlKGxpZ2h0X3NvdXJj
+ZSkKICAgIHJldHVybiBiZWFtCgojCiMgbWFpbiAKIwpmcm9tIHNyeHJheWxpYi5wbG90LmdvbCBp
+bXBvcnQgcGxvdCwgcGxvdF9zaG93CgojIFdBUk5JTkc6IE5PIGluY3JlbWVudGFsIHJlc3VsdCBh
+bGxvd2VkISEiCmJlYW0gPSBydW5fYmVhbWxpbmUoKQoKCnRpY2tldDEgPSBiZWFtLmhpc3RvMSgx
+LCBuYmlucz01MDAsIHhyYW5nZT1bLTAuMDAwMSwgMC4wMDAxXSwgbm9sb3N0PTEsIHJlZj0yMykK
+dGlja2V0MyA9IGJlYW0uaGlzdG8xKDMsIG5iaW5zPTUwMCwgeHJhbmdlPVstMC4wMDAxLCAwLjAw
+MDFdLCBub2xvc3Q9MSwgcmVmPTIzKQp0aWNrZXQ0ID0gYmVhbS5oaXN0bzEoNCwgbmJpbnM9NTAw
+LCB4cmFuZ2U9Wy0wLjAwMDEsIDAuMDAwMV0sIG5vbG9zdD0xLCByZWY9MjMpCnRpY2tldDYgPSBi
+ZWFtLmhpc3RvMSg2LCBuYmlucz01MDAsIHhyYW5nZT1bLTAuMDAwMSwgMC4wMDAxXSwgbm9sb3N0
+PTEsIHJlZj0yMykKCiN0aXRsZSA9ICJJOiAlLjFmICIgJSB0aWNrZXRbJ2ludGVuc2l0eSddCiNp
+ZiB0aWNrZXRbJ2Z3aG0nXSBpcyBub3QgTm9uZTogdGl0bGUgKz0gIkZXSE06ICVmICIgJSB0aWNr
+ZXRbJ2Z3aG0nXQoKI3Bsb3QodGlja2V0MVsnYmluX3BhdGgnXSwgdGlja2V0MVsnaGlzdG9ncmFt
+X3BhdGgnXSwKIyAgICB0aWNrZXQzWydiaW5fcGF0aCddLCB0aWNrZXQzWydoaXN0b2dyYW1fcGF0
+aCddLAojICAgIHRpY2tldDRbJ2Jpbl9wYXRoJ10sIHRpY2tldDRbJ2hpc3RvZ3JhbV9wYXRoJ10s
+CiMgICAgdGlja2V0NlsnYmluX3BhdGgnXSwgdGlja2V0NlsnaGlzdG9ncmFtX3BhdGgnXSwKIyAg
+ICB0aXRsZT10aXRsZSwgeHRpdGxlPSJjb2x1bW4gMSIsIHNob3c9MSkKCmltcG9ydCBtYXRwbG90
+bGliLnB5cGxvdCBhcyBwbHQKCiMgVkVSVElDQUwKZmlnLCBheGVzID0gcGx0LnN1YnBsb3RzKDEs
+IDQsIGZpZ3NpemU9KDE1LCA0KSkKCmRhdGFzZXRzID0gWwogICAgKHRpY2tldDFbJ2Jpbl9wYXRo
+J10sIHRpY2tldDFbJ2hpc3RvZ3JhbV9wYXRoJ10sICJYIEZXSE06ICVmICIgJSB0aWNrZXQxWydm
+d2htJ10pLAogICAgKHRpY2tldDNbJ2Jpbl9wYXRoJ10sIHRpY2tldDNbJ2hpc3RvZ3JhbV9wYXRo
+J10sICJaIEZXSE06ICVmICIgJSB0aWNrZXQzWydmd2htJ10pLAogICAgKHRpY2tldDRbJ2Jpbl9w
+YXRoJ10sIHRpY2tldDRbJ2hpc3RvZ3JhbV9wYXRoJ10sICJYJyBGV0hNOiAlZiAiICUgdGlja2V0
+NFsnZndobSddKSwKICAgICh0aWNrZXQ2WydiaW5fcGF0aCddLCB0aWNrZXQ2WydoaXN0b2dyYW1f
+cGF0aCddLCAiWicgRldITTogJWYgIiAlIHRpY2tldDZbJ2Z3aG0nXSksCl0KCmZvciBheCwgKHgs
+IHosIGxhYmVsKSBpbiB6aXAoYXhlcy5mbGF0LCBkYXRhc2V0cyk6CiAgICBheC5wbG90KHgsIHop
+CiAgICBheC5zZXRfdGl0bGUobGFiZWwpCiAgICBheC5ncmlkKCkKIyAgICBheC5zZXRfeGxhYmVs
+KCJ4IikKIyAgICBheC5zZXRfeWxhYmVsKCJ4JyIpCiMgICAgYXguc2V0X3hsYWJlbCgieCIpCiMg
+ICAgYXguc2V0X3lsYWJlbCgieCciKQojICAgIGF4LnNldF94bGltKC0wLjAwMDEsIDAuMDAwMSkK
+IyAgICBheC5zZXRfeWxpbSgtMC4wMDAxLCAwLjAwMSkKIyAgICBheC5zZXRfYXNwZWN0KCJlcXVh
+bCIpCgpmaWcuc3VwdGl0bGUoIiIsIGZvbnRzaXplPTE0KQpwbHQudGlnaHRfbGF5b3V0KCkKCnBs
+dC5zaG93KCkKCgqUjAVmbGFnc5RLAIwIZmlsZW5hbWWUTnViYYwTc2F2ZWRXaWRnZXRHZW9tZXRy
+eZRDQgHZ0MsAAwAAAAABowAAAGQAAATCAAAC4AAAAaMAAACJAAAEwgAAAuAAAAAAAAAAAAeAAAAB
+owAAAIkAAATCAAAC4JSMDXNwbGl0dGVyU3RhdGWUTowLX192ZXJzaW9uX1+USwF1Lg==
+</properties>
+		<properties node_id="5" format="literal">{'delta_e': 0.0, 'electron_beam_alpha_h': 0.0, 'electron_beam_alpha_v': 0.0, 'electron_beam_beta_h': 7.375272476705587, 'electron_beam_beta_v': 3.7549633680734704, 'electron_beam_divergence_h': 4.52791e-06, 'electron_beam_divergence_v': 1.9382e-06, 'electron_beam_emittance_h': 1.512076074487e-10, 'electron_beam_emittance_v': 1.4105967634e-11, 'electron_beam_size_h': 3.339457e-05, 'electron_beam_size_v': 7.27787e-06, 'electron_energy_in_GeV': 6.0, 'electron_energy_spread': 0.001, 'energy': 135000.0, 'flag_autoset_flux_central_cone': 1, 'flag_energy_spread': 0, 'flux_central_cone': '1e10', 'harmonic_number': 9, 'is_automatic_run': True, 'moment_xpxp': 2.0501968968100002e-11, 'moment_xx': 1.1151973054848998e-09, 'moment_xxp': 0.0, 'moment_ypyp': 3.75661924e-12, 'moment_yy': 5.29673917369e-11, 'moment_yyp': 0.0, 'number_of_rays': 25000, 'period_length': 0.0214, 'plot_Kmax': 0.360584, 'plot_Kmin': 0.2, 'plot_max_harmonic_number': 11, 'plot_npoints': 100, 'plot_undulator_graph': 1, 'ring_current': 0.2, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x9e\x00\x00\x008\x00\x00\x05\xc7\x00\x00\x03\x13\x00\x00\x00\x9f\x00\x00\x00W\x00\x00\x05\xc6\x00\x00\x03\x12\x00\x00\x00\x00\x00\x00\x00\x00\x06f\x00\x00\x00\x9f\x00\x00\x00W\x00\x00\x05\xc6\x00\x00\x03\x12', 'seed': 5676561, 'syned_file_name': 'Select *.json file', 'type_of_properties': 1, 'undulator_length': 1.5999924, 'view_type': 0}</properties>
+		<properties node_id="6" format="pickle">gASVkw4AAAAAAAB9lCiMDGF1dG9fZXhlY3V0ZZSJjBJjb250cm9sQXJlYVZpc2libGWUiIwSY3Vy
+cmVudFNjcmlwdEluZGV4lEsAjAlmb250X3NpemWUSwSMEWxpYnJhcnlMaXN0U291cmNllF2UjCVv
+YXN5czIud2lkZ2V0cy50b29scy5vd19weXRob25fc2NyaXB0lIwGU2NyaXB0lJOUKYGUfZQojARu
+YW1llIwdaGlzdG9ncmFtcyBFOSB6ZXJvIGRpc3BlcnNpb26UjAZzY3JpcHSUWCkNAABkZWYgcnVu
+X2JlYW1saW5lKCk6CiAgICBmcm9tIHNoYWRvdzQuYmVhbWxpbmUuczRfYmVhbWxpbmUgaW1wb3J0
+IFM0QmVhbWxpbmUKICAgIGltcG9ydCBudW1weSBhcyBucAogICAgCiAgICBiZWFtbGluZSA9IFM0
+QmVhbWxpbmUoKQogICAgCiAgICAjIGVsZWN0cm9uIGJlYW0KICAgIGZyb20gc2hhZG93NC5zb3Vy
+Y2VzLnM0X2VsZWN0cm9uX2JlYW0gaW1wb3J0IFM0RWxlY3Ryb25CZWFtCiAgICBlbGVjdHJvbl9i
+ZWFtID0gUzRFbGVjdHJvbkJlYW0oZW5lcmd5X2luX0dlVj02LGVuZXJneV9zcHJlYWQ9MC4wMDEs
+Y3VycmVudD0wLjIpCiAgICBlbGVjdHJvbl9iZWFtLnNldF9zaWdtYXNfYWxsKHNpZ21hX3g9My4z
+Mzk0NmUtMDUsIHNpZ21hX3k9Ny4yNzc4N2UtMDYsIHNpZ21hX3hwPTQuNTI3OTFlLTA2LCBzaWdt
+YV95cD0xLjkzODJlLTA2KQogICAgZWxlY3Ryb25fYmVhbS5zZXRfZGlzcGVyc2lvbl9hbGwoMCww
+LDAsIDApCiAgICAKICAgICMgbWFnbmV0aWMgc3RydWN0dXJlCiAgICBmcm9tIHNoYWRvdzQuc291
+cmNlcy51bmR1bGF0b3IuczRfdW5kdWxhdG9yX2dhdXNzaWFuIGltcG9ydCBTNFVuZHVsYXRvckdh
+dXNzaWFuCiAgICBzb3VyY2UgPSBTNFVuZHVsYXRvckdhdXNzaWFuKAogICAgICAgIHBlcmlvZF9s
+ZW5ndGggICAgID0gMC4wMjE0LCAgICAgIyBzeW5lZCBVbmR1bGF0b3IgcGFyYW1ldGVyIChsZW5n
+dGggaW4gbSkKICAgICAgICBudW1iZXJfb2ZfcGVyaW9kcyA9IDc0Ljc2NiwgIyBzeW5lZCBVbmR1
+bGF0b3IgcGFyYW1ldGVyCiAgICAgICAgcGhvdG9uX2VuZXJneSAgICAgPSAxMzUwMDAuMCwgIyBQ
+aG90b24gZW5lcmd5IChpbiBlVikKICAgICAgICBkZWx0YV9lICAgICAgICAgICA9IDAuMCwgIyBQ
+aG90b24gZW5lcmd5IHdpZHRoIChpbiBlVikKICAgICAgICBuZ19lICAgICAgICAgICAgICA9IDEw
+MCwgIyBQaG90b24gZW5lcmd5IHNjYW4gbnVtYmVyIG9mIHBvaW50cwogICAgICAgIGZsYWdfZW1p
+dHRhbmNlICAgID0gMSwgIyB3aGVuIHNhbXBsaW5nIHJheXM6IFVzZSBlbWl0dGFuY2UgKDA9Tm8s
+IDE9WWVzKQogICAgICAgIGZsYWdfZW5lcmd5X3NwcmVhZCA9IDAsICMgd2hlbiBzYW1wbGluZyBy
+YXlzOiBVc2UgZS0gZW5lcmd5IHNwcmVhZCAoMD1ObywgMT1ZZXMpCiAgICAgICAgaGFybW9uaWNf
+bnVtYmVyICAgID0gOSwgIyBoYXJtb25pYyBudW1iZXIKICAgICAgICBmbGFnX2F1dG9zZXRfZmx1
+eF9jZW50cmFsX2NvbmUgID0gMSwgIyB2YWx1ZSB0byBzZXQgdGhlIGZsdXggcGVhawogICAgICAg
+IGZsdXhfY2VudHJhbF9jb25lICA9IDAuMCwgIyB2YWx1ZSB0byBzZXQgdGhlIGZsdXggcGVhawog
+ICAgICAgICkKICAgIAogICAgCiAgICAjIGxpZ2h0IHNvdXJjZQogICAgZnJvbSBzaGFkb3c0LnNv
+dXJjZXMudW5kdWxhdG9yLnM0X3VuZHVsYXRvcl9nYXVzc2lhbl9saWdodF9zb3VyY2UgaW1wb3J0
+IFM0VW5kdWxhdG9yR2F1c3NpYW5MaWdodFNvdXJjZQogICAgbGlnaHRfc291cmNlID0gUzRVbmR1
+bGF0b3JHYXVzc2lhbkxpZ2h0U291cmNlKG5hbWU9J1VuZHVsYXRvciBHYXVzc2lhbiBFOScsIGVs
+ZWN0cm9uX2JlYW09ZWxlY3Ryb25fYmVhbSwgbWFnbmV0aWNfc3RydWN0dXJlPXNvdXJjZSxucmF5
+cz0yNTAwMCxzZWVkPTU2NzY1NjEpCiAgICBiZWFtID0gbGlnaHRfc291cmNlLmdldF9iZWFtKCkK
+ICAgIAogICAgYmVhbWxpbmUuc2V0X2xpZ2h0X3NvdXJjZShsaWdodF9zb3VyY2UpCiAgICByZXR1
+cm4gYmVhbQojCiMgbWFpbiAKIwpmcm9tIHNyeHJheWxpYi5wbG90LmdvbCBpbXBvcnQgcGxvdCwg
+cGxvdF9zaG93CgojIFdBUk5JTkc6IE5PIGluY3JlbWVudGFsIHJlc3VsdCBhbGxvd2VkISEiCmJl
+YW0gPSBydW5fYmVhbWxpbmUoKQoKCnRpY2tldDEgPSBiZWFtLmhpc3RvMSgxLCBuYmlucz01MDAs
+IHhyYW5nZT1bLTAuMDAwMSwgMC4wMDAxXSwgbm9sb3N0PTEsIHJlZj0yMykKdGlja2V0MyA9IGJl
+YW0uaGlzdG8xKDMsIG5iaW5zPTUwMCwgeHJhbmdlPVstMC4wMDAxLCAwLjAwMDFdLCBub2xvc3Q9
+MSwgcmVmPTIzKQp0aWNrZXQ0ID0gYmVhbS5oaXN0bzEoNCwgbmJpbnM9NTAwLCB4cmFuZ2U9Wy0w
+LjAwMDEsIDAuMDAwMV0sIG5vbG9zdD0xLCByZWY9MjMpCnRpY2tldDYgPSBiZWFtLmhpc3RvMSg2
+LCBuYmlucz01MDAsIHhyYW5nZT1bLTAuMDAwMSwgMC4wMDAxXSwgbm9sb3N0PTEsIHJlZj0yMykK
+CiN0aXRsZSA9ICJJOiAlLjFmICIgJSB0aWNrZXRbJ2ludGVuc2l0eSddCiNpZiB0aWNrZXRbJ2Z3
+aG0nXSBpcyBub3QgTm9uZTogdGl0bGUgKz0gIkZXSE06ICVmICIgJSB0aWNrZXRbJ2Z3aG0nXQoK
+I3Bsb3QodGlja2V0MVsnYmluX3BhdGgnXSwgdGlja2V0MVsnaGlzdG9ncmFtX3BhdGgnXSwKIyAg
+ICB0aWNrZXQzWydiaW5fcGF0aCddLCB0aWNrZXQzWydoaXN0b2dyYW1fcGF0aCddLAojICAgIHRp
+Y2tldDRbJ2Jpbl9wYXRoJ10sIHRpY2tldDRbJ2hpc3RvZ3JhbV9wYXRoJ10sCiMgICAgdGlja2V0
+NlsnYmluX3BhdGgnXSwgdGlja2V0NlsnaGlzdG9ncmFtX3BhdGgnXSwKIyAgICB0aXRsZT10aXRs
+ZSwgeHRpdGxlPSJjb2x1bW4gMSIsIHNob3c9MSkKCmltcG9ydCBtYXRwbG90bGliLnB5cGxvdCBh
+cyBwbHQKCiMgVkVSVElDQUwKZmlnLCBheGVzID0gcGx0LnN1YnBsb3RzKDEsIDQsIGZpZ3NpemU9
+KDE1LCA0KSkKCmRhdGFzZXRzID0gWwogICAgKHRpY2tldDFbJ2Jpbl9wYXRoJ10sIHRpY2tldDFb
+J2hpc3RvZ3JhbV9wYXRoJ10sICJYIEZXSE06ICVmICIgJSB0aWNrZXQxWydmd2htJ10pLAogICAg
+KHRpY2tldDNbJ2Jpbl9wYXRoJ10sIHRpY2tldDNbJ2hpc3RvZ3JhbV9wYXRoJ10sICJaIEZXSE06
+ICVmICIgJSB0aWNrZXQzWydmd2htJ10pLAogICAgKHRpY2tldDRbJ2Jpbl9wYXRoJ10sIHRpY2tl
+dDRbJ2hpc3RvZ3JhbV9wYXRoJ10sICJYJyBGV0hNOiAlZiAiICUgdGlja2V0NFsnZndobSddKSwK
+ICAgICh0aWNrZXQ2WydiaW5fcGF0aCddLCB0aWNrZXQ2WydoaXN0b2dyYW1fcGF0aCddLCAiWicg
+RldITTogJWYgIiAlIHRpY2tldDZbJ2Z3aG0nXSksCl0KCmZvciBheCwgKHgsIHosIGxhYmVsKSBp
+biB6aXAoYXhlcy5mbGF0LCBkYXRhc2V0cyk6CiAgICBheC5wbG90KHgsIHopCiAgICBheC5zZXRf
+dGl0bGUobGFiZWwpCiAgICBheC5ncmlkKCkKIyAgICBheC5zZXRfeGxhYmVsKCJ4IikKIyAgICBh
+eC5zZXRfeWxhYmVsKCJ4JyIpCiMgICAgYXguc2V0X3hsYWJlbCgieCIpCiMgICAgYXguc2V0X3ls
+YWJlbCgieCciKQojICAgIGF4LnNldF94bGltKC0wLjAwMDEsIDAuMDAwMSkKIyAgICBheC5zZXRf
+eWxpbSgtMC4wMDAxLCAwLjAwMSkKIyAgICBheC5zZXRfYXNwZWN0KCJlcXVhbCIpCgpmaWcuc3Vw
+dGl0bGUoIiIsIGZvbnRzaXplPTE0KQpwbHQudGlnaHRfbGF5b3V0KCkKCnBsdC5zaG93KCkKCgqU
+jAVmbGFnc5RLAIwIZmlsZW5hbWWUTnViYYwTc2F2ZWRXaWRnZXRHZW9tZXRyeZRDQgHZ0MsAAwAA
+AAABowAAAGQAAATCAAAC4AAAAaMAAACJAAAEwgAAAuAAAAAAAAAAAAeAAAABowAAAIkAAATCAAAC
+4JSMDXNwbGl0dGVyU3RhdGWUTowLX192ZXJzaW9uX1+USwF1Lg==
+</properties>
+		<properties node_id="7" format="literal">{'delta_e': 0.0, 'electron_beam_alpha_h': 0.0, 'electron_beam_alpha_v': 0.0, 'electron_beam_beta_h': 7.375272476705587, 'electron_beam_beta_v': 3.7549633680734704, 'electron_beam_divergence_h': 4.52791e-06, 'electron_beam_divergence_v': 1.9382e-06, 'electron_beam_emittance_h': 1.512076074487e-10, 'electron_beam_emittance_v': 1.4105967634e-11, 'electron_beam_size_h': 3.339457e-05, 'electron_beam_size_v': 7.27787e-06, 'electron_energy_in_GeV': 6.0, 'electron_energy_spread': 0.001, 'energy': 15000.0, 'flag_autoset_flux_central_cone': 1, 'flag_energy_spread': 1, 'flux_central_cone': '1e10', 'harmonic_number': 1, 'is_automatic_run': True, 'moment_xpxp': 2.0501968968100002e-11, 'moment_xx': 1.1151973054848998e-09, 'moment_xxp': 0.0, 'moment_ypyp': 3.75661924e-12, 'moment_yy': 5.29673917369e-11, 'moment_yyp': 0.0, 'number_of_rays': 25000, 'period_length': 0.0214, 'plot_Kmax': 0.360584, 'plot_Kmin': 0.2, 'plot_max_harmonic_number': 11, 'plot_npoints': 100, 'plot_undulator_graph': 1, 'ring_current': 0.2, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x9f\x00\x00\x002\x00\x00\x05\xc6\x00\x00\x03\x12\x00\x00\x00\x9f\x00\x00\x00W\x00\x00\x05\xc6\x00\x00\x03\x12\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x00\x9f\x00\x00\x00W\x00\x00\x05\xc6\x00\x00\x03\x12', 'seed': 5676561, 'syned_file_name': 'Select *.json file', 'type_of_properties': 1, 'undulator_length': 1.5999924, 'view_type': 0}</properties>
+		<properties node_id="8" format="pickle">gASVpA4AAAAAAAB9lCiMDGF1dG9fZXhlY3V0ZZSJjBJjb250cm9sQXJlYVZpc2libGWUiIwSY3Vy
+cmVudFNjcmlwdEluZGV4lEsAjAlmb250X3NpemWUSwSMEWxpYnJhcnlMaXN0U291cmNllF2UjCVv
+YXN5czIud2lkZ2V0cy50b29scy5vd19weXRob25fc2NyaXB0lIwGU2NyaXB0lJOUKYGUfZQojARu
+YW1llIwfaGlzdG9ncmFtcyBFMSBmaW5pdGUgZGlzcGVyc2lvbpSMBnNjcmlwdJRYOA0AAGRlZiBy
+dW5fYmVhbWxpbmUoKToKICAgIGZyb20gc2hhZG93NC5iZWFtbGluZS5zNF9iZWFtbGluZSBpbXBv
+cnQgUzRCZWFtbGluZQogICAgaW1wb3J0IG51bXB5IGFzIG5wCiAgICAKICAgIGJlYW1saW5lID0g
+UzRCZWFtbGluZSgpCiAgICAKICAgICMgZWxlY3Ryb24gYmVhbQogICAgZnJvbSBzaGFkb3c0LnNv
+dXJjZXMuczRfZWxlY3Ryb25fYmVhbSBpbXBvcnQgUzRFbGVjdHJvbkJlYW0KICAgIGVsZWN0cm9u
+X2JlYW0gPSBTNEVsZWN0cm9uQmVhbShlbmVyZ3lfaW5fR2VWPTYsZW5lcmd5X3NwcmVhZD0wLjAw
+MSxjdXJyZW50PTAuMikKICAgIGVsZWN0cm9uX2JlYW0uc2V0X3NpZ21hc19hbGwoc2lnbWFfeD0z
+LjMzOTQ2ZS0wNSwgc2lnbWFfeT03LjI3Nzg3ZS0wNiwgc2lnbWFfeHA9NC41Mjc5MWUtMDYsIHNp
+Z21hX3lwPTEuOTM4MmUtMDYpCiAgICBlbGVjdHJvbl9iZWFtLnNldF9kaXNwZXJzaW9uX2FsbCgw
+LDAsMCwgMCkKICAgIAogICAgIyBtYWduZXRpYyBzdHJ1Y3R1cmUKICAgIGZyb20gc2hhZG93NC5z
+b3VyY2VzLnVuZHVsYXRvci5zNF91bmR1bGF0b3JfZ2F1c3NpYW4gaW1wb3J0IFM0VW5kdWxhdG9y
+R2F1c3NpYW4KICAgIHNvdXJjZSA9IFM0VW5kdWxhdG9yR2F1c3NpYW4oCiAgICAgICAgcGVyaW9k
+X2xlbmd0aCAgICAgPSAwLjAyMTQsICAgICAjIHN5bmVkIFVuZHVsYXRvciBwYXJhbWV0ZXIgKGxl
+bmd0aCBpbiBtKQogICAgICAgIG51bWJlcl9vZl9wZXJpb2RzID0gNzQuNzY2LCAjIHN5bmVkIFVu
+ZHVsYXRvciBwYXJhbWV0ZXIKICAgICAgICBwaG90b25fZW5lcmd5ICAgICA9IDE1MDAwLjAsICMg
+UGhvdG9uIGVuZXJneSAoaW4gZVYpCiAgICAgICAgZGVsdGFfZSAgICAgICAgICAgPSAwLjAsICMg
+UGhvdG9uIGVuZXJneSB3aWR0aCAoaW4gZVYpCiAgICAgICAgbmdfZSAgICAgICAgICAgICAgPSAx
+MDAsICMgUGhvdG9uIGVuZXJneSBzY2FuIG51bWJlciBvZiBwb2ludHMKICAgICAgICBmbGFnX2Vt
+aXR0YW5jZSAgICA9IDEsICMgd2hlbiBzYW1wbGluZyByYXlzOiBVc2UgZW1pdHRhbmNlICgwPU5v
+LCAxPVllcykKICAgICAgICBmbGFnX2VuZXJneV9zcHJlYWQgPSAxLCAjIHdoZW4gc2FtcGxpbmcg
+cmF5czogVXNlIGUtIGVuZXJneSBzcHJlYWQgKDA9Tm8sIDE9WWVzKQogICAgICAgIGhhcm1vbmlj
+X251bWJlciAgICA9IDEsICMgaGFybW9uaWMgbnVtYmVyCiAgICAgICAgZmxhZ19hdXRvc2V0X2Zs
+dXhfY2VudHJhbF9jb25lICA9IDEsICMgdmFsdWUgdG8gc2V0IHRoZSBmbHV4IHBlYWsKICAgICAg
+ICBmbHV4X2NlbnRyYWxfY29uZSAgPSAyNTMxODM3NzQyNjg5ODEuODgsICMgdmFsdWUgdG8gc2V0
+IHRoZSBmbHV4IHBlYWsKICAgICAgICApCiAgICAKICAgIAogICAgIyBsaWdodCBzb3VyY2UKICAg
+IGZyb20gc2hhZG93NC5zb3VyY2VzLnVuZHVsYXRvci5zNF91bmR1bGF0b3JfZ2F1c3NpYW5fbGln
+aHRfc291cmNlIGltcG9ydCBTNFVuZHVsYXRvckdhdXNzaWFuTGlnaHRTb3VyY2UKICAgIGxpZ2h0
+X3NvdXJjZSA9IFM0VW5kdWxhdG9yR2F1c3NpYW5MaWdodFNvdXJjZShuYW1lPSdVbmR1bGF0b3Ig
+R2F1c3NpYW4gRTEnLCBlbGVjdHJvbl9iZWFtPWVsZWN0cm9uX2JlYW0sIG1hZ25ldGljX3N0cnVj
+dHVyZT1zb3VyY2UsbnJheXM9MjUwMDAsc2VlZD01Njc2NTYxKQogICAgYmVhbSA9IGxpZ2h0X3Nv
+dXJjZS5nZXRfYmVhbSgpCiAgICAKICAgIGJlYW1saW5lLnNldF9saWdodF9zb3VyY2UobGlnaHRf
+c291cmNlKQogICAgcmV0dXJuIGJlYW0KCiMKIyBtYWluIAojCmZyb20gc3J4cmF5bGliLnBsb3Qu
+Z29sIGltcG9ydCBwbG90LCBwbG90X3Nob3cKCiMgV0FSTklORzogTk8gaW5jcmVtZW50YWwgcmVz
+dWx0IGFsbG93ZWQhISIKYmVhbSA9IHJ1bl9iZWFtbGluZSgpCgoKdGlja2V0MSA9IGJlYW0uaGlz
+dG8xKDEsIG5iaW5zPTUwMCwgeHJhbmdlPVstMC4wMDAxLCAwLjAwMDFdLCBub2xvc3Q9MSwgcmVm
+PTIzKQp0aWNrZXQzID0gYmVhbS5oaXN0bzEoMywgbmJpbnM9NTAwLCB4cmFuZ2U9Wy0wLjAwMDEs
+IDAuMDAwMV0sIG5vbG9zdD0xLCByZWY9MjMpCnRpY2tldDQgPSBiZWFtLmhpc3RvMSg0LCBuYmlu
+cz01MDAsIHhyYW5nZT1bLTAuMDAwMSwgMC4wMDAxXSwgbm9sb3N0PTEsIHJlZj0yMykKdGlja2V0
+NiA9IGJlYW0uaGlzdG8xKDYsIG5iaW5zPTUwMCwgeHJhbmdlPVstMC4wMDAxLCAwLjAwMDFdLCBu
+b2xvc3Q9MSwgcmVmPTIzKQoKI3RpdGxlID0gIkk6ICUuMWYgIiAlIHRpY2tldFsnaW50ZW5zaXR5
+J10KI2lmIHRpY2tldFsnZndobSddIGlzIG5vdCBOb25lOiB0aXRsZSArPSAiRldITTogJWYgIiAl
+IHRpY2tldFsnZndobSddCgojcGxvdCh0aWNrZXQxWydiaW5fcGF0aCddLCB0aWNrZXQxWydoaXN0
+b2dyYW1fcGF0aCddLAojICAgIHRpY2tldDNbJ2Jpbl9wYXRoJ10sIHRpY2tldDNbJ2hpc3RvZ3Jh
+bV9wYXRoJ10sCiMgICAgdGlja2V0NFsnYmluX3BhdGgnXSwgdGlja2V0NFsnaGlzdG9ncmFtX3Bh
+dGgnXSwKIyAgICB0aWNrZXQ2WydiaW5fcGF0aCddLCB0aWNrZXQ2WydoaXN0b2dyYW1fcGF0aCdd
+LAojICAgIHRpdGxlPXRpdGxlLCB4dGl0bGU9ImNvbHVtbiAxIiwgc2hvdz0xKQoKaW1wb3J0IG1h
+dHBsb3RsaWIucHlwbG90IGFzIHBsdAoKIyBWRVJUSUNBTApmaWcsIGF4ZXMgPSBwbHQuc3VicGxv
+dHMoMSwgNCwgZmlnc2l6ZT0oMTUsIDQpKQoKZGF0YXNldHMgPSBbCiAgICAodGlja2V0MVsnYmlu
+X3BhdGgnXSwgdGlja2V0MVsnaGlzdG9ncmFtX3BhdGgnXSwgIlggRldITTogJWYgIiAlIHRpY2tl
+dDFbJ2Z3aG0nXSksCiAgICAodGlja2V0M1snYmluX3BhdGgnXSwgdGlja2V0M1snaGlzdG9ncmFt
+X3BhdGgnXSwgIlogRldITTogJWYgIiAlIHRpY2tldDNbJ2Z3aG0nXSksCiAgICAodGlja2V0NFsn
+YmluX3BhdGgnXSwgdGlja2V0NFsnaGlzdG9ncmFtX3BhdGgnXSwgIlgnIEZXSE06ICVmICIgJSB0
+aWNrZXQ0Wydmd2htJ10pLAogICAgKHRpY2tldDZbJ2Jpbl9wYXRoJ10sIHRpY2tldDZbJ2hpc3Rv
+Z3JhbV9wYXRoJ10sICJaJyBGV0hNOiAlZiAiICUgdGlja2V0NlsnZndobSddKSwKXQoKZm9yIGF4
+LCAoeCwgeiwgbGFiZWwpIGluIHppcChheGVzLmZsYXQsIGRhdGFzZXRzKToKICAgIGF4LnBsb3Qo
+eCwgeikKICAgIGF4LnNldF90aXRsZShsYWJlbCkKICAgIGF4LmdyaWQoKQojICAgIGF4LnNldF94
+bGFiZWwoIngiKQojICAgIGF4LnNldF95bGFiZWwoIngnIikKIyAgICBheC5zZXRfeGxhYmVsKCJ4
+IikKIyAgICBheC5zZXRfeWxhYmVsKCJ4JyIpCiMgICAgYXguc2V0X3hsaW0oLTAuMDAwMSwgMC4w
+MDAxKQojICAgIGF4LnNldF95bGltKC0wLjAwMDEsIDAuMDAxKQojICAgIGF4LnNldF9hc3BlY3Qo
+ImVxdWFsIikKCmZpZy5zdXB0aXRsZSgiIiwgZm9udHNpemU9MTQpCnBsdC50aWdodF9sYXlvdXQo
+KQoKcGx0LnNob3coKQoKCpSMBWZsYWdzlEsAjAhmaWxlbmFtZZROdWJhjBNzYXZlZFdpZGdldEdl
+b21ldHJ5lENCAdnQywADAAAAAAGjAAAAZAAABMIAAALgAAABowAAAIkAAATCAAAC4AAAAAAAAAAA
+B4AAAAGjAAAAiQAABMIAAALglIwNc3BsaXR0ZXJTdGF0ZZROjAtfX3ZlcnNpb25fX5RLAXUu
+</properties>
+		<properties node_id="9" format="literal">{'controlAreaVisible': True, 'delta_e': 0.0, 'electron_beam_alpha_h': 0.0, 'electron_beam_alpha_v': 0.0, 'electron_beam_beta_h': 7.375272476705587, 'electron_beam_beta_v': 3.7549633680734704, 'electron_beam_divergence_h': 4.52791e-06, 'electron_beam_divergence_v': 1.9382e-06, 'electron_beam_emittance_h': 1.512076074487e-10, 'electron_beam_emittance_v': 1.4105967634e-11, 'electron_beam_eta_h': 0.0, 'electron_beam_eta_v': 0.0, 'electron_beam_etap_h': 0.0, 'electron_beam_etap_v': 0.0, 'electron_beam_size_h': 3.339457e-05, 'electron_beam_size_v': 7.27787e-06, 'electron_energy_in_GeV': 6.0, 'electron_energy_spread': 0.001, 'energy': 135000.0, 'flag_autoset_flux_central_cone': 1, 'flag_energy_spread': 1, 'flux_central_cone': '1e10', 'harmonic_number': 11, 'is_automatic_run': True, 'moment_xpxp': 2.0501968968100002e-11, 'moment_xx': 1.1151973054848998e-09, 'moment_xxp': 0.0, 'moment_ypyp': 3.75661924e-12, 'moment_yy': 5.29673917369e-11, 'moment_yyp': 0.0, 'number_of_rays': 25000, 'period_length': 0.0214, 'plot_Kmax': 0.360584, 'plot_Kmin': 0.2, 'plot_max_harmonic_number': 11, 'plot_npoints': 100, 'plot_undulator_graph': 1, 'ring_current': 0.2, 'savedWidgetGeometry': b"\x01\xd9\xd0\xcb\x00\x03\x00\x00\xff\xff\xff\xf5\xff\xff\xff\xcf\x00\x00\x052\x00\x00\x02\xdf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x05'\x00\x00\x02\xd4\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x05'\x00\x00\x02\xd4", 'seed': 5676561, 'type_of_properties': 1, 'undulator_length': 1.5999924, 'view_type': 0, '__version__': 1}</properties>
+		<properties node_id="10" format="pickle">gASVpQ4AAAAAAAB9lCiMDGF1dG9fZXhlY3V0ZZSJjBJjb250cm9sQXJlYVZpc2libGWUiIwSY3Vy
+cmVudFNjcmlwdEluZGV4lEsAjAlmb250X3NpemWUSwSMEWxpYnJhcnlMaXN0U291cmNllF2UjCVv
+YXN5czIud2lkZ2V0cy50b29scy5vd19weXRob25fc2NyaXB0lIwGU2NyaXB0lJOUKYGUfZQojARu
+YW1llIwfaGlzdG9ncmFtcyBFOSBmaW5pdGUgZGlzcGVyc2lvbpSMBnNjcmlwdJRYOQ0AAGRlZiBy
+dW5fYmVhbWxpbmUoKToKICAgIGZyb20gc2hhZG93NC5iZWFtbGluZS5zNF9iZWFtbGluZSBpbXBv
+cnQgUzRCZWFtbGluZQogICAgaW1wb3J0IG51bXB5IGFzIG5wCiAgICAKICAgIGJlYW1saW5lID0g
+UzRCZWFtbGluZSgpCiAgICAKICAgICMgZWxlY3Ryb24gYmVhbQogICAgZnJvbSBzaGFkb3c0LnNv
+dXJjZXMuczRfZWxlY3Ryb25fYmVhbSBpbXBvcnQgUzRFbGVjdHJvbkJlYW0KICAgIGVsZWN0cm9u
+X2JlYW0gPSBTNEVsZWN0cm9uQmVhbShlbmVyZ3lfaW5fR2VWPTYsZW5lcmd5X3NwcmVhZD0wLjAw
+MSxjdXJyZW50PTAuMikKICAgIGVsZWN0cm9uX2JlYW0uc2V0X3NpZ21hc19hbGwoc2lnbWFfeD0z
+LjMzOTQ2ZS0wNSwgc2lnbWFfeT03LjI3Nzg3ZS0wNiwgc2lnbWFfeHA9NC41Mjc5MWUtMDYsIHNp
+Z21hX3lwPTEuOTM4MmUtMDYpCiAgICBlbGVjdHJvbl9iZWFtLnNldF9kaXNwZXJzaW9uX2FsbCgw
+LDAsMCwgMCkKICAgIAogICAgIyBtYWduZXRpYyBzdHJ1Y3R1cmUKICAgIGZyb20gc2hhZG93NC5z
+b3VyY2VzLnVuZHVsYXRvci5zNF91bmR1bGF0b3JfZ2F1c3NpYW4gaW1wb3J0IFM0VW5kdWxhdG9y
+R2F1c3NpYW4KICAgIHNvdXJjZSA9IFM0VW5kdWxhdG9yR2F1c3NpYW4oCiAgICAgICAgcGVyaW9k
+X2xlbmd0aCAgICAgPSAwLjAyMTQsICAgICAjIHN5bmVkIFVuZHVsYXRvciBwYXJhbWV0ZXIgKGxl
+bmd0aCBpbiBtKQogICAgICAgIG51bWJlcl9vZl9wZXJpb2RzID0gNzQuNzY2LCAjIHN5bmVkIFVu
+ZHVsYXRvciBwYXJhbWV0ZXIKICAgICAgICBwaG90b25fZW5lcmd5ICAgICA9IDEzNTAwMC4wLCAj
+IFBob3RvbiBlbmVyZ3kgKGluIGVWKQogICAgICAgIGRlbHRhX2UgICAgICAgICAgID0gMC4wLCAj
+IFBob3RvbiBlbmVyZ3kgd2lkdGggKGluIGVWKQogICAgICAgIG5nX2UgICAgICAgICAgICAgID0g
+MTAwLCAjIFBob3RvbiBlbmVyZ3kgc2NhbiBudW1iZXIgb2YgcG9pbnRzCiAgICAgICAgZmxhZ19l
+bWl0dGFuY2UgICAgPSAxLCAjIHdoZW4gc2FtcGxpbmcgcmF5czogVXNlIGVtaXR0YW5jZSAoMD1O
+bywgMT1ZZXMpCiAgICAgICAgZmxhZ19lbmVyZ3lfc3ByZWFkID0gMSwgIyB3aGVuIHNhbXBsaW5n
+IHJheXM6IFVzZSBlLSBlbmVyZ3kgc3ByZWFkICgwPU5vLCAxPVllcykKICAgICAgICBoYXJtb25p
+Y19udW1iZXIgICAgPSA5LCAjIGhhcm1vbmljIG51bWJlcgogICAgICAgIGZsYWdfYXV0b3NldF9m
+bHV4X2NlbnRyYWxfY29uZSAgPSAxLCAjIHZhbHVlIHRvIHNldCB0aGUgZmx1eCBwZWFrCiAgICAg
+ICAgZmx1eF9jZW50cmFsX2NvbmUgID0gNDg1MDgxLjk4MDUyNjQ4ODA0LCAjIHZhbHVlIHRvIHNl
+dCB0aGUgZmx1eCBwZWFrCiAgICAgICAgKQogICAgCiAgICAKICAgICMgbGlnaHQgc291cmNlCiAg
+ICBmcm9tIHNoYWRvdzQuc291cmNlcy51bmR1bGF0b3IuczRfdW5kdWxhdG9yX2dhdXNzaWFuX2xp
+Z2h0X3NvdXJjZSBpbXBvcnQgUzRVbmR1bGF0b3JHYXVzc2lhbkxpZ2h0U291cmNlCiAgICBsaWdo
+dF9zb3VyY2UgPSBTNFVuZHVsYXRvckdhdXNzaWFuTGlnaHRTb3VyY2UobmFtZT0nVW5kdWxhdG9y
+IEdhdXNzaWFuIEU5JywgZWxlY3Ryb25fYmVhbT1lbGVjdHJvbl9iZWFtLCBtYWduZXRpY19zdHJ1
+Y3R1cmU9c291cmNlLG5yYXlzPTI1MDAwLHNlZWQ9NTY3NjU2MSkKICAgIGJlYW0gPSBsaWdodF9z
+b3VyY2UuZ2V0X2JlYW0oKQogICAgCiAgICBiZWFtbGluZS5zZXRfbGlnaHRfc291cmNlKGxpZ2h0
+X3NvdXJjZSkKICAgIHJldHVybiBiZWFtCgojCiMgbWFpbiAKIwpmcm9tIHNyeHJheWxpYi5wbG90
+LmdvbCBpbXBvcnQgcGxvdCwgcGxvdF9zaG93CgojIFdBUk5JTkc6IE5PIGluY3JlbWVudGFsIHJl
+c3VsdCBhbGxvd2VkISEiCmJlYW0gPSBydW5fYmVhbWxpbmUoKQoKCnRpY2tldDEgPSBiZWFtLmhp
+c3RvMSgxLCBuYmlucz01MDAsIHhyYW5nZT1bLTAuMDAwMSwgMC4wMDAxXSwgbm9sb3N0PTEsIHJl
+Zj0yMykKdGlja2V0MyA9IGJlYW0uaGlzdG8xKDMsIG5iaW5zPTUwMCwgeHJhbmdlPVstMC4wMDAx
+LCAwLjAwMDFdLCBub2xvc3Q9MSwgcmVmPTIzKQp0aWNrZXQ0ID0gYmVhbS5oaXN0bzEoNCwgbmJp
+bnM9NTAwLCB4cmFuZ2U9Wy0wLjAwMDEsIDAuMDAwMV0sIG5vbG9zdD0xLCByZWY9MjMpCnRpY2tl
+dDYgPSBiZWFtLmhpc3RvMSg2LCBuYmlucz01MDAsIHhyYW5nZT1bLTAuMDAwMSwgMC4wMDAxXSwg
+bm9sb3N0PTEsIHJlZj0yMykKCiN0aXRsZSA9ICJJOiAlLjFmICIgJSB0aWNrZXRbJ2ludGVuc2l0
+eSddCiNpZiB0aWNrZXRbJ2Z3aG0nXSBpcyBub3QgTm9uZTogdGl0bGUgKz0gIkZXSE06ICVmICIg
+JSB0aWNrZXRbJ2Z3aG0nXQoKI3Bsb3QodGlja2V0MVsnYmluX3BhdGgnXSwgdGlja2V0MVsnaGlz
+dG9ncmFtX3BhdGgnXSwKIyAgICB0aWNrZXQzWydiaW5fcGF0aCddLCB0aWNrZXQzWydoaXN0b2dy
+YW1fcGF0aCddLAojICAgIHRpY2tldDRbJ2Jpbl9wYXRoJ10sIHRpY2tldDRbJ2hpc3RvZ3JhbV9w
+YXRoJ10sCiMgICAgdGlja2V0NlsnYmluX3BhdGgnXSwgdGlja2V0NlsnaGlzdG9ncmFtX3BhdGgn
+XSwKIyAgICB0aXRsZT10aXRsZSwgeHRpdGxlPSJjb2x1bW4gMSIsIHNob3c9MSkKCmltcG9ydCBt
+YXRwbG90bGliLnB5cGxvdCBhcyBwbHQKCiMgVkVSVElDQUwKZmlnLCBheGVzID0gcGx0LnN1YnBs
+b3RzKDEsIDQsIGZpZ3NpemU9KDE1LCA0KSkKCmRhdGFzZXRzID0gWwogICAgKHRpY2tldDFbJ2Jp
+bl9wYXRoJ10sIHRpY2tldDFbJ2hpc3RvZ3JhbV9wYXRoJ10sICJYIEZXSE06ICVmICIgJSB0aWNr
+ZXQxWydmd2htJ10pLAogICAgKHRpY2tldDNbJ2Jpbl9wYXRoJ10sIHRpY2tldDNbJ2hpc3RvZ3Jh
+bV9wYXRoJ10sICJaIEZXSE06ICVmICIgJSB0aWNrZXQzWydmd2htJ10pLAogICAgKHRpY2tldDRb
+J2Jpbl9wYXRoJ10sIHRpY2tldDRbJ2hpc3RvZ3JhbV9wYXRoJ10sICJYJyBGV0hNOiAlZiAiICUg
+dGlja2V0NFsnZndobSddKSwKICAgICh0aWNrZXQ2WydiaW5fcGF0aCddLCB0aWNrZXQ2WydoaXN0
+b2dyYW1fcGF0aCddLCAiWicgRldITTogJWYgIiAlIHRpY2tldDZbJ2Z3aG0nXSksCl0KCmZvciBh
+eCwgKHgsIHosIGxhYmVsKSBpbiB6aXAoYXhlcy5mbGF0LCBkYXRhc2V0cyk6CiAgICBheC5wbG90
+KHgsIHopCiAgICBheC5zZXRfdGl0bGUobGFiZWwpCiAgICBheC5ncmlkKCkKIyAgICBheC5zZXRf
+eGxhYmVsKCJ4IikKIyAgICBheC5zZXRfeWxhYmVsKCJ4JyIpCiMgICAgYXguc2V0X3hsYWJlbCgi
+eCIpCiMgICAgYXguc2V0X3lsYWJlbCgieCciKQojICAgIGF4LnNldF94bGltKC0wLjAwMDEsIDAu
+MDAwMSkKIyAgICBheC5zZXRfeWxpbSgtMC4wMDAxLCAwLjAwMSkKIyAgICBheC5zZXRfYXNwZWN0
+KCJlcXVhbCIpCgpmaWcuc3VwdGl0bGUoIiIsIGZvbnRzaXplPTE0KQpwbHQudGlnaHRfbGF5b3V0
+KCkKCnBsdC5zaG93KCkKCgqUjAVmbGFnc5RLAIwIZmlsZW5hbWWUTnViYYwTc2F2ZWRXaWRnZXRH
+ZW9tZXRyeZRDQgHZ0MsAAwAAAAABowAAAGQAAATCAAAC4AAAAaMAAACJAAAEwgAAAuAAAAAAAAAA
+AAeAAAABowAAAIkAAATCAAAC4JSMDXNwbGl0dGVyU3RhdGWUTowLX192ZXJzaW9uX1+USwF1Lg==
+</properties>
+		<properties node_id="11" format="literal">{'autosave': 0, 'autosave_file_name': 'autosave_histogram_plot.hdf5', 'autosave_partial_results': 0, 'conversion_active': 1, 'image_plane': 0, 'image_plane_new_position': 10.0, 'image_plane_rel_abs_position': 0, 'is_automatic_run': True, 'keep_result': 0, 'number_of_bins': 500, 'rays': 1, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00R\x00\x00\x00E\x00\x00\x05y\x00\x00\x03\x00\x00\x00\x00R\x00\x00\x00E\x00\x00\x05y\x00\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x00R\x00\x00\x00E\x00\x00\x05y\x00\x00\x03\x00', 'title': " 6: Z' direction or divergence", 'weight_column_index': 23, 'x_column_index': 5, 'x_range': 1, 'x_range_max': 100.0, 'x_range_min': -100.0}</properties>
+		<properties node_id="12" format="literal">{'autosave': 0, 'autosave_file_name': 'autosave_histogram_plot.hdf5', 'autosave_partial_results': 0, 'conversion_active': 1, 'image_plane': 0, 'image_plane_new_position': 10.0, 'image_plane_rel_abs_position': 0, 'is_automatic_run': True, 'keep_result': 0, 'number_of_bins': 500, 'rays': 1, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00R\x00\x00\x00E\x00\x00\x05y\x00\x00\x03\x00\x00\x00\x00R\x00\x00\x00E\x00\x00\x05y\x00\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x00R\x00\x00\x00E\x00\x00\x05y\x00\x00\x03\x00', 'title': " 6: Z' direction or divergence", 'weight_column_index': 23, 'x_column_index': 5, 'x_range': 1, 'x_range_max': 100.0, 'x_range_min': -100.0}</properties>
+		<properties node_id="13" format="literal">{'autosave': 0, 'autosave_file_name': 'autosave_histogram_plot.hdf5', 'autosave_partial_results': 0, 'conversion_active': 1, 'image_plane': 0, 'image_plane_new_position': 10.0, 'image_plane_rel_abs_position': 0, 'is_automatic_run': True, 'keep_result': 0, 'number_of_bins': 500, 'rays': 1, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00R\x00\x00\x00 \x00\x00\x05y\x00\x00\x03\x00\x00\x00\x00R\x00\x00\x00E\x00\x00\x05y\x00\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x00R\x00\x00\x00E\x00\x00\x05y\x00\x00\x03\x00', 'title': " 6: Z' direction or divergence", 'weight_column_index': 23, 'x_column_index': 5, 'x_range': 1, 'x_range_max': 100.0, 'x_range_min': -100.0}</properties>
+		<properties node_id="14" format="literal">{'K_vertical': 0.360584, 'code_undul_phot': 0, 'delta_e': 1000.0, 'distance': 100.0, 'electron_beam_alpha_h': 0.0, 'electron_beam_alpha_v': 0.0, 'electron_beam_beta_h': 7.375272476705587, 'electron_beam_beta_v': 3.7549633680734704, 'electron_beam_divergence_h': 4.52791e-06, 'electron_beam_divergence_v': 1.9382e-06, 'electron_beam_emittance_h': 1.512076074487e-10, 'electron_beam_emittance_v': 1.4105967634e-11, 'electron_beam_size_h': 3.339457e-05, 'electron_beam_size_v': 7.27787e-06, 'electron_energy_in_GeV': 6.0, 'electron_energy_spread': 0.001, 'emax': 16000.0, 'emin': 14000.0, 'flag_backprop_recalculate_source': 1, 'flag_backprop_weight': 1, 'flag_emittance': 0, 'flag_energy_spread': 0, 'flag_size': 2, 'harmonic': 1.0, 'is_automatic_run': True, 'is_monochromatic': 1, 'magnification': 0.05, 'maxangle': 3e-05, 'moment_xpxp': 2.0501968968100002e-11, 'moment_xx': 1.1151973054848998e-09, 'moment_xxp': 0.0, 'moment_ypyp': 3.75661924e-12, 'moment_yy': 5.29673917369e-11, 'moment_yyp': 0.0, 'ng_e': 50, 'ng_j': 51, 'ng_p': 31, 'ng_t': 100, 'number_of_periods': 74.766, 'number_of_rays': 25000, 'period_length': 0.0214, 'photon_energy': 15000.0, 'plot_undulator_graph': 1, 'ring_current': 0.2, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x01\x8b\x00\x00\x00\xef\x00\x00\x06\xb2\x00\x00\x03\xcf\x00\x00\x01\x8b\x00\x00\x01\x14\x00\x00\x06\xb2\x00\x00\x03\xcf\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x01\x8b\x00\x00\x01\x14\x00\x00\x06\xb2\x00\x00\x03\xcf', 'seed': 5676561, 'set_at_resonance': 0, 'srw_range': 0.05, 'srw_resolution': 50, 'srw_semianalytical': 0, 'syned_file_name': 'Select *.json file', 'type_of_properties': 1, 'view_type': 0, 'weight_ratio': 0.5}</properties>
+		<properties node_id="15" format="literal">{'K_vertical': 0.360584, 'code_undul_phot': 0, 'controlAreaVisible': True, 'delta_e': 1000.0, 'distance': 100.0, 'electron_beam_alpha_h': 0.0, 'electron_beam_alpha_v': 0.0, 'electron_beam_beta_h': 7.375272, 'electron_beam_beta_v': 3.754963, 'electron_beam_divergence_h': 4.5279e-06, 'electron_beam_divergence_v': 1.9382e-06, 'electron_beam_emittance_h': 1.512076e-10, 'electron_beam_emittance_v': 1.4106e-11, 'electron_beam_eta_h': 0.0, 'electron_beam_eta_v': 0.0, 'electron_beam_etap_h': 0.0, 'electron_beam_etap_v': 0.0, 'electron_beam_size_h': 3.33946e-05, 'electron_beam_size_v': 7.2779e-06, 'electron_energy_in_GeV': 6.0, 'electron_energy_spread': 0.001, 'emax': 16000.0, 'emin': 14000.0, 'flag_backprop_recalculate_source': 1, 'flag_backprop_weight': 1, 'flag_emittance': 0, 'flag_energy_spread': 0, 'flag_size': 2, 'harmonic': 1.0, 'is_automatic_run': True, 'is_monochromatic': 1, 'magnification': 0.05, 'maxangle': 3e-05, 'moment_xpxp': 2.0502e-11, 'moment_xx': 1.1151973e-09, 'moment_xxp': 0.0, 'moment_ypyp': 3.7566e-12, 'moment_yy': 5.29674e-11, 'moment_yyp': 0.0, 'ng_e': 50, 'ng_j': 51, 'ng_p': 31, 'ng_t': 100, 'number_of_periods': 74.766, 'number_of_rays': 25000, 'period_length': 0.0214, 'photon_energy': 15100.0, 'plot_undulator_graph': 1, 'ring_current': 0.2, 'savedWidgetGeometry': b"\x01\xd9\xd0\xcb\x00\x03\x00\x00\xff\xff\xff\xf5\xff\xff\xff\xcf\x00\x00\x052\x00\x00\x02\xdf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x05'\x00\x00\x02\xd4\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x05'\x00\x00\x02\xd4", 'seed': 5676561, 'set_at_resonance': 0, 'srw_range': 0.05, 'srw_resolution': 50, 'srw_semianalytical': 0, 'type_of_properties': 1, 'view_type': 0, 'weight_ratio': 0.5, '__version__': 1}</properties>
+		<properties node_id="16" format="literal">{'K_vertical': 0.360584, 'code_undul_phot': 0, 'delta_e': 1000.0, 'distance': 100.0, 'electron_beam_alpha_h': 0.0, 'electron_beam_alpha_v': 0.0, 'electron_beam_beta_h': 7.375272476705587, 'electron_beam_beta_v': 3.7549633680734704, 'electron_beam_divergence_h': 4.52791e-06, 'electron_beam_divergence_v': 1.9382e-06, 'electron_beam_emittance_h': 1.512076074487e-10, 'electron_beam_emittance_v': 1.4105967634e-11, 'electron_beam_size_h': 3.339457e-05, 'electron_beam_size_v': 7.27787e-06, 'electron_energy_in_GeV': 6.0, 'electron_energy_spread': 0.001, 'emax': 16000.0, 'emin': 14000.0, 'flag_backprop_recalculate_source': 1, 'flag_backprop_weight': 1, 'flag_emittance': 0, 'flag_energy_spread': 0, 'flag_size': 2, 'harmonic': 1.0, 'is_automatic_run': True, 'is_monochromatic': 1, 'magnification': 0.05, 'maxangle': 3e-05, 'moment_xpxp': 2.0501968968100002e-11, 'moment_xx': 1.1151973054848998e-09, 'moment_xxp': 0.0, 'moment_ypyp': 3.75661924e-12, 'moment_yy': 5.29673917369e-11, 'moment_yyp': 0.0, 'ng_e': 50, 'ng_j': 51, 'ng_p': 31, 'ng_t': 100, 'number_of_periods': 74.766, 'number_of_rays': 25000, 'period_length': 0.0214, 'photon_energy': 14900.0, 'plot_undulator_graph': 1, 'ring_current': 0.2, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x01\x8b\x00\x00\x00\xef\x00\x00\x06\xb2\x00\x00\x03\xcf\x00\x00\x01\x8b\x00\x00\x01\x14\x00\x00\x06\xb2\x00\x00\x03\xcf\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x01\x8b\x00\x00\x01\x14\x00\x00\x06\xb2\x00\x00\x03\xcf', 'seed': 5676561, 'set_at_resonance': 0, 'srw_range': 0.05, 'srw_resolution': 50, 'srw_semianalytical': 0, 'syned_file_name': 'Select *.json file', 'type_of_properties': 1, 'view_type': 0, 'weight_ratio': 0.5}</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>
