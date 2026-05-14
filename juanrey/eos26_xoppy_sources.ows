@@ -1,0 +1,198 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="☀️EOS26_XOPPY_sources" description="EOS26_XOPPY_Sources: &#10;- Bending magnets&#10;- Wigglers&#10;-Undulators&#10;-Others" working_directory="C:\Users\juan.reyesherrera\Oasys\EOS_2026">
+	<nodes>
+		<node id="0" name="Undulator Spectrum" qualified_name="orangecontrib.xoppy.widgets.source.undulator_spectrum.OWundulator_spectrum" project_name="OASYS2-XOPPY" version="" title="Undulator Spectrum (1x1mm2)" position="(-203.0, 72.0)" />
+		<node id="1" name="Undulator Spectrum" qualified_name="orangecontrib.xoppy.widgets.source.undulator_spectrum.OWundulator_spectrum" project_name="OASYS2-XOPPY" version="" title="Undulator Spectrum (4x4mm2)" position="(-204.0, -51.0)" />
+		<node id="2" name="Python Script" qualified_name="oasys2.widgets.tools.ow_python_script.OWPythonScript" project_name="oasys2" version="" title="Python Script" position="(-62.0, 9.0)" />
+		<node id="3" name="Undulator Spectrum" qualified_name="orangecontrib.xoppy.widgets.source.undulator_spectrum.OWundulator_spectrum" project_name="OASYS2-XOPPY" version="" title="Undulator Spectrum K=2.4" position="(-203.0, 255.0)" />
+		<node id="4" name="Undulator Spectrum" qualified_name="orangecontrib.xoppy.widgets.source.undulator_spectrum.OWundulator_spectrum" project_name="OASYS2-XOPPY" version="" title="Undulator Spectrum K=1.5" position="(-194.0, 385.0)" />
+		<node id="5" name="Python Script" qualified_name="oasys2.widgets.tools.ow_python_script.OWPythonScript" project_name="oasys2" version="" title="🧩 Python Script" position="(-66.0, 326.0)" />
+		<node id="6" name="Undulator Power Density" qualified_name="orangecontrib.xoppy.widgets.source.undulator_power_density.OWundulator_power_density" project_name="OASYS2-XOPPY" version="" title="Undulator Power Density" position="(331.0, 472.0)" />
+		<node id="7" name="Undulator Power Density" qualified_name="orangecontrib.xoppy.widgets.source.undulator_power_density.OWundulator_power_density" project_name="OASYS2-XOPPY" version="" title="💥Undulator Power Density" position="(333.0, 661.0)" />
+		<node id="8" name="Wiggler Radiation" qualified_name="orangecontrib.xoppy.widgets.source.wiggler_radiation.OWwiggler_radiation" project_name="OASYS2-XOPPY" version="" title="Wiggler Radiation" position="(695.0, 256.0)" />
+		<node id="9" name="Undulator Radiation" qualified_name="orangecontrib.xoppy.widgets.source.undulator_radiation.OWundulator_radiation" project_name="OASYS2-XOPPY" version="" title="Undulator Radiation" position="(702.0, 565.0)" />
+		<node id="10" name="BM" qualified_name="orangecontrib.xoppy.widgets.source.bm.OWbm" project_name="OASYS2-XOPPY" version="" title="BM" position="(-637.0, 56.0)" />
+		<node id="11" name="Python Script" qualified_name="oasys2.widgets.tools.ow_python_script.OWPythonScript" project_name="oasys2" version="" title="Python Script" position="(-489.0, 109.0)" />
+		<node id="12" name="BM" qualified_name="orangecontrib.xoppy.widgets.source.bm.OWbm" project_name="OASYS2-XOPPY" version="" title="BM" position="(-637.0, 176.0)" />
+		<node id="13" name="WIGGLER" qualified_name="orangecontrib.xoppy.widgets.source.xwiggler.OWxwiggler" project_name="OASYS2-XOPPY" version="" title="WIGGLER" position="(-609.0, 418.0)" />
+		<node id="14" name="WIGGLER" qualified_name="orangecontrib.xoppy.widgets.source.xwiggler.OWxwiggler" project_name="OASYS2-XOPPY" version="" title="WIGGLER_3PW" position="(-612.0, 553.0)" />
+		<node id="15" name="Python Script" qualified_name="oasys2.widgets.tools.ow_python_script.OWPythonScript" project_name="oasys2" version="" title="Python Script Example Flux vs K values 🚀" position="(-30.0, 618.0)" />
+		<node id="16" name="Undulator Spectrum" qualified_name="orangecontrib.xoppy.widgets.source.undulator_spectrum.OWundulator_spectrum" project_name="OASYS2-XOPPY" version="" title="Undulator Spectrum IVU22" position="(-182.0, 558.0)" />
+		<node id="17" name="Aperture Flux TC" qualified_name="orangecontrib.xoppy.widgets.source.xtcap.OWtcap" project_name="OASYS2-XOPPY" version="" title="Aperture Flux TC IVU22" position="(-180.0, 682.0)" />
+		<node id="18" name="Tubes" qualified_name="orangecontrib.xoppy.widgets.source.xtubes.OWxtubes" project_name="OASYS2-XOPPY" version="" title="Tubes" position="(-189.0, 876.0)" />
+		<node id="19" name="Tube_W" qualified_name="orangecontrib.xoppy.widgets.source.xtube_w.OWxtube_w" project_name="OASYS2-XOPPY" version="" title="Tube_W" position="(-89.0, 876.0)" />
+		<node id="20" name="BM" qualified_name="orangecontrib.xoppy.widgets.source.bm.OWbm" project_name="OASYS2-XOPPY" version="" title="BM - 2D flux (Psi)" position="(401.0, 165.0)" />
+		<node id="21" name="Wiggler Radiation" qualified_name="orangecontrib.xoppy.widgets.source.wiggler_radiation.OWwiggler_radiation" project_name="OASYS2-XOPPY" version="" title="Wiggler Radiation    B-file ℹ️" position="(697.0, 364.0)" />
+		<node id="22" name="Wiggler Radiation" qualified_name="orangecontrib.xoppy.widgets.source.wiggler_radiation.OWwiggler_radiation" project_name="OASYS2-XOPPY" version="" title="BM Radiation" position="(689.0, 149.0)" />
+		<node id="23" name="WIGGLER" qualified_name="orangecontrib.xoppy.widgets.source.xwiggler.OWxwiggler" project_name="OASYS2-XOPPY" version="" title="WIGGLER_2PW_ESRF_on_a_slit" position="(-613.0, 718.0)" />
+		<node id="24" name="Python Script" qualified_name="oasys2.widgets.tools.ow_python_script.OWPythonScript" project_name="oasys2" version="" title="ℹ️Download B files" position="(-347.0, 629.0)" />
+		<node id="25" name="BM" qualified_name="orangecontrib.xoppy.widgets.source.bm.OWbm" project_name="OASYS2-XOPPY" version="" title="👁️BM - Psi angular emission" position="(262.0, 160.0)" />
+	</nodes>
+	<links>
+		<link id="0" source_node_id="1" sink_node_id="2" source_channel="Xoppy Data" sink_channel="In Object #1" enabled="true" source_channel_id="xoppy_data" sink_channel_id="object_1" />
+		<link id="1" source_node_id="0" sink_node_id="2" source_channel="Xoppy Data" sink_channel="In Object #2" enabled="true" source_channel_id="xoppy_data" sink_channel_id="object_2" />
+		<link id="2" source_node_id="3" sink_node_id="5" source_channel="Xoppy Data" sink_channel="In Object #1" enabled="true" source_channel_id="xoppy_data" sink_channel_id="object_1" />
+		<link id="3" source_node_id="4" sink_node_id="5" source_channel="Xoppy Data" sink_channel="In Object #2" enabled="true" source_channel_id="xoppy_data" sink_channel_id="object_2" />
+		<link id="4" source_node_id="10" sink_node_id="11" source_channel="Xoppy Data" sink_channel="In Object #1" enabled="true" source_channel_id="xoppy_data" sink_channel_id="object_1" />
+		<link id="5" source_node_id="12" sink_node_id="11" source_channel="Xoppy Data" sink_channel="In Object #2" enabled="true" source_channel_id="xoppy_data" sink_channel_id="object_2" />
+	</links>
+	<annotations>
+		<text id="0" type="text/markdown" rect="(246.0, 394.0, 205.0, 50.0)" font-family="Helvetica" font-size="16">**Power density at 16 m**</text>
+		<text id="1" type="text/markdown" rect="(271.0, 582.0, 175.0, 47.0)" font-family="Helvetica" font-size="16">**modified slit**</text>
+		<text id="2" type="text/markdown" rect="(232.0, 24.0, 248.0, 50.0)" font-family="Helvetica" font-size="16">**Angular distribution**</text>
+		<text id="3" type="text/markdown" rect="(614.0, 12.0, 202.0, 50.0)" font-family="Helvetica" font-size="16">**Flux (X, Y , E) - 3D**</text>
+		<text id="4" type="text/markdown" rect="(-612.0, -138.0, 288.0, 41.0)" font-family="Segoe UI" font-size="16">**Flux (E) - 1D (Angular integrated)**</text>
+		<text id="5" type="text/markdown" rect="(252.0, -85.0, 172.0, 54.0)" font-family="Segoe UI" font-size="16">**Flux (X,Y) - 2D**</text>
+		<text id="6" type="text/markdown" rect="(-695.0, -40.0, 165.0, 41.0)" font-family="Segoe UI" font-size="16">**Bendig Magnet**</text>
+		<text id="7" type="text/markdown" rect="(-704.0, 303.0, 181.0, 34.0)" font-family="Segoe UI" font-size="16">**Wiggler**</text>
+		<text id="8" type="text/markdown" rect="(-212.0, -145.0, 109.0, 28.0)" font-family="Segoe UI" font-size="16">**Undulator**</text>
+		<arrow id="9" start="(-470.0, -81.00000000000001)" end="(-517.0, -49.0)" fill="#C1272D" />
+		<arrow id="10" start="(-408.00000000000006, -87.0)" end="(-287.0000000000001, -70.0)" fill="#C1272D" />
+		<arrow id="11" start="(327.0, -38.99999999999999)" end="(328.0, 11.000000000000007)" fill="#C1272D" />
+		<arrow id="12" start="(687.0000000000001, 48.0)" end="(687.0000000000001, 92.0)" fill="#C1272D" />
+		<text id="13" type="text/markdown" rect="(-197.0, 803.0, 160.0, 41.0)" font-family="Segoe UI" font-size="16">**X-ray tubes**</text>
+		<arrow id="14" start="(-498.0, 702.0)" end="(-565.0, 727.0)" fill="#C1272D" />
+		<text id="15" type="text/plain" rect="(-536.0, 651.0, 146.0, 37.0)" font-family="Segoe UI" font-size="16">Needs a mag file</text>
+		<arrow id="16" start="(-501.0, 632.0)" end="(-556.0, 604.0)" fill="#C1272D" />
+		<text id="17" type="text/markdown" rect="(239.0, 337.0, 230.0, 50.0)" font-family="Segoe UI" font-size="16">**Power spatial distribution**</text>
+	</annotations>
+	<thumbnail />
+	<node_properties>
+		<properties node_id="0" format="literal">{'DISTANCE': 30.0, 'ELECTRONBEAMDIVERGENCEH': 4.36821e-06, 'ELECTRONBEAMDIVERGENCEV': 1.37498e-06, 'ELECTRONBEAMSIZEH': 3.01836e-05, 'ELECTRONBEAMSIZEV': 3.63641e-06, 'ELECTRONCURRENT': 0.2, 'ELECTRONENERGY': 6.0, 'ELECTRONENERGYSPREAD': 0.001, 'GAPH': 0.001, 'GAPH_CENTER': 0.0, 'GAPV': 0.001, 'GAPV_CENTER': 0.0, 'KH': 0.0, 'KPHASE': 0.0, 'KV': 2.432, 'METHOD': 2, 'NPERIODS': 38, 'PERIODID': 0.042, 'PHOTONENERGYMAX': 20000.0, 'PHOTONENERGYMIN': 500.0, 'PHOTONENERGYPOINTS': 10000, 'USEEMITTANCES': 1, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x0b\x0c\x00\x00\x008\x00\x00\x103\x00\x00\x036\x00\x00\x0b\x0c\x00\x00\x00W\x00\x00\x103\x00\x00\x036\x00\x00\x00\x01\x00\x00\x00\x00\x07\x80\x00\x00\x0b\x0c\x00\x00\x00W\x00\x00\x103\x00\x00\x036', 'view_type': 1, '__version__': 1}</properties>
+		<properties node_id="1" format="literal">{'DISTANCE': 30.0, 'ELECTRONBEAMDIVERGENCEH': 4.36821e-06, 'ELECTRONBEAMDIVERGENCEV': 1.37498e-06, 'ELECTRONBEAMSIZEH': 3.01836e-05, 'ELECTRONBEAMSIZEV': 3.63641e-06, 'ELECTRONCURRENT': 0.2, 'ELECTRONENERGY': 6.0, 'ELECTRONENERGYSPREAD': 0.001, 'GAPH': 0.004, 'GAPH_CENTER': 0.0, 'GAPV': 0.004, 'GAPV_CENTER': 0.0, 'KH': 0.0, 'KPHASE': 0.0, 'KV': 2.432, 'METHOD': 2, 'NPERIODS': 38, 'PERIODID': 0.042, 'PHOTONENERGYMAX': 20000.0, 'PHOTONENERGYMIN': 500.0, 'PHOTONENERGYPOINTS': 5000, 'USEEMITTANCES': 1, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\n\xbc\x00\x00\x00x\x00\x00\x0f\xe3\x00\x00\x03v\x00\x00\n\xbc\x00\x00\x00\x97\x00\x00\x0f\xe3\x00\x00\x03v\x00\x00\x00\x01\x00\x00\x00\x00\x07\x80\x00\x00\n\xbc\x00\x00\x00\x97\x00\x00\x0f\xe3\x00\x00\x03v', 'view_type': 1, '__version__': 1}</properties>
+		<properties node_id="2" format="pickle">gASVSQMAAAAAAAB9lCiMDGF1dG9fZXhlY3V0ZZSJjBJjb250cm9sQXJlYVZpc2libGWUiIwSY3Vy
+cmVudFNjcmlwdEluZGV4lEsAjAlmb250X3NpemWUSwSMEWxpYnJhcnlMaXN0U291cmNllF2UjCVv
+YXN5czIud2lkZ2V0cy50b29scy5vd19weXRob25fc2NyaXB0lIwGU2NyaXB0lJOUKYGUfZQojARu
+YW1llIwMRmx1eF9wbG90LnB5lIwGc2NyaXB0lFi8AQAAZnJvbSBzcnhyYXlsaWIucGxvdC5nb2wg
+aW1wb3J0IHBsb3QKaW1wb3J0IHNjaXB5LmNvbnN0YW50cyBhcyBjb2RhdGEKCiNDb21wYXJpbmcg
+Zmx1eAoKZVZfMSA9IGluX29iamVjdF8xLmdldF9jb250ZW50cygieG9wcHlfZGF0YSIpWzosMF0K
+CmZsdXhfMSA9IGluX29iamVjdF8xLmdldF9jb250ZW50cygieG9wcHlfZGF0YSIpWzosMV0KCmVW
+XzIgPSBpbl9vYmplY3RfMi5nZXRfY29udGVudHMoInhvcHB5X2RhdGEiKVs6LDBdCgpmbHV4XzIg
+PSBpbl9vYmplY3RfMi5nZXRfY29udGVudHMoInhvcHB5X2RhdGEiKVs6LDFdCgpwbG90KGVWXzEs
+Zmx1eF8xLGVWXzIsZmx1eF8yLHhsb2c9RmFsc2UseWxvZz1GYWxzZSx4dGl0bGU9IlBob3RvbiBl
+bmVyZ3kgW2VWXSIseXRpdGxlPSJGbHV4IFtwaC9zLzAuMSVid10iLGxlZ2VuZD1bIjR4NG1tJF57
+Mn0kIiwgIjF4MW1tJF57Mn0kIl0plIwFZmxhZ3OUSwCMCGZpbGVuYW1llIwyL2hvbWUvZXNyZi9y
+ZXllc2hlci9PQVNZUy9Ub29sc19YT1BQWS9GbHV4X3Bsb3QucHmUdWJhjBNzYXZlZFdpZGdldEdl
+b21ldHJ5lENCAdnQywADAAAAAAx5AAAAxgAAD5gAAAM8AAAMeQAAAOUAAA+YAAADPAAAAAEAAAAA
+B4AAAAx5AAAA5QAAD5gAAAM8lIwNc3BsaXR0ZXJTdGF0ZZROjAtfX3ZlcnNpb25fX5RLAXUu
+</properties>
+		<properties node_id="3" format="literal">{'DISTANCE': 30.0, 'ELECTRONBEAMDIVERGENCEH': 4.36821e-06, 'ELECTRONBEAMDIVERGENCEV': 1.37498e-06, 'ELECTRONBEAMSIZEH': 3.01836e-05, 'ELECTRONBEAMSIZEV': 3.63641e-06, 'ELECTRONCURRENT': 0.2, 'ELECTRONENERGY': 6.0, 'ELECTRONENERGYSPREAD': 0.001, 'GAPH': 0.002, 'GAPH_CENTER': 0.0, 'GAPV': 0.001, 'GAPV_CENTER': 0.0, 'KH': 0.0, 'KPHASE': 0.0, 'KV': 2.4, 'METHOD': 2, 'NPERIODS': 38, 'PERIODID': 0.042, 'PHOTONENERGYMAX': 15000.0, 'PHOTONENERGYMIN': 500.0, 'PHOTONENERGYPOINTS': 5000, 'USEEMITTANCES': 1, 'controlAreaVisible': True, 'savedWidgetGeometry': b"\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x80\x00\x00\x00'\x00\x00\x05\xa7\x00\x00\x03%\x00\x00\x00\x80\x00\x00\x00F\x00\x00\x05\xa7\x00\x00\x03%\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x00\x80\x00\x00\x00F\x00\x00\x05\xa7\x00\x00\x03%", 'view_type': 1, '__version__': 1}</properties>
+		<properties node_id="4" format="literal">{'DISTANCE': 30.0, 'ELECTRONBEAMDIVERGENCEH': 4.36821e-06, 'ELECTRONBEAMDIVERGENCEV': 1.37498e-06, 'ELECTRONBEAMSIZEH': 3.01836e-05, 'ELECTRONBEAMSIZEV': 3.63641e-06, 'ELECTRONCURRENT': 0.2, 'ELECTRONENERGY': 6.0, 'ELECTRONENERGYSPREAD': 0.001, 'GAPH': 0.002, 'GAPH_CENTER': 0.0, 'GAPV': 0.001, 'GAPV_CENTER': 0.0, 'KH': 0.0, 'KPHASE': 0.0, 'KV': 1.5, 'METHOD': 2, 'NPERIODS': 38, 'PERIODID': 0.042, 'PHOTONENERGYMAX': 15000.0, 'PHOTONENERGYMIN': 500.0, 'PHOTONENERGYPOINTS': 5000, 'USEEMITTANCES': 1, 'controlAreaVisible': True, 'savedWidgetGeometry': b"\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x80\x00\x00\x00'\x00\x00\x05\xa7\x00\x00\x03%\x00\x00\x00\x80\x00\x00\x00F\x00\x00\x05\xa7\x00\x00\x03%\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x00\x80\x00\x00\x00F\x00\x00\x05\xa7\x00\x00\x03%", 'view_type': 1, '__version__': 1}</properties>
+		<properties node_id="5" format="pickle">gASVQQMAAAAAAAB9lCiMDGF1dG9fZXhlY3V0ZZSJjBJjb250cm9sQXJlYVZpc2libGWUiIwSY3Vy
+cmVudFNjcmlwdEluZGV4lEsAjAlmb250X3NpemWUSwSMEWxpYnJhcnlMaXN0U291cmNllF2UjCVv
+YXN5czIud2lkZ2V0cy50b29scy5vd19weXRob25fc2NyaXB0lIwGU2NyaXB0lJOUKYGUfZQojARu
+YW1llIwMRmx1eF9wbG90LnB5lIwGc2NyaXB0lFi0AQAAZnJvbSBzcnhyYXlsaWIucGxvdC5nb2wg
+aW1wb3J0IHBsb3QKaW1wb3J0IHNjaXB5LmNvbnN0YW50cyBhcyBjb2RhdGEKCiNDb21wYXJpbmcg
+Zmx1eAoKZVZfMSA9IGluX29iamVjdF8xLmdldF9jb250ZW50cygieG9wcHlfZGF0YSIpWzosMF0K
+CmZsdXhfMSA9IGluX29iamVjdF8xLmdldF9jb250ZW50cygieG9wcHlfZGF0YSIpWzosMV0KCmVW
+XzIgPSBpbl9vYmplY3RfMi5nZXRfY29udGVudHMoInhvcHB5X2RhdGEiKVs6LDBdCgpmbHV4XzIg
+PSBpbl9vYmplY3RfMi5nZXRfY29udGVudHMoInhvcHB5X2RhdGEiKVs6LDFdCgpwbG90KGVWXzEs
+Zmx1eF8xLGVWXzIsZmx1eF8yLHhsb2c9RmFsc2UseWxvZz1GYWxzZSx4dGl0bGU9IlBob3RvbiBl
+bmVyZ3kgW2VWXSIseXRpdGxlPSJGbHV4IFtwaC9zLzAuMSVid10iLGxlZ2VuZD1bIiRLJD0yLjQi
+LCAiJEskPTEuNSJdKZSMBWZsYWdzlEsAjAhmaWxlbmFtZZSMMi9ob21lL2VzcmYvcmV5ZXNoZXIv
+T0FTWVMvVG9vbHNfWE9QUFkvRmx1eF9wbG90LnB5lHViYYwTc2F2ZWRXaWRnZXRHZW9tZXRyeZRD
+QgHZ0MsAAwAAAAALwQAAAJ0AAA7gAAADEwAAC8EAAAC8AAAO4AAAAxMAAAABAAAAAAeAAAALwQAA
+ALwAAA7gAAADE5SMDXNwbGl0dGVyU3RhdGWUTowLX192ZXJzaW9uX1+USwF1Lg==
+</properties>
+		<properties node_id="6" format="literal">{'DISTANCE': 16.0, 'ELECTRONBEAMDIVERGENCEH': 4.36821e-06, 'ELECTRONBEAMDIVERGENCEV': 1.37498e-06, 'ELECTRONBEAMSIZEH': 3.01836e-05, 'ELECTRONBEAMSIZEV': 3.63641e-06, 'ELECTRONCURRENT': 0.2, 'ELECTRONENERGY': 6.0, 'ELECTRONENERGYSPREAD': 0.001, 'GAPH': 0.008, 'GAPV': 0.006, 'H5_FILE_DUMP': 0, 'HSLITPOINTS': 201, 'KH': 0.0, 'KPHASE': 0.0, 'KV': 2.432, 'MASK_FLAG': 0, 'MASK_H_MAX': 1000.0, 'MASK_H_MIN': -1000.0, 'MASK_ROT_H_DEG': 0.0, 'MASK_ROT_V_DEG': 0.0, 'MASK_V_MAX': 1000.0, 'MASK_V_MIN': -1000.0, 'METHOD': 2, 'NPERIODS': 38, 'PERIODID': 0.042, 'USEEMITTANCES': 1, 'VSLITPOINTS': 201, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x0b\x80\x00\x00\x00\x97\x00\x00\x10\xa7\x00\x00\x03\x95\x00\x00\x0b\x80\x00\x00\x00\xb6\x00\x00\x10\xa7\x00\x00\x03\x95\x00\x00\x00\x01\x00\x00\x00\x00\x07\x80\x00\x00\x0b\x80\x00\x00\x00\xb6\x00\x00\x10\xa7\x00\x00\x03\x95', 'view_type': 1, '__version__': 1}</properties>
+		<properties node_id="7" format="literal">{'DISTANCE': 16.0, 'ELECTRONBEAMDIVERGENCEH': 4.36821e-06, 'ELECTRONBEAMDIVERGENCEV': 1.37498e-06, 'ELECTRONBEAMSIZEH': 3.01836e-05, 'ELECTRONBEAMSIZEV': 3.63641e-06, 'ELECTRONCURRENT': 0.2, 'ELECTRONENERGY': 6.0, 'ELECTRONENERGYSPREAD': 0.001, 'GAPH': 0.008, 'GAPV': 0.006, 'H5_FILE_DUMP': 0, 'HSLITPOINTS': 201, 'KH': 0.0, 'KPHASE': 0.0, 'KV': 2.432, 'MASK_FLAG': 1, 'MASK_H_MAX': 1000.0, 'MASK_H_MIN': -1000.0, 'MASK_ROT_H_DEG': 0.0, 'MASK_ROT_V_DEG': 88.0, 'MASK_V_MAX': 1000.0, 'MASK_V_MIN': -1000.0, 'METHOD': 2, 'NPERIODS': 38, 'PERIODID': 0.042, 'USEEMITTANCES': 1, 'VSLITPOINTS': 201, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x04a\x00\x00\x01\x02\x00\x00\t\x88\x00\x00\x04\x00\x00\x00\x04a\x00\x00\x01!\x00\x00\t\x88\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x04a\x00\x00\x01!\x00\x00\t\x88\x00\x00\x04\x00', 'view_type': 1, '__version__': 1}</properties>
+		<properties node_id="8" format="literal">{'CONVOLUTION': 1, 'DISTANCE': 30.0, 'ELECTRONCURRENT': 0.2, 'ELECTRONENERGY': 6.0, 'FIELD': 0, 'FILE': '', 'H5_FILE_DUMP': 0, 'HSLITPOINTS': 500, 'KV': 20.4911, 'NPERIODS': 6.0, 'NTRAJPOINTS': 1001, 'PASSEPARTOUT': 3.0, 'PERIODID': 0.15, 'PHOTONENERGYMAX': 100100.0, 'PHOTONENERGYMIN': 100.0, 'PHOTONENERGYPOINTS': 101, 'POLARIZATION': 0, 'SHIFT_BETAX_FLAG': 0, 'SHIFT_BETAX_VALUE': 0.0, 'SHIFT_X_FLAG': 0, 'SHIFT_X_VALUE': 0.0, 'VSLITPOINTS': 500, 'bm_divergence': 0.001, 'bm_magnetic_field': 1.001, 'bm_magnetic_radius': 10.0, 'controlAreaVisible': True, 'h5_entry_name': 'XOPPY_RADIATION', 'h5_file': 'wiggler_radiation.h5', 'h5_initialize': True, 'h5_parameters': None, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x03\xc3\x00\x00\x00\xb9\x00\x00\x08\xea\x00\x00\x03\xb7\x00\x00\x03\xc3\x00\x00\x00\xd8\x00\x00\x08\xea\x00\x00\x03\xb7\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x03\xc3\x00\x00\x00\xd8\x00\x00\x08\xea\x00\x00\x03\xb7', 'view_type': 1, '__version__': 1}</properties>
+		<properties node_id="9" format="literal">{'DISTANCE': 31.5, 'ELECTRONBEAMDIVERGENCEH': 4.36821e-06, 'ELECTRONBEAMDIVERGENCEV': 1.37498e-06, 'ELECTRONBEAMSIZEH': 3.01836e-05, 'ELECTRONBEAMSIZEV': 3.63641e-06, 'ELECTRONCURRENT': 0.2, 'ELECTRONENERGY': 6.0, 'ELECTRONENERGYSPREAD': 0.001, 'GAPH': 0.002, 'GAPV': 0.001, 'H5_FILE_DUMP': 0, 'HARMONICNUMBER': 1, 'HSLITPOINTS': 101, 'KH': 0.0, 'KPHASE': 0.0, 'KV': 1.238207, 'METHOD': 2, 'NPERIODS': 121, 'PERIODID': 0.0164, 'PHOTONENERGYMAX': 14000.0, 'PHOTONENERGYMIN': 9000.0, 'PHOTONENERGYPOINTS': 201, 'SETRESONANCE': 0, 'USEEMITTANCES': 1, 'VSLITPOINTS': 101, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\n\x10\x00\x00\x00\x97\x00\x00\x0f7\x00\x00\x03\x95\x00\x00\n\x10\x00\x00\x00\xb6\x00\x00\x0f7\x00\x00\x03\x95\x00\x00\x00\x01\x00\x00\x00\x00\x07\x80\x00\x00\n\x10\x00\x00\x00\xb6\x00\x00\x0f7\x00\x00\x03\x95', 'view_type': 1, '__version__': 1}</properties>
+		<properties node_id="10" format="literal">{'BEAM_ENERGY_GEV': 3.0, 'BFIELD_T': 1.42, 'CURRENT_A': 0.3, 'FILE_DUMP': 0, 'HOR_DIV_MRAD': 2.0, 'LOG_CHOICE': 0, 'MACHINE_NAME': 'ALBA S-Bend', 'MACHINE_R_M': 25.0, 'NPOINTS': 1000, 'PHOT_ENERGY_MAX': 70000.0, 'PHOT_ENERGY_MIN': 500.0, 'PSI_MAX': 0.055, 'PSI_MIN': -0.055, 'PSI_MRAD_PLOT': 2.0, 'PSI_NPOINTS': 200, 'RB_CHOICE': 1, 'TYPE_CALC': 0, 'VER_DIV': 2, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\nO\x00\x00\x00z\x00\x00\x0fv\x00\x00\x03x\x00\x00\nO\x00\x00\x00\x99\x00\x00\x0fv\x00\x00\x03x\x00\x00\x00\x01\x00\x00\x00\x00\x07\x80\x00\x00\nO\x00\x00\x00\x99\x00\x00\x0fv\x00\x00\x03x', 'view_type': 1, '__version__': 1}</properties>
+		<properties node_id="11" format="pickle">gASVTwMAAAAAAAB9lCiMDGF1dG9fZXhlY3V0ZZSJjBJjb250cm9sQXJlYVZpc2libGWUiIwSY3Vy
+cmVudFNjcmlwdEluZGV4lEsAjAlmb250X3NpemWUSwSMEWxpYnJhcnlMaXN0U291cmNllF2UjCVv
+YXN5czIud2lkZ2V0cy50b29scy5vd19weXRob25fc2NyaXB0lIwGU2NyaXB0lJOUKYGUfZQojARu
+YW1llIwMRmx1eF9wbG90LnB5lIwGc2NyaXB0lFjCAQAAZnJvbSBzcnhyYXlsaWIucGxvdC5nb2wg
+aW1wb3J0IHBsb3QKaW1wb3J0IHNjaXB5LmNvbnN0YW50cyBhcyBjb2RhdGEKCiNDb21wYXJpbmcg
+Zmx1eAoKZVZfMSA9IGluX29iamVjdF8xLmdldF9jb250ZW50cygieG9wcHlfZGF0YSIpWzosMF0K
+CmZsdXhfMSA9IGluX29iamVjdF8xLmdldF9jb250ZW50cygieG9wcHlfZGF0YSIpWzosLTNdCgpl
+Vl8yID0gaW5fb2JqZWN0XzIuZ2V0X2NvbnRlbnRzKCJ4b3BweV9kYXRhIilbOiwwXQoKZmx1eF8y
+ID0gaW5fb2JqZWN0XzIuZ2V0X2NvbnRlbnRzKCJ4b3BweV9kYXRhIilbOiwtM10KCnBsb3QoZVZf
+MSxmbHV4XzEsZVZfMixmbHV4XzIseGxvZz1GYWxzZSx5bG9nPUZhbHNlLHh0aXRsZT0iUGhvdG9u
+IGVuZXJneSBbZVZdIix5dGl0bGU9IkZsdXggW3BoL3MvMC4xJWJ3XSIsbGVnZW5kPVsiQl9maWVs
+ZD0xLjQgVCIsICJCX2ZpZWxkPTIuNSBUIl0plIwFZmxhZ3OUSwCMCGZpbGVuYW1llIwyL2hvbWUv
+ZXNyZi9yZXllc2hlci9PQVNZUy9Ub29sc19YT1BQWS9GbHV4X3Bsb3QucHmUdWJhjBNzYXZlZFdp
+ZGdldEdlb21ldHJ5lENCAdnQywADAAAAAAx5AAAAxgAAD5gAAAM8AAAMeQAAAOUAAA+YAAADPAAA
+AAEAAAAAB4AAAAx5AAAA5QAAD5gAAAM8lIwNc3BsaXR0ZXJTdGF0ZZROjAtfX3ZlcnNpb25fX5RL
+AXUu
+</properties>
+		<properties node_id="12" format="literal">{'BEAM_ENERGY_GEV': 3.0, 'BFIELD_T': 2.5, 'CURRENT_A': 0.3, 'FILE_DUMP': 0, 'HOR_DIV_MRAD': 2.0, 'LOG_CHOICE': 0, 'MACHINE_NAME': 'ALBA S-Bend', 'MACHINE_R_M': 25.0, 'NPOINTS': 1000, 'PHOT_ENERGY_MAX': 70000.0, 'PHOT_ENERGY_MIN': 500.0, 'PSI_MAX': 0.055, 'PSI_MIN': -0.055, 'PSI_MRAD_PLOT': 2.0, 'PSI_NPOINTS': 200, 'RB_CHOICE': 1, 'TYPE_CALC': 0, 'VER_DIV': 2, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x0b&gt;\x00\x00\x00}\x00\x00\x10e\x00\x00\x03{\x00\x00\x0b&gt;\x00\x00\x00\x9c\x00\x00\x10e\x00\x00\x03{\x00\x00\x00\x01\x00\x00\x00\x00\x07\x80\x00\x00\x0b&gt;\x00\x00\x00\x9c\x00\x00\x10e\x00\x00\x03{', 'view_type': 1, '__version__': 1}</properties>
+		<properties node_id="13" format="literal">{'CURRENT': 200.0, 'ENERGY': 6.0, 'FIELD': 0, 'FILE': 'XAS-mW_mag_field_oasys.csv', 'K': 22.591, 'NPERIODS': 10, 'NPOINTS': 500, 'NTRAJPOINTS': 101, 'PHOT_ENERGY_MAX': 200000.0, 'PHOT_ENERGY_MIN': 100.0, 'SHIFT_BETAX_FLAG': 0, 'SHIFT_BETAX_VALUE': 0.0, 'SHIFT_X_FLAG': 0, 'SHIFT_X_VALUE': 0.0, 'SLIT_CENTER_H_MM': 0.0, 'SLIT_CENTER_V_MM': 0.0, 'SLIT_D': 23.5, 'SLIT_FLAG': 1, 'SLIT_HEIGHT_V_MM': 4.2, 'SLIT_NY': 100, 'SLIT_POINTS_FACTOR': 1, 'SLIT_WIDTH_H_MM': 8.5, 'TRAJ_RESAMPLING_FACTOR': 10000.0, 'ULAMBDA': 0.15, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x0b\x94\x00\x00\x00|\x00\x00\x10I\x00\x00\x03z\x00\x00\x0b\x94\x00\x00\x00\x9b\x00\x00\x10I\x00\x00\x03z\x00\x00\x00\x01\x00\x00\x00\x00\x07\x80\x00\x00\x0b\x94\x00\x00\x00\x9b\x00\x00\x10I\x00\x00\x03z', 'view_type': 1, '__version__': 1}</properties>
+		<properties node_id="14" format="literal">{'CURRENT': 250.0, 'ENERGY': 2.4, 'FIELD': 1, 'FILE': 'Bz_BEATS.dat', 'K': 22.591, 'NPERIODS': 1, 'NPOINTS': 500, 'NTRAJPOINTS': 101, 'PHOT_ENERGY_MAX': 100100.0, 'PHOT_ENERGY_MIN': 100.0, 'SHIFT_BETAX_FLAG': 0, 'SHIFT_BETAX_VALUE': 0.0, 'SHIFT_X_FLAG': 0, 'SHIFT_X_VALUE': 0.0, 'SLIT_CENTER_H_MM': 0.0, 'SLIT_CENTER_V_MM': 0.0, 'SLIT_D': 23.5, 'SLIT_FLAG': 0, 'SLIT_HEIGHT_V_MM': 4.2, 'SLIT_NY': 100, 'SLIT_POINTS_FACTOR': 1, 'SLIT_WIDTH_H_MM': 8.5, 'TRAJ_RESAMPLING_FACTOR': 10000.0, 'ULAMBDA': 0.15, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x0b\xb1\x00\x00\x013\x00\x00\x10\xd8\x00\x00\x041\x00\x00\x0b\xb1\x00\x00\x01R\x00\x00\x10\xd8\x00\x00\x041\x00\x00\x00\x01\x00\x00\x00\x00\x07\x80\x00\x00\x0b\xb1\x00\x00\x01R\x00\x00\x10\xd8\x00\x00\x041', 'view_type': 1, '__version__': 1}</properties>
+		<properties node_id="15" format="pickle">gASVGQcAAAAAAAB9lCiMDGF1dG9fZXhlY3V0ZZSJjBJjb250cm9sQXJlYVZpc2libGWUiIwSY3Vy
+cmVudFNjcmlwdEluZGV4lEsAjAlmb250X3NpemWUSwaMEWxpYnJhcnlMaXN0U291cmNllF2UjCVv
+YXN5czIud2lkZ2V0cy50b29scy5vd19weXRob25fc2NyaXB0lIwGU2NyaXB0lJOUKYGUfZQojARu
+YW1llIweUGxvdF9mb3JfZGlmZmVyZW50X0tfdmFsdWVzLnB5lIwGc2NyaXB0lFiuBQAAZGVmIHVu
+ZF9mbHV4KGtfdmFsdWUpOiMKIyBzY3JpcHQgdG8gbWFrZSB0aGUgY2FsY3VsYXRpb25zIChjcmVh
+dGVkIGJ5IFhPUFBZOnVuZHVsYXRvcl9zcGVjdHJ1bSkKIwogICAgZnJvbSB4b3BweWxpYi5zb3Vy
+Y2VzLnhvcHB5X3VuZHVsYXRvcnMgaW1wb3J0IHhvcHB5X2NhbGNfdW5kdWxhdG9yX3NwZWN0cnVt
+CiAgICBlbmVyZ3ksIGZsdXgsIHNwZWN0cmFsX3Bvd2VyLCBjdW11bGF0ZWRfcG93ZXIgPSB4b3Bw
+eV9jYWxjX3VuZHVsYXRvcl9zcGVjdHJ1bSgKICAgICAgICBFTEVDVFJPTkVORVJHWT0yLjQsCiAg
+ICAgICAgRUxFQ1RST05FTkVSR1lTUFJFQUQ9MC4wMDA5MzQsCiAgICAgICAgRUxFQ1RST05DVVJS
+RU5UPTAuNCwKICAgICAgICBFTEVDVFJPTkJFQU1TSVpFSD00LjkzNTc4ZS0wNSwKICAgICAgICBF
+TEVDVFJPTkJFQU1TSVpFVj0zLjg5ODdlLTA2LAogICAgICAgIEVMRUNUUk9OQkVBTURJVkVSR0VO
+Q0VIPTUuMjY3NjQ5NmUtMDYsCiAgICAgICAgRUxFQ1RST05CRUFNRElWRVJHRU5DRVY9MS45NDkz
+NTllLTA2LAogICAgICAgIFBFUklPRElEPTAuMDIyLAogICAgICAgIE5QRVJJT0RTPTkwLAogICAg
+ICAgIEtWPWtfdmFsdWUsCiAgICAgICAgS0g9MC4wLAogICAgICAgIEtQSEFTRT0wLjAsCiAgICAg
+ICAgRElTVEFOQ0U9MzAuMCwKICAgICAgICBHQVBIPTAuMDA1LAogICAgICAgIEdBUFY9MC4wMDUs
+CiAgICAgICAgR0FQSF9DRU5URVI9MC4wLAogICAgICAgIEdBUFZfQ0VOVEVSPTAuMCwKICAgICAg
+ICBQSE9UT05FTkVSR1lNSU49MTAwLjAsCiAgICAgICAgUEhPVE9ORU5FUkdZTUFYPTgwMDAuMCwK
+ICAgICAgICBQSE9UT05FTkVSR1lQT0lOVFM9NTAwMCwKICAgICAgICBNRVRIT0Q9MiwKICAgICAg
+ICBVU0VFTUlUVEFOQ0VTPTEpCiAgICAKICAgIHJldHVybiBlbmVyZ3ksIGZsdXgKCmRlZiBzY2Fu
+X2soa19taW4sIGtfbWF4LCBrX3N0ZXBzKToKICAgIGltcG9ydCBtYXRwbG90bGliLnB5cGxvdCBh
+cyBwbHQKICAgIGltcG9ydCBudW1weSBhcyBucAogICAgCiAgICBrX3ZhbHVlcyA9IG5wLmxpbnNw
+YWNlKGtfbWluLCBrX21heCwga19zdGVwcykKICAgIAogICAgZm9yIGtfdmFsdWUgaW4ga192YWx1
+ZXM6CiAgICAgICAgCiAgICAgICAgZW5lcmd5LCBmbHV4ID0gdW5kX2ZsdXgoa192YWx1ZSkKICAg
+ICAgICBwbHQucGxvdChlbmVyZ3ksIGZsdXgsIGxhYmVsPWYnSyA9IHtyb3VuZChrX3ZhbHVlLDIp
+fScpCiAgICAgICAgCiAgICBwbHQueGxhYmVsKCdQaG90b24gZW5lcmd5IChlViknKQogICAgcGx0
+LnlsYWJlbCgnRmx1eCAocGgvcy8wLjElQlcpJykKICAgICNwbHQueXNjYWxlKCdsb2cnKQogICAg
+cGx0LnRpdGxlKCdVbmR1YWx0b3Igc3BlY3RydW0gZm9yIGRpZmZlcmVudCBLIHZhbHVlcycpCiAg
+ICBwbHQubGVnZW5kKCkKICAgIHBsdC5ncmlkKCkKICAgIHBsdC5zaG93KCkKCnNjYW5faygwLjEs
+IDIuMCwgMTApCiAgICAgICAgCiAgICCUjAVmbGFnc5RLAIwIZmlsZW5hbWWUTnViYYwTc2F2ZWRX
+aWRnZXRHZW9tZXRyeZRDQgHZ0MsAAwAAAAAMeQAAAMYAABE9AAAD9QAADHkAAADlAAARPQAAA/UA
+AAABAAAAAAeAAAAMeQAAAOUAABE9AAAD9ZSMDXNwbGl0dGVyU3RhdGWUTowLX192ZXJzaW9uX1+U
+SwF1Lg==
+</properties>
+		<properties node_id="16" format="literal">{'DISTANCE': 30.0, 'ELECTRONBEAMDIVERGENCEH': 5.2676496e-06, 'ELECTRONBEAMDIVERGENCEV': 1.949359e-06, 'ELECTRONBEAMSIZEH': 4.93578e-05, 'ELECTRONBEAMSIZEV': 3.8987e-06, 'ELECTRONCURRENT': 0.4, 'ELECTRONENERGY': 2.4, 'ELECTRONENERGYSPREAD': 0.000934, 'GAPH': 0.005, 'GAPH_CENTER': 0.0, 'GAPV': 0.005, 'GAPV_CENTER': 0.0, 'KH': 0.0, 'KPHASE': 0.0, 'KV': 2.6, 'METHOD': 2, 'NPERIODS': 90, 'PERIODID': 0.022, 'PHOTONENERGYMAX': 8000.0, 'PHOTONENERGYMIN': 100.0, 'PHOTONENERGYPOINTS': 5000, 'USEEMITTANCES': 1, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\n\xbc\x00\x00\x00x\x00\x00\x0f\xe3\x00\x00\x03v\x00\x00\n\xbc\x00\x00\x00\x97\x00\x00\x0f\xe3\x00\x00\x03v\x00\x00\x00\x01\x00\x00\x00\x00\x07\x80\x00\x00\n\xbc\x00\x00\x00\x97\x00\x00\x0f\xe3\x00\x00\x03v', 'view_type': 1, '__version__': 1}</properties>
+		<properties node_id="17" format="literal">{'BSL': 0, 'CURRENT': 400.0, 'DISTANCE': 30.0, 'EMAX': 2000.0, 'EMIN': 580.0, 'ENERGY': 2.4, 'ENERGY_SPREAD': 0.000934, 'HARMONIC_FROM': 1, 'HARMONIC_STEP': 2, 'HARMONIC_TO': 7, 'HELICAL': 0, 'HRED': 0, 'METHOD': 0, 'N': 50, 'NEKS': 100, 'NP': 90.0, 'PERIOD': 2.2, 'SIGX': 0.0301836, 'SIGX1': 0.00436821, 'SIGY': 0.00363641, 'SIGY1': 0.00137498, 'XPC': 0.0, 'XPS': 5.0, 'YPC': 0.0, 'YPS': 5.0, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x0b\xc6\x00\x00\x01\x10\x00\x00\x10\xed\x00\x00\x04\x0e\x00\x00\x0b\xc6\x00\x00\x01/\x00\x00\x10\xed\x00\x00\x04\x0e\x00\x00\x00\x01\x00\x00\x00\x00\x07\x80\x00\x00\x0b\xc6\x00\x00\x01/\x00\x00\x10\xed\x00\x00\x04\x0e', 'view_type': 1, '__version__': 1}</properties>
+		<properties node_id="18" format="literal">{'ITUBE': 1, 'VOLTAGE': 35.0, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x0b\x1b\x00\x00\x00@\x00\x00\x10B\x00\x00\x03&gt;\x00\x00\x0b\x1b\x00\x00\x00_\x00\x00\x10B\x00\x00\x03&gt;\x00\x00\x00\x01\x00\x00\x00\x00\x07\x80\x00\x00\x0b\x1b\x00\x00\x00_\x00\x00\x10B\x00\x00\x03&gt;', 'view_type': 1, '__version__': 1}</properties>
+		<properties node_id="19" format="literal">{'AL_FILTER': 0.0, 'RIPPLE': 0.0, 'VOLTAGE': 120.0, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\n\xd5\x00\x00\x00K\x00\x00\x0f\xfc\x00\x00\x03I\x00\x00\n\xd5\x00\x00\x00j\x00\x00\x0f\xfc\x00\x00\x03I\x00\x00\x00\x01\x00\x00\x00\x00\x07\x80\x00\x00\n\xd5\x00\x00\x00j\x00\x00\x0f\xfc\x00\x00\x03I', 'view_type': 1, '__version__': 1}</properties>
+		<properties node_id="20" format="literal">{'BEAM_ENERGY_GEV': 3.0, 'BFIELD_T': 1.42, 'CURRENT_A': 0.3, 'FILE_DUMP': 0, 'HOR_DIV_MRAD': 2.0, 'LOG_CHOICE': 0, 'MACHINE_NAME': 'ALBA S-Bend', 'MACHINE_R_M': 25.0, 'NPOINTS': 1000, 'PHOT_ENERGY_MAX': 70000.0, 'PHOT_ENERGY_MIN': 500.0, 'PSI_MAX': 0.055, 'PSI_MIN': -0.055, 'PSI_MRAD_PLOT': 2.0, 'PSI_NPOINTS': 200, 'RB_CHOICE': 1, 'TYPE_CALC': 3, 'VER_DIV': 2, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\n\xa8\x00\x00\x00\x8a\x00\x00\x0f\xcf\x00\x00\x03\x88\x00\x00\n\xa8\x00\x00\x00\xa9\x00\x00\x0f\xcf\x00\x00\x03\x88\x00\x00\x00\x01\x00\x00\x00\x00\x07\x80\x00\x00\n\xa8\x00\x00\x00\xa9\x00\x00\x0f\xcf\x00\x00\x03\x88', 'view_type': 1, '__version__': 1}</properties>
+		<properties node_id="21" format="literal">{'CONVOLUTION': 1, 'DISTANCE': 30.0, 'ELECTRONCURRENT': 0.25, 'ELECTRONENERGY': 2.4, 'FIELD': 1, 'FILE': 'Bz_BEATS.dat', 'H5_FILE_DUMP': 0, 'HSLITPOINTS': 500, 'KV': 22.416, 'NPERIODS': 37.0, 'NTRAJPOINTS': 1001, 'PASSEPARTOUT': 3.0, 'PERIODID': 0.12, 'PHOTONENERGYMAX': 100100.0, 'PHOTONENERGYMIN': 100.0, 'PHOTONENERGYPOINTS': 101, 'POLARIZATION': 0, 'SHIFT_BETAX_FLAG': 1, 'SHIFT_BETAX_VALUE': 0.0, 'SHIFT_X_FLAG': 0, 'SHIFT_X_VALUE': 0.0, 'VSLITPOINTS': 500, 'bm_divergence': 0.001, 'bm_magnetic_field': 1.001, 'bm_magnetic_radius': 10.0, 'controlAreaVisible': True, 'h5_entry_name': 'XOPPY_RADIATION', 'h5_file': 'wiggler_radiation.h5', 'h5_initialize': True, 'h5_parameters': None, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x0b\x87\x00\x00\x00\xb2\x00\x00\x10\xae\x00\x00\x03\xb0\x00\x00\x0b\x87\x00\x00\x00\xd1\x00\x00\x10\xae\x00\x00\x03\xb0\x00\x00\x00\x01\x00\x00\x00\x00\x07\x80\x00\x00\x0b\x87\x00\x00\x00\xd1\x00\x00\x10\xae\x00\x00\x03\xb0', 'view_type': 1, '__version__': 1}</properties>
+		<properties node_id="22" format="literal">{'CONVOLUTION': 1, 'DISTANCE': 30.0, 'ELECTRONCURRENT': 0.3, 'ELECTRONENERGY': 3.0, 'FIELD': 2, 'FILE': '', 'H5_FILE_DUMP': 0, 'HSLITPOINTS': 500, 'KV': 20.4911, 'NPERIODS': 6.0, 'NTRAJPOINTS': 1001, 'PASSEPARTOUT': 3.0, 'PERIODID': 0.15, 'PHOTONENERGYMAX': 100100.0, 'PHOTONENERGYMIN': 100.0, 'PHOTONENERGYPOINTS': 101, 'POLARIZATION': 0, 'SHIFT_BETAX_FLAG': 0, 'SHIFT_BETAX_VALUE': 0.0, 'SHIFT_X_FLAG': 0, 'SHIFT_X_VALUE': 0.0, 'VSLITPOINTS': 500, 'bm_divergence': 0.002, 'bm_magnetic_field': 1.42, 'bm_magnetic_radius': 7.047, 'controlAreaVisible': True, 'h5_entry_name': 'XOPPY_RADIATION', 'h5_file': 'wiggler_radiation.h5', 'h5_initialize': True, 'h5_parameters': None, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x035\x00\x00\x00\x9c\x00\x00\x08\\\x00\x00\x03\x9a\x00\x00\x035\x00\x00\x00\xbb\x00\x00\x08\\\x00\x00\x03\x9a\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x035\x00\x00\x00\xbb\x00\x00\x08\\\x00\x00\x03\x9a', 'view_type': 1, '__version__': 1}</properties>
+		<properties node_id="23" format="literal">{'CURRENT': 200.0, 'ENERGY': 6.0, 'FIELD': 1, 'FILE': 'SW_2PAcut.txt', 'K': 22.591, 'NPERIODS': 1, 'NPOINTS': 500, 'NTRAJPOINTS': 101, 'PHOT_ENERGY_MAX': 100000.0, 'PHOT_ENERGY_MIN': 1000.0, 'SHIFT_BETAX_FLAG': 0, 'SHIFT_BETAX_VALUE': 0.0, 'SHIFT_X_FLAG': 0, 'SHIFT_X_VALUE': 0.0, 'SLIT_CENTER_H_MM': 0.0, 'SLIT_CENTER_V_MM': 0.0, 'SLIT_D': 23.5, 'SLIT_FLAG': 1, 'SLIT_HEIGHT_V_MM': 4.2, 'SLIT_NY': 100, 'SLIT_POINTS_FACTOR': 2.0, 'SLIT_WIDTH_H_MM': 8.5, 'TRAJ_RESAMPLING_FACTOR': 10000.0, 'ULAMBDA': 0.15, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x0b`\x00\x00\x00r\x00\x00\x10\x87\x00\x00\x03p\x00\x00\x0b`\x00\x00\x00\x91\x00\x00\x10\x87\x00\x00\x03p\x00\x00\x00\x01\x00\x00\x00\x00\x07\x80\x00\x00\x0b`\x00\x00\x00\x91\x00\x00\x10\x87\x00\x00\x03p', 'view_type': 1, '__version__': 1}</properties>
+		<properties node_id="24" format="pickle">gASVJwYAAAAAAAB9lCiMDGF1dG9fZXhlY3V0ZZSJjBJjb250cm9sQXJlYVZpc2libGWUiIwSY3Vy
+cmVudFNjcmlwdEluZGV4lEsAjAlmb250X3NpemWUSwOMEWxpYnJhcnlMaXN0U291cmNllF2UjCVv
+YXN5czIud2lkZ2V0cy50b29scy5vd19weXRob25fc2NyaXB0lIwGU2NyaXB0lJOUKYGUfZQojARu
+YW1llIwQZ2V0X21hZ19maWxlcy5weZSMBnNjcmlwdJRYygQAAGltcG9ydCByZXF1ZXN0cwppbXBv
+cnQgb3MKCmRlZiBkb3dubG9hZF9maWxlKHVybCwgc2F2ZV9wYXRoKToKICAgICIiIgogICAgRG93
+bmxvYWQgQi1maWxlcwogICAgdXJsOiBGdWxsIHJhdyBHaXRIdWIgVVJMCiAgICBzYXZlX3BhdGg6
+IFBhdGggd2hlcmUgdG8gc2F2ZSB0aGUgZmlsZSAoaW5jbHVkaW5nIGZpbGVuYW1lKQogICAgIiIi
+CiAgICB0cnk6CiAgICAgICAgIyBEb3dubG9hZCBmaWxlIHdpdGggcmVzcG9uc2UgbGlicmFyeQog
+ICAgICAgIHJlc3BvbnNlID0gcmVxdWVzdHMuZ2V0KHVybCkKICAgICAgICByZXNwb25zZS5yYWlz
+ZV9mb3Jfc3RhdHVzKCkKICAgICAgICAKICAgICAgICAjIENyZWF0ZSBkaXJlY3RvcnkgaWYgbmVl
+ZGVkCiAgICAgICAgb3MubWFrZWRpcnMob3MucGF0aC5kaXJuYW1lKHNhdmVfcGF0aCksIGV4aXN0
+X29rPVRydWUpCiAgICAgICAgCiAgICAgICAgIyBXcml0ZSBjb250ZW50IG9uIGZpbGUKICAgICAg
+ICB3aXRoIG9wZW4oc2F2ZV9wYXRoLCAnd2InKSBhcyBmaWxlOgogICAgICAgICAgICBmaWxlLndy
+aXRlKHJlc3BvbnNlLmNvbnRlbnQpCiAgICAgICAgCiAgICAgICAgcHJpbnQoZiLinIXwn5K+IERv
+d25sb2FkZWQ6IHtzYXZlX3BhdGh9ICh7bGVuKHJlc3BvbnNlLmNvbnRlbnQpfSBieXRlcykiKQog
+ICAgICAgIHJldHVybiBUcnVlCiAgICAgICAgCiAgICBleGNlcHQgcmVxdWVzdHMuZXhjZXB0aW9u
+cy5SZXF1ZXN0RXhjZXB0aW9uIGFzIGU6CiAgICAgICAgcHJpbnQoZiLinYwgRmFpbGVkOiB7ZX0i
+KQogICAgICAgIHJldHVybiBGYWxzZQoKIyBEb3dubG9hZCBtYWduZXRpYyBmaWxlcwojIDMgUG9s
+ZSB3aWdnbGVyIGZyb20gQkVBVFMgRy4gSW9yaSBldCBhbC4gaHR0cHM6Ly9kb2kub3JnLzEwLjEx
+MDcvUzE2MDA1Nzc1MjQwMDUyNzcgCnJhd191cmxfYmVhdHMgPSAiaHR0cHM6Ly9yYXcuZ2l0aHVi
+dXNlcmNvbnRlbnQuY29tL29hc3lzLWtpdC9vYXN5c19zY2hvb2xfZW9zMjYvcmVmcy9oZWFkcy9t
+YWluL2p1YW4vQnpfQkVBVFMuZGF0Igpkb3dubG9hZF9maWxlKHJhd191cmxfYmVhdHMsICIuL0J6
+X0JFQVRTLmRhdCIpCgpyYXdfdXJsX2JlYXRzID0gImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250
+ZW50LmNvbS9vYXN5cy1raXQvb2FzeXNfc2Nob29sX2VvczI2L3JlZnMvaGVhZHMvbWFpbi9qdWFu
+L1NXXzJQQWN1dC50eHQiCmRvd25sb2FkX2ZpbGUocmF3X3VybF9iZWF0cywgIi4vU1dfMlBBY3V0
+LnR4dCIpCgoKlIwFZmxhZ3OUSwCMCGZpbGVuYW1llE51YmGME3NhdmVkV2lkZ2V0R2VvbWV0cnmU
+Q0IB2dDLAAMAAAAADIwAAABWAAARKgAAA/MAAAyMAAAAdQAAESoAAAPzAAAAAQAAAAAHgAAADIwA
+AAB1AAARKgAAA/OUjA1zcGxpdHRlclN0YXRllE6MC19fdmVyc2lvbl9flEsBdS4=
+</properties>
+		<properties node_id="25" format="literal">{'BEAM_ENERGY_GEV': 3.0, 'BFIELD_T': 1.42, 'CURRENT_A': 0.3, 'FILE_DUMP': 0, 'HOR_DIV_MRAD': 2.0, 'LOG_CHOICE': 0, 'MACHINE_NAME': 'ALBA S-Bend', 'MACHINE_R_M': 25.0, 'NPOINTS': 1000, 'PHOT_ENERGY_MAX': 70000.0, 'PHOT_ENERGY_MIN': 500.0, 'PSI_MAX': 0.055, 'PSI_MIN': -0.055, 'PSI_MRAD_PLOT': 2.0, 'PSI_NPOINTS': 200, 'RB_CHOICE': 1, 'TYPE_CALC': 1, 'VER_DIV': 2, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x0b&gt;\x00\x00\x00}\x00\x00\x10e\x00\x00\x03{\x00\x00\x0b&gt;\x00\x00\x00\x9c\x00\x00\x10e\x00\x00\x03{\x00\x00\x00\x01\x00\x00\x00\x00\x07\x80\x00\x00\x0b&gt;\x00\x00\x00\x9c\x00\x00\x10e\x00\x00\x03{', 'view_type': 1, '__version__': 1}</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>
