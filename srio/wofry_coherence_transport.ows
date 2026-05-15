@@ -1,0 +1,364 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="WOFRY (coherence transport)" description="WOFRY examples coherence and coherent mode decomposition" working_directory="\users\srio\Oasys">
+	<nodes>
+		<node id="0" name="Generic Wavefront 2D" qualified_name="orangecontrib.wofry.widgets.wavefront_propagation.ow_generic_wavefront_2D.OWGenericWavefront2D" project_name="OASYS2-WOFRY" version="" title="Generic Wavefront 2D (Convergent Wavefront)" position="(302.0, 606.0)" />
+		<node id="1" name="Slit" qualified_name="orangecontrib.wofry.widgets.beamline_elements.ow_slits.OWWOSlit" project_name="OASYS2-WOFRY" version="" title="Slit 400x400 um" position="(467.0, 616.0)" />
+		<node id="2" name="Generic Wavefront 1D" qualified_name="orangecontrib.wofry.widgets.wavefront_propagation.ow_generic_wavefront_1D.OWGenericWavefront1D" project_name="OASYS2-WOFRY" version="" title="Generic Wavefront 1D (Convergent Wavefront)" position="(304.0, 468.0)" />
+		<node id="3" name="Slit 1D" qualified_name="orangecontrib.wofry.widgets.beamline_elements.ow_slits_1d.OWWOSlit1D" project_name="OASYS2-WOFRY" version="" title="Slit 1D" position="(463.0, 468.0)" />
+		<node id="4" name="DoubleSlit" qualified_name="orangecontrib.wofry.widgets.beamline_elements.ow_double_slit.OWWODoubleSlit" project_name="OASYS2-WOFRY" version="" title="DoubleSlit" position="(468.0, 722.0)" />
+		<node id="5" name="Screen" qualified_name="orangecontrib.wofry.widgets.beamline_elements.ow_screen.OWWOScreen" project_name="OASYS2-WOFRY" version="" title="Screen" position="(622.0, 720.0)" />
+		<node id="6" name="Generic Wavefront 1D" qualified_name="orangecontrib.wofry.widgets.wavefront_propagation.ow_generic_wavefront_1D.OWGenericWavefront1D" project_name="OASYS2-WOFRY" version="" title="Generic Wavefront 1D (Plane Wavefront)" position="(217.0, 893.0)" />
+		<node id="7" name="Slit 1D" qualified_name="orangecontrib.wofry.widgets.beamline_elements.ow_slits_1d.OWWOSlit1D" project_name="OASYS2-WOFRY" version="" title="Slit 1D" position="(520.0, 892.0)" />
+		<node id="8" name="Ideal Lens 1D" qualified_name="orangecontrib.wofry.widgets.beamline_elements.ow_ideal_lens_1d.OWWOIdealLens1D" project_name="OASYS2-WOFRY" version="" title="Ideal Lens 1D" position="(384.0, 891.0)" />
+		<node id="9" name="Generic Wavefront 1D" qualified_name="orangecontrib.wofry.widgets.wavefront_propagation.ow_generic_wavefront_1D.OWGenericWavefront1D" project_name="OASYS2-WOFRY" version="" title="Generic Wavefront 1D (Spherical Divergent Wavefront)" position="(223.0, 1092.0)" />
+		<node id="10" name="Slit 1D" qualified_name="orangecontrib.wofry.widgets.beamline_elements.ow_slits_1d.OWWOSlit1D" project_name="OASYS2-WOFRY" version="" title="Slit 1D" position="(517.0, 1092.0)" />
+		<node id="11" name="Ideal Lens 1D" qualified_name="orangecontrib.wofry.widgets.beamline_elements.ow_ideal_lens_1d.OWWOIdealLens1D" project_name="OASYS2-WOFRY" version="" title="Ideal Lens 1D (F=D/2)" position="(391.0, 1094.0)" />
+		<node id="12" name="Generic Wavefront 1D" qualified_name="orangecontrib.wofry.widgets.wavefront_propagation.ow_generic_wavefront_1D.OWGenericWavefront1D" project_name="OASYS2-WOFRY" version="" title="Generic Wavefront 1D (Gaussian Wavefront) " position="(224.0, 1288.0)" />
+		<node id="13" name="Ideal Lens 1D" qualified_name="orangecontrib.wofry.widgets.beamline_elements.ow_ideal_lens_1d.OWWOIdealLens1D" project_name="OASYS2-WOFRY" version="" title="Ideal Lens 1D (1) (1)" position="(393.0, 1287.0)" />
+		<node id="14" name="Screen 1D" qualified_name="orangecontrib.wofry.widgets.beamline_elements.ow_screen_1d.OWWOScreen1D" project_name="OASYS2-WOFRY" version="" title="Screen 1D" position="(669.0, 1279.0)" />
+		<node id="15" name="Generic Wavefront 1D" qualified_name="orangecontrib.wofry.widgets.wavefront_propagation.ow_generic_wavefront_1D.OWGenericWavefront1D" project_name="OASYS2-WOFRY" version="" title="Generic Wavefront 1D (Convergent Wavefront)" position="(718.0, 449.0)" />
+		<node id="16" name="Slit 1D" qualified_name="orangecontrib.wofry.widgets.beamline_elements.ow_slits_1d.OWWOSlit1D" project_name="OASYS2-WOFRY" version="" title="Slit 1D" position="(860.0, 446.0)" />
+		<node id="17" name="Undulator Light Source" qualified_name="orangecontrib.syned.widgets.light_sources.ow_undulator_light_source.OWUndulatorLightSource" project_name="OASYS2-SYNED" version="" title="Undulator Light Source" position="(276.0, 1645.0)" />
+		<node id="18" name="Wavefronts 1D to 2D" qualified_name="orangecontrib.wofry.widgets.tools.ow_1D_to_2D.OW2Dto1D" project_name="OASYS2-WOFRY" version="" title="Wavefronts 1D to 2D" position="(680.0, 1654.0)" />
+		<node id="19" name="Slit 1D" qualified_name="orangecontrib.wofry.widgets.beamline_elements.ow_slits_1d.OWWOSlit1D" project_name="OASYS2-WOFRY" version="" title="Slit 1D" position="(810.0, 1582.0)" />
+		<node id="20" name="Slit 1D" qualified_name="orangecontrib.wofry.widgets.beamline_elements.ow_slits_1d.OWWOSlit1D" project_name="OASYS2-WOFRY" version="" title="Slit 1D" position="(817.0, 1740.0)" />
+		<node id="21" name="Wavefronts 1D to 2D" qualified_name="orangecontrib.wofry.widgets.tools.ow_1D_to_2D.OW2Dto1D" project_name="OASYS2-WOFRY" version="" title="Wavefronts 1D to 2D" position="(1099.0, 1669.0)" />
+		<node id="22" name="Screen 1D" qualified_name="orangecontrib.wofry.widgets.beamline_elements.ow_screen_1d.OWWOScreen1D" project_name="OASYS2-WOFRY" version="" title="Screen 1D" position="(957.0, 1588.0)" />
+		<node id="23" name="Screen 1D" qualified_name="orangecontrib.wofry.widgets.beamline_elements.ow_screen_1d.OWWOScreen1D" project_name="OASYS2-WOFRY" version="" title="Screen 1D" position="(961.0, 1744.0)" />
+		<node id="24" name="Slit" qualified_name="orangecontrib.wofry.widgets.beamline_elements.ow_slits.OWWOSlit" project_name="OASYS2-WOFRY" version="" title="Slit 40x40 um" position="(520.0, 158.0)" />
+		<node id="25" name="Generic Wavefront 2D" qualified_name="orangecontrib.wofry.widgets.wavefront_propagation.ow_generic_wavefront_2D.OWGenericWavefront2D" project_name="OASYS2-WOFRY" version="" title="Generic Wavefront 2D (plane wave)" position="(272.0, 158.0)" />
+		<node id="26" name="Screen" qualified_name="orangecontrib.wofry.widgets.beamline_elements.ow_screen.OWWOScreen" project_name="OASYS2-WOFRY" version="" title="Screen 1m" position="(667.0, 110.0)" />
+		<node id="27" name="Screen" qualified_name="orangecontrib.wofry.widgets.beamline_elements.ow_screen.OWWOScreen" project_name="OASYS2-WOFRY" version="" title="Screen 15m" position="(879.0, 209.0)" />
+		<node id="28" name="Screen 1D" qualified_name="orangecontrib.wofry.widgets.beamline_elements.ow_screen_1d.OWWOScreen1D" project_name="OASYS2-WOFRY" version="" title="Screen 1D" position="(575.0, 469.0)" />
+		<node id="29" name="Screen" qualified_name="orangecontrib.wofry.widgets.beamline_elements.ow_screen.OWWOScreen" project_name="OASYS2-WOFRY" version="" title="Screen" position="(614.0, 611.0)" />
+		<node id="30" name="Screen 1D" qualified_name="orangecontrib.wofry.widgets.beamline_elements.ow_screen_1d.OWWOScreen1D" project_name="OASYS2-WOFRY" version="" title="Screen 1D" position="(665.0, 892.0)" />
+		<node id="31" name="Screen 1D" qualified_name="orangecontrib.wofry.widgets.beamline_elements.ow_screen_1d.OWWOScreen1D" project_name="OASYS2-WOFRY" version="" title="Screen 1D" position="(664.0, 1092.0)" />
+		<node id="32" name="Undulator Coherent Mode Decomposition 1D" qualified_name="orangecontrib.wofry.widgets.wavefront_propagation.ow_undulator_coherent_mode_decomposition_1D.OWUndulatorCoherentModeDecomposition1D" project_name="OASYS2-WOFRY" version="" title="Undulator Coherent Mode Decomposition 1D" position="(540.0, 1579.0)" />
+		<node id="33" name="Diagonalize Python Script" qualified_name="orangecontrib.wofry.widgets.tools.ow_diagonalize_python_script.DiagonalizePythonScript" project_name="OASYS2-WOFRY" version="" title="Diagonalize Python Script" position="(1173.0, 1391.0)" />
+		<node id="34" name="Undulator Coherent Mode Decomposition 1D" qualified_name="orangecontrib.wofry.widgets.wavefront_propagation.ow_undulator_coherent_mode_decomposition_1D.OWUndulatorCoherentModeDecomposition1D" project_name="OASYS2-WOFRY" version="" title="Undulator Coherent Mode Decomposition 1D" position="(539.0, 1739.0)" />
+		<node id="35" name="Diagonalize Python Script" qualified_name="orangecontrib.wofry.widgets.tools.ow_diagonalize_python_script.DiagonalizePythonScript" project_name="OASYS2-WOFRY" version="" title="Diagonalize Python Script" position="(1192.0, 1907.0)" />
+		<node id="36" name="Python Script" qualified_name="oasys2.widgets.tools.ow_python_script.OWPythonScript" project_name="oasys2" version="" title="Python Script SLIT SCAN (slow)" position="(294.0, 1838.0)" />
+	</nodes>
+	<links>
+		<link id="0" source_node_id="2" sink_node_id="3" source_channel="Wofry Data" sink_channel="Wofry Data" enabled="true" source_channel_id="WofryData" sink_channel_id="wofry_data" />
+		<link id="1" source_node_id="0" sink_node_id="1" source_channel="Wofry Data" sink_channel="Wofry Data" enabled="true" source_channel_id="WofryData" sink_channel_id="wofry_data" />
+		<link id="2" source_node_id="0" sink_node_id="4" source_channel="Wofry Data" sink_channel="Wofry Data" enabled="true" source_channel_id="WofryData" sink_channel_id="wofry_data" />
+		<link id="3" source_node_id="4" sink_node_id="5" source_channel="Wofry Data" sink_channel="Wofry Data" enabled="true" source_channel_id="WofryData" sink_channel_id="wofry_data" />
+		<link id="4" source_node_id="6" sink_node_id="8" source_channel="Wofry Data" sink_channel="Wofry Data" enabled="true" source_channel_id="WofryData" sink_channel_id="wofry_data" />
+		<link id="5" source_node_id="8" sink_node_id="7" source_channel="Wofry Data" sink_channel="Wofry Data" enabled="true" source_channel_id="WofryData" sink_channel_id="wofry_data" />
+		<link id="6" source_node_id="9" sink_node_id="11" source_channel="Wofry Data" sink_channel="Wofry Data" enabled="true" source_channel_id="WofryData" sink_channel_id="wofry_data" />
+		<link id="7" source_node_id="11" sink_node_id="10" source_channel="Wofry Data" sink_channel="Wofry Data" enabled="true" source_channel_id="WofryData" sink_channel_id="wofry_data" />
+		<link id="8" source_node_id="12" sink_node_id="13" source_channel="Wofry Data" sink_channel="Wofry Data" enabled="true" source_channel_id="WofryData" sink_channel_id="wofry_data" />
+		<link id="9" source_node_id="13" sink_node_id="14" source_channel="Wofry Data" sink_channel="Wofry Data" enabled="true" source_channel_id="WofryData" sink_channel_id="wofry_data" />
+		<link id="10" source_node_id="15" sink_node_id="16" source_channel="Wofry Data" sink_channel="Wofry Data" enabled="true" source_channel_id="WofryData" sink_channel_id="wofry_data" />
+		<link id="11" source_node_id="19" sink_node_id="22" source_channel="Wofry Data" sink_channel="Wofry Data" enabled="true" source_channel_id="WofryData" sink_channel_id="wofry_data" />
+		<link id="12" source_node_id="20" sink_node_id="23" source_channel="Wofry Data" sink_channel="Wofry Data" enabled="true" source_channel_id="WofryData" sink_channel_id="wofry_data" />
+		<link id="13" source_node_id="22" sink_node_id="21" source_channel="Wofry Data" sink_channel="Horizontal Data" enabled="true" source_channel_id="WofryData" sink_channel_id="wofry_data_h" />
+		<link id="14" source_node_id="23" sink_node_id="21" source_channel="Wofry Data" sink_channel="Vertical Data" enabled="true" source_channel_id="WofryData" sink_channel_id="wofry_data_v" />
+		<link id="15" source_node_id="25" sink_node_id="24" source_channel="Wofry Data" sink_channel="Wofry Data" enabled="true" source_channel_id="WofryData" sink_channel_id="wofry_data" />
+		<link id="16" source_node_id="24" sink_node_id="26" source_channel="Wofry Data" sink_channel="Wofry Data" enabled="true" source_channel_id="WofryData" sink_channel_id="wofry_data" />
+		<link id="17" source_node_id="24" sink_node_id="27" source_channel="Wofry Data" sink_channel="Wofry Data" enabled="true" source_channel_id="WofryData" sink_channel_id="wofry_data" />
+		<link id="18" source_node_id="3" sink_node_id="28" source_channel="Wofry Data" sink_channel="Wofry Data" enabled="true" source_channel_id="WofryData" sink_channel_id="wofry_data" />
+		<link id="19" source_node_id="1" sink_node_id="29" source_channel="Wofry Data" sink_channel="Wofry Data" enabled="true" source_channel_id="WofryData" sink_channel_id="wofry_data" />
+		<link id="20" source_node_id="7" sink_node_id="30" source_channel="Wofry Data" sink_channel="Wofry Data" enabled="true" source_channel_id="WofryData" sink_channel_id="wofry_data" />
+		<link id="21" source_node_id="10" sink_node_id="31" source_channel="Wofry Data" sink_channel="Wofry Data" enabled="true" source_channel_id="WofryData" sink_channel_id="wofry_data" />
+		<link id="22" source_node_id="22" sink_node_id="33" source_channel="Wofry Data" sink_channel="Wofry Data" enabled="true" source_channel_id="WofryData" sink_channel_id="wofry_data" />
+		<link id="23" source_node_id="17" sink_node_id="32" source_channel="Syned Data" sink_channel="Syned Data" enabled="true" source_channel_id="SynedData" sink_channel_id="SynedData" />
+		<link id="24" source_node_id="32" sink_node_id="19" source_channel="Wofry Data" sink_channel="Wofry Data" enabled="true" source_channel_id="WofryData" sink_channel_id="wofry_data" />
+		<link id="25" source_node_id="17" sink_node_id="34" source_channel="Syned Data" sink_channel="Syned Data" enabled="true" source_channel_id="SynedData" sink_channel_id="SynedData" />
+		<link id="26" source_node_id="34" sink_node_id="20" source_channel="Wofry Data" sink_channel="Wofry Data" enabled="true" source_channel_id="WofryData" sink_channel_id="wofry_data" />
+		<link id="27" source_node_id="23" sink_node_id="35" source_channel="Wofry Data" sink_channel="Wofry Data" enabled="true" source_channel_id="WofryData" sink_channel_id="wofry_data" />
+		<link id="28" source_node_id="32" sink_node_id="18" source_channel="Wofry Data" sink_channel="Horizontal Data" enabled="true" source_channel_id="WofryData" sink_channel_id="wofry_data_h" />
+		<link id="29" source_node_id="34" sink_node_id="18" source_channel="Wofry Data" sink_channel="Vertical Data" enabled="true" source_channel_id="WofryData" sink_channel_id="wofry_data_v" />
+	</links>
+	<annotations>
+		<text id="0" type="text/plain" rect="(126.0, 326.0, 498.0, 50.0)" font-family="Helvetica" font-size="16">MODEL 2.1) Converging wavefront (collapsing spherical wave)</text>
+		<text id="1" type="text/plain" rect="(132.0, 812.0, 339.0, 50.0)" font-family="Helvetica" font-size="16">MODEL 2.2) Plane wavefront + Lens + Slit</text>
+		<text id="2" type="text/plain" rect="(129.0, 1016.0, 353.0, 60.0)" font-family="Helvetica" font-size="16">MODEL 2.3) Divergent wavefront + Lens + Slit</text>
+		<text id="3" type="text/plain" rect="(125.0, 1218.0, 406.0, 60.0)" font-family="Helvetica" font-size="16">MODEL 2.4) Gaussian wavefront + Lens (1:1 imaging)</text>
+		<text id="4" type="text/plain" rect="(692.0, 378.0, 197.0, 57.0)" font-family="Helvetica" font-size="16">Undersampled (replicas)</text>
+		<text id="5" type="text/plain" rect="(137.0, 44.0, 349.0, 50.0)" font-family="Helvetica" font-size="16">MODEL 1) Plane wave diffracted by a slit</text>
+		<text id="6" type="text/plain" rect="(119.0, 1479.0, 610.0, 88.0)" font-family="Helvetica" font-size="16">MODEL 3) Undulator U17. Partial coherence. Calculation of Coherent Fraction
+For the model description, see:  http://dx.doi.org/10.1107/S1600577522008736</text>
+	</annotations>
+	<thumbnail />
+	<node_properties>
+		<properties node_id="0" format="literal">{'amplitude': 1.0, 'complex_amplitude_im': 0.0, 'complex_amplitude_re': 1.0, 'controlAreaVisible': True, 'energy': 17225.0, 'gaussian_amplitude': 1.0, 'gaussian_beta_h': 1.0, 'gaussian_beta_v': 1.0, 'gaussian_mode_h': 0, 'gaussian_mode_v': 0, 'gaussian_sigma_h': 0.001, 'gaussian_sigma_v': 0.001, 'initialize_amplitude': 0, 'initialize_from': 0, 'is_automatic_execution': False, 'kind_of_wave': 1, 'number_of_points_h': 1000, 'number_of_points_v': 1000, 'phase': 0.0, 'radius': -0.05, 'range_from_h': -0.001, 'range_from_v': -0.001, 'range_to_h': 0.001, 'range_to_v': 0.001, 'savedWidgetGeometry': b"\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x7f\x00\x00\x00'\x00\x00\x05\xa8\x00\x00\x03\x07\x00\x00\x00\x80\x00\x00\x00F\x00\x00\x05\xa7\x00\x00\x03\x06\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x00\x80\x00\x00\x00F\x00\x00\x05\xa7\x00\x00\x03\x06", 'steps_start_h': -0.0005, 'steps_start_v': -0.0005, 'steps_step_h': 1e-06, 'steps_step_v': 1e-06, 'units': 0, 'view_type': 1, 'wavelength': 1e-10, '__version__': 1}</properties>
+		<properties node_id="1" format="literal">{'angle_azimuthal': 0.0, 'angle_radial': 0.0, 'calculate_grid_only': 1, 'controlAreaVisible': True, 'height': 0.0004, 'horizontal_shift': 0.0, 'is_automatic_execution': True, 'magnification_x': 0.0001, 'magnification_y': 0.0001, 'maj_ax': 0.0, 'min_ax': 0.0, 'oe_name': '', 'p': 0.0, 'propagator': 4, 'q': 0.0, 'radius': 0.0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x04\xbf\x00\x00\x00\xca\x00\x00\t\xe6\x00\x00\x03\x8a\x00\x00\x04\xbf\x00\x00\x00\xca\x00\x00\t\xe6\x00\x00\x03\x8a\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x04\xbf\x00\x00\x00\xca\x00\x00\t\xe6\x00\x00\x03\x8a', 'shape': 0, 'shift_half_pixel': 0, 'shuffle_interval': 0, 'surface_shape': 0, 'vertical_shift': 0.0, 'view_type': 1, 'width': 0.0004, '__version__': 1}</properties>
+		<properties node_id="2" format="literal">{'add_random_phase': 0, 'amplitude': 1.0, 'center': 0.0, 'complex_amplitude_im': 0.0, 'complex_amplitude_re': 1.0, 'controlAreaVisible': True, 'energy': 17225.0, 'gaussian_amplitude': 1.0, 'gaussian_beta': 1.0, 'gaussian_shift': 0.0, 'gaussian_sigma': 0.001, 'inclination': 0.0, 'initialize_amplitude': 0, 'initialize_from': 0, 'is_automatic_execution': False, 'kind_of_wave': 1, 'mode_index': 0, 'number_of_points': 4000, 'phase': 0.0, 'radius': -0.05, 'range_from': -0.001, 'range_to': 0.001, 'savedWidgetGeometry': b"\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x7f\x00\x00\x00'\x00\x00\x05\xa8\x00\x00\x03\x07\x00\x00\x00\x80\x00\x00\x00F\x00\x00\x05\xa7\x00\x00\x03\x06\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x00\x80\x00\x00\x00F\x00\x00\x05\xa7\x00\x00\x03\x06", 'steps_start': -0.0005, 'steps_step': 1e-06, 'units': 0, 'view_type': 1, 'wavelength': 1e-10, '__version__': 1}</properties>
+		<properties node_id="3" format="literal">{'angle_azimuthal': 0.0, 'angle_radial': 0.0, 'controlAreaVisible': True, 'height': 0.0004, 'is_automatic_execution': True, 'magnification_N': 1.0, 'magnification_x': 0.0001, 'oe_name': '', 'p': 0.0, 'propagator': 3, 'q': 0.0, 'savedWidgetGeometry': b"\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x7f\x00\x00\x00'\x00\x00\x05\xa8\x00\x00\x03\x07\x00\x00\x00\x80\x00\x00\x00F\x00\x00\x05\xa7\x00\x00\x03\x06\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x00\x80\x00\x00\x00F\x00\x00\x05\xa7\x00\x00\x03\x06", 'scaled_N': 100, 'scaled_R': 1000.0, 'scaled_Rmax': 100.0, 'scaled_guess_R': True, 'shape': 0, 'surface_shape': 0, 'vertical_shift': 0.0, 'view_type': 1, '__version__': 1}</properties>
+		<properties node_id="4" format="literal">{'angle_azimuthal': 0.0, 'angle_radial': 0.0, 'calculate_grid_only': 1, 'controlAreaVisible': True, 'height': 0.0001, 'height2': 0.0001, 'horizontal_shift': -0.0002, 'horizontal_shift2': 0.0001, 'is_automatic_execution': True, 'magnification_x': 0.0001, 'magnification_y': 0.0001, 'maj_ax': 0.0001, 'maj_ax2': 0.0001, 'min_ax': 0.001, 'min_ax2': 0.001, 'oe_name': '', 'p': 0.0, 'propagator': 4, 'q': 0.0, 'radius': 5e-05, 'radius2': 3e-05, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x80\x00\x00\x00F\x00\x00\x05\xa7\x00\x00\x03\x06\x00\x00\x00\x80\x00\x00\x00F\x00\x00\x05\xa7\x00\x00\x03\x06\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x00\x80\x00\x00\x00F\x00\x00\x05\xa7\x00\x00\x03\x06', 'shape': 1, 'shift_half_pixel': 1, 'shuffle_interval': 0, 'surface_shape': 0, 'vertical_shift': -0.0002, 'vertical_shift2': 0.0001, 'view_type': 1, 'width': 0.001, 'width2': 0.001, '__version__': 1}</properties>
+		<properties node_id="5" format="literal">{'angle_azimuthal': 0.0, 'angle_radial': 0.0, 'calculate_grid_only': 1, 'controlAreaVisible': True, 'height': 0.0, 'horizontal_shift': 0.0, 'is_automatic_execution': True, 'magnification_x': 0.0001, 'magnification_y': 0.0001, 'oe_name': '', 'p': 0.0, 'propagator': 4, 'q': 0.05, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\xa3\x00\x00\x00(\x00\x00\x05]\x00\x00\x03%\x00\x00\x00\xa3\x00\x00\x00F\x00\x00\x05]\x00\x00\x03%\x00\x00\x00\x00\x00\x00\x00\x00\x06\x00\x00\x00\x00\xa3\x00\x00\x00F\x00\x00\x05]\x00\x00\x03%', 'shape': 0, 'shift_half_pixel': 1, 'shuffle_interval': 0, 'surface_shape': 0, 'vertical_shift': 0.0, 'view_type': 1, 'width': 0.0, '__version__': 1}</properties>
+		<properties node_id="6" format="literal">{'add_random_phase': 0, 'amplitude': 1.0, 'center': 0.0, 'complex_amplitude_im': 0.0, 'complex_amplitude_re': 1.0, 'controlAreaVisible': True, 'energy': 17225.0, 'gaussian_amplitude': 1.0, 'gaussian_beta': 1.0, 'gaussian_shift': 0.0, 'gaussian_sigma': 0.001, 'inclination': 0.0, 'initialize_amplitude': 0, 'initialize_from': 0, 'is_automatic_execution': False, 'kind_of_wave': 0, 'mode_index': 0, 'number_of_points': 4096, 'phase': 0.0, 'radius': -0.05, 'range_from': -0.001, 'range_to': 0.001, 'savedWidgetGeometry': b"\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x7f\x00\x00\x00'\x00\x00\x05\xa8\x00\x00\x03\x07\x00\x00\x00\x80\x00\x00\x00F\x00\x00\x05\xa7\x00\x00\x03\x06\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x00\x80\x00\x00\x00F\x00\x00\x05\xa7\x00\x00\x03\x06", 'steps_start': -0.0005, 'steps_step': 1e-06, 'units': 0, 'view_type': 1, 'wavelength': 1e-10, '__version__': 1}</properties>
+		<properties node_id="7" format="literal">{'angle_azimuthal': 0.0, 'angle_radial': 0.0, 'controlAreaVisible': True, 'height': 0.0004, 'is_automatic_execution': True, 'magnification_N': 1.0, 'magnification_x': 0.0001, 'oe_name': '', 'p': 0.0, 'propagator': 3, 'q': 0.0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x04\x1e\x00\x00\x02q\x00\x00\tG\x00\x00\x05Q\x00\x00\x04\x1f\x00\x00\x02\x90\x00\x00\tF\x00\x00\x05P\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x04\x1f\x00\x00\x02\x90\x00\x00\tF\x00\x00\x05P', 'scaled_N': 100, 'scaled_R': 1000.0, 'scaled_Rmax': 100.0, 'scaled_guess_R': True, 'shape': 0, 'surface_shape': 0, 'vertical_shift': 0.0, 'view_type': 1, '__version__': 1}</properties>
+		<properties node_id="8" format="literal">{'angle_azimuthal': 0.0, 'angle_radial': 0.0, 'controlAreaVisible': True, 'focal_x': 0.05, 'is_automatic_execution': True, 'magnification_N': 1.0, 'magnification_x': 1.0, 'oe_name': '', 'p': 0.0, 'propagator': 4, 'q': 0.0, 'savedWidgetGeometry': b"\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x7f\x00\x00\x00'\x00\x00\x05\xa8\x00\x00\x03\x07\x00\x00\x00\x80\x00\x00\x00F\x00\x00\x05\xa7\x00\x00\x03\x06\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x00\x80\x00\x00\x00F\x00\x00\x05\xa7\x00\x00\x03\x06", 'scaled_N': 100, 'scaled_R': 1000.0, 'scaled_Rmax': 100.0, 'scaled_guess_R': True, 'shape': 0, 'surface_shape': 0, 'view_type': 1, '__version__': 1}</properties>
+		<properties node_id="9" format="literal">{'add_random_phase': 0, 'amplitude': 1.0, 'center': 0.0, 'complex_amplitude_im': 0.0, 'complex_amplitude_re': 1.0, 'controlAreaVisible': True, 'energy': 17225.0, 'gaussian_amplitude': 1.0, 'gaussian_beta': 1.0, 'gaussian_shift': 0.0, 'gaussian_sigma': 0.001, 'inclination': 0.0, 'initialize_amplitude': 0, 'initialize_from': 0, 'is_automatic_execution': False, 'kind_of_wave': 1, 'mode_index': 0, 'number_of_points': 4096, 'phase': 0.0, 'radius': 0.05, 'range_from': -0.001, 'range_to': 0.001, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x80\x00\x00\x00F\x00\x00\x05\xa7\x00\x00\x03\x06\x00\x00\x00\x80\x00\x00\x00F\x00\x00\x05\xa7\x00\x00\x03\x06\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x00\x80\x00\x00\x00F\x00\x00\x05\xa7\x00\x00\x03\x06', 'steps_start': -0.0005, 'steps_step': 1e-06, 'units': 0, 'view_type': 1, 'wavelength': 1e-10, '__version__': 1}</properties>
+		<properties node_id="10" format="literal">{'angle_azimuthal': 0.0, 'angle_radial': 0.0, 'controlAreaVisible': True, 'height': 0.0004, 'is_automatic_execution': True, 'magnification_N': 1.0, 'magnification_x': 0.0001, 'oe_name': '', 'p': 0.0, 'propagator': 3, 'q': 0.0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x80\x00\x00\x00F\x00\x00\x05\xa7\x00\x00\x03\x06\x00\x00\x00\x80\x00\x00\x00F\x00\x00\x05\xa7\x00\x00\x03\x06\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x00\x80\x00\x00\x00F\x00\x00\x05\xa7\x00\x00\x03\x06', 'scaled_N': 100, 'scaled_R': 1000.0, 'scaled_Rmax': 100.0, 'scaled_guess_R': True, 'shape': 0, 'surface_shape': 0, 'vertical_shift': 0.0, 'view_type': 1, '__version__': 1}</properties>
+		<properties node_id="11" format="literal">{'angle_azimuthal': 0.0, 'angle_radial': 0.0, 'controlAreaVisible': True, 'focal_x': 0.025, 'is_automatic_execution': True, 'magnification_N': 1.0, 'magnification_x': 1.0, 'oe_name': '', 'p': 0.0, 'propagator': 3, 'q': 0.0, 'savedWidgetGeometry': b"\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x7f\x00\x00\x00'\x00\x00\x05\xa8\x00\x00\x03\x07\x00\x00\x00\x80\x00\x00\x00F\x00\x00\x05\xa7\x00\x00\x03\x06\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x00\x80\x00\x00\x00F\x00\x00\x05\xa7\x00\x00\x03\x06", 'scaled_N': 100, 'scaled_R': 1000.0, 'scaled_Rmax': 100.0, 'scaled_guess_R': True, 'shape': 0, 'surface_shape': 0, 'view_type': 1, '__version__': 1}</properties>
+		<properties node_id="12" format="literal">{'add_random_phase': 0, 'amplitude': 1.0, 'center': 0.0, 'complex_amplitude_im': 0.0, 'complex_amplitude_re': 1.0, 'controlAreaVisible': True, 'energy': 17225.0, 'gaussian_amplitude': 1.0, 'gaussian_beta': 1.0, 'gaussian_shift': 0.0, 'gaussian_sigma': 1e-08, 'inclination': 0.0, 'initialize_amplitude': 0, 'initialize_from': 0, 'is_automatic_execution': False, 'kind_of_wave': 2, 'mode_index': 0, 'number_of_points': 4096, 'phase': 0.0, 'radius': 0.05, 'range_from': -1e-07, 'range_to': 1e-07, 'savedWidgetGeometry': b"\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x7f\x00\x00\x00'\x00\x00\x05\xa8\x00\x00\x03\x07\x00\x00\x00\x80\x00\x00\x00F\x00\x00\x05\xa7\x00\x00\x03\x06\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x00\x80\x00\x00\x00F\x00\x00\x05\xa7\x00\x00\x03\x06", 'steps_start': -0.0005, 'steps_step': 1e-06, 'units': 0, 'view_type': 1, 'wavelength': 1e-10, '__version__': 1}</properties>
+		<properties node_id="13" format="literal">{'angle_azimuthal': 0.0, 'angle_radial': 0.0, 'controlAreaVisible': True, 'focal_x': 0.025, 'is_automatic_execution': True, 'magnification_N': 1.0, 'magnification_x': 5000.0, 'oe_name': '', 'p': 0.05, 'propagator': 3, 'q': 0.0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\xf2\x00\x00\x00\xbf\x00\x00\x06\x19\x00\x00\x03\x7f\x00\x00\x00\xf2\x00\x00\x00\xbf\x00\x00\x06\x19\x00\x00\x03\x7f\x00\x00\x00\x00\x00\x00\x00\x00\x06\x90\x00\x00\x00\xf2\x00\x00\x00\xbf\x00\x00\x06\x19\x00\x00\x03\x7f', 'scaled_N': 100, 'scaled_R': 1000.0, 'scaled_Rmax': 100.0, 'scaled_guess_R': True, 'shape': 0, 'surface_shape': 0, 'view_type': 1, '__version__': 1}</properties>
+		<properties node_id="14" format="literal">{'angle_azimuthal': 0.0, 'angle_radial': 0.0, 'controlAreaVisible': True, 'is_automatic_execution': True, 'magnification_N': 1.0, 'magnification_x': 0.0003, 'oe_name': '', 'p': 0.0, 'propagator': 3, 'q': 0.05, 'savedWidgetGeometry': b"\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x80\x00\x00\x00'\x00\x00\x05\xa7\x00\x00\x03%\x00\x00\x00\x80\x00\x00\x00F\x00\x00\x05\xa7\x00\x00\x03%\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x00\x80\x00\x00\x00F\x00\x00\x05\xa7\x00\x00\x03%", 'scaled_N': 100, 'scaled_R': 1000.0, 'scaled_Rmax': 100.0, 'scaled_guess_R': True, 'shape': 0, 'surface_shape': 0, 'view_type': 1, '__version__': 1}</properties>
+		<properties node_id="15" format="literal">{'add_random_phase': 0, 'amplitude': 1.0, 'center': 0.0, 'complex_amplitude_im': 0.0, 'complex_amplitude_re': 1.0, 'controlAreaVisible': True, 'energy': 17225.0, 'gaussian_amplitude': 1.0, 'gaussian_beta': 1.0, 'gaussian_shift': 0.0, 'gaussian_sigma': 0.001, 'inclination': 0.0, 'initialize_amplitude': 0, 'initialize_from': 0, 'is_automatic_execution': False, 'kind_of_wave': 1, 'mode_index': 0, 'number_of_points': 500, 'phase': 0.0, 'radius': -0.05, 'range_from': -0.001, 'range_to': 0.001, 'savedWidgetGeometry': b"\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x7f\x00\x00\x00'\x00\x00\x05\xa8\x00\x00\x03\x07\x00\x00\x00\x80\x00\x00\x00F\x00\x00\x05\xa7\x00\x00\x03\x06\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x00\x80\x00\x00\x00F\x00\x00\x05\xa7\x00\x00\x03\x06", 'steps_start': -0.0005, 'steps_step': 1e-06, 'units': 0, 'view_type': 1, 'wavelength': 1e-10, '__version__': 1}</properties>
+		<properties node_id="16" format="literal">{'angle_azimuthal': 0.0, 'angle_radial': 0.0, 'controlAreaVisible': True, 'height': 0.0004, 'is_automatic_execution': True, 'magnification_N': 1.0, 'magnification_x': 0.001, 'oe_name': '', 'p': 0.0, 'propagator': 3, 'q': 0.05, 'savedWidgetGeometry': b"\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x80\x00\x00\x00'\x00\x00\x05\xa7\x00\x00\x03%\x00\x00\x00\x80\x00\x00\x00F\x00\x00\x05\xa7\x00\x00\x03%\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x00\x80\x00\x00\x00F\x00\x00\x05\xa7\x00\x00\x03%", 'scaled_N': 100, 'scaled_R': 1000.0, 'scaled_Rmax': 100.0, 'scaled_guess_R': True, 'shape': 0, 'surface_shape': 0, 'vertical_shift': 0.0, 'view_type': 1, '__version__': 1}</properties>
+		<properties node_id="17" format="literal">{'K_horizontal': 0.0, 'K_vertical': 0.83, 'auto_energy': 0.0, 'auto_harmonic_number': 1, 'controlAreaVisible': True, 'electron_beam_alpha_h': 0.0, 'electron_beam_alpha_v': 0.0, 'electron_beam_beta_h': 6.909833, 'electron_beam_beta_v': 2.6447, 'electron_beam_divergence_h': 4.3682e-06, 'electron_beam_divergence_v': 1.375e-06, 'electron_beam_emittance_h': 1.318483e-10, 'electron_beam_emittance_v': 5e-12, 'electron_beam_eta_h': 0.0, 'electron_beam_eta_v': 0.0, 'electron_beam_etap_h': 0.0, 'electron_beam_etap_v': 0.0, 'electron_beam_size_h': 3.01836e-05, 'electron_beam_size_v': 3.6364e-06, 'electron_energy_in_GeV': 6.0, 'electron_energy_spread': 0.00093339, 'file_action': 0, 'moment_xpxp': 1.90813e-11, 'moment_xx': 9.110497e-10, 'moment_xxp': 0.0, 'moment_ypyp': 1.8906e-12, 'moment_yy': 1.32235e-11, 'moment_yyp': 0.0, 'number_of_bunches': 1, 'number_of_periods': 117, 'period_length': 0.017, 'ring_current': 0.2, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x7f\x00\x00\x00\x10\x00\x00\x02L\x00\x00\x03\x00\x00\x00\x00\x80\x00\x00\x00D\x00\x00\x02K\x00\x00\x02\xff\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x00\x80\x00\x00\x00D\x00\x00\x02K\x00\x00\x02\xff', 'source_name': 'ESRF_ID09_EBS_PPI17_1', 'syned_file_name': 'http://ftp.esrf.fr/pub/scisoft/syned/lightsources/ESRF_ID09_EBS_PPI17_1.json', 'type_of_properties': 1, '__version__': 1}</properties>
+		<properties node_id="18" format="literal">{'controlAreaVisible': True, 'is_automatic_execution': True, 'normalize_to': 0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x80\x00\x00\x00%\x00\x00\x05\xa7\x00\x00\x03#\x00\x00\x00\x80\x00\x00\x00D\x00\x00\x05\xa7\x00\x00\x03#\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x00\x80\x00\x00\x00D\x00\x00\x05\xa7\x00\x00\x03#', 'view_type': 1, '__version__': 1}</properties>
+		<properties node_id="19" format="literal">{'angle_azimuthal': 0.0, 'angle_radial': 0.0, 'controlAreaVisible': True, 'height': 5e-05, 'is_automatic_execution': True, 'magnification_N': 1.0, 'magnification_x': 1.5, 'oe_name': '', 'p': 20.0, 'propagator': 4, 'q': 0.0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00`\x00\x00\x00\x1b\x00\x00\x05\x87\x00\x00\x03\x00\x00\x00\x00`\x00\x00\x00@\x00\x00\x05\x87\x00\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x00`\x00\x00\x00@\x00\x00\x05\x87\x00\x00\x03\x00', 'scaled_N': 100, 'scaled_R': 1000.0, 'scaled_Rmax': 100.0, 'scaled_guess_R': True, 'shape': 0, 'surface_shape': 0, 'vertical_shift': 0.0, 'view_type': 1, '__version__': 1}</properties>
+		<properties node_id="20" format="literal">{'angle_azimuthal': 0.0, 'angle_radial': 0.0, 'controlAreaVisible': True, 'height': 5e-05, 'is_automatic_execution': True, 'magnification_N': 1.0, 'magnification_x': 7.0, 'oe_name': '', 'p': 20.0, 'propagator': 4, 'q': 0.0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00`\x00\x00\x00\x1b\x00\x00\x05\x87\x00\x00\x03\x00\x00\x00\x00`\x00\x00\x00@\x00\x00\x05\x87\x00\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x00`\x00\x00\x00@\x00\x00\x05\x87\x00\x00\x03\x00', 'scaled_N': 100, 'scaled_R': 1000.0, 'scaled_Rmax': 100.0, 'scaled_guess_R': True, 'shape': 0, 'surface_shape': 0, 'vertical_shift': 0.0, 'view_type': 1, '__version__': 1}</properties>
+		<properties node_id="21" format="literal">{'controlAreaVisible': True, 'is_automatic_execution': True, 'normalize_to': 0, 'savedWidgetGeometry': b"\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x80\x00\x00\x00'\x00\x00\x05\xa7\x00\x00\x03%\x00\x00\x00\x80\x00\x00\x00F\x00\x00\x05\xa7\x00\x00\x03%\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x00\x80\x00\x00\x00F\x00\x00\x05\xa7\x00\x00\x03%", 'view_type': 1, '__version__': 1}</properties>
+		<properties node_id="22" format="literal">{'angle_azimuthal': 0.0, 'angle_radial': 0.0, 'controlAreaVisible': True, 'is_automatic_execution': True, 'magnification_N': 1.0, 'magnification_x': 0.5, 'oe_name': '', 'p': 1.0, 'propagator': 4, 'q': 0.0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x7f\x00\x00\x00\x10\x00\x00\x05\xa8\x00\x00\x03\x05\x00\x00\x00\x80\x00\x00\x00D\x00\x00\x05\xa7\x00\x00\x03\x04\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x00\x80\x00\x00\x00D\x00\x00\x05\xa7\x00\x00\x03\x04', 'scaled_N': 100, 'scaled_R': 1000.0, 'scaled_Rmax': 100.0, 'scaled_guess_R': True, 'shape': 0, 'surface_shape': 0, 'view_type': 1, '__version__': 1}</properties>
+		<properties node_id="23" format="literal">{'angle_azimuthal': 0.0, 'angle_radial': 0.0, 'controlAreaVisible': True, 'is_automatic_execution': True, 'magnification_N': 1.0, 'magnification_x': 0.5, 'oe_name': '', 'p': 1.0, 'propagator': 4, 'q': 0.0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x7f\x00\x00\x00\x10\x00\x00\x05\xa8\x00\x00\x03\x05\x00\x00\x00\x80\x00\x00\x00D\x00\x00\x05\xa7\x00\x00\x03\x04\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x00\x80\x00\x00\x00D\x00\x00\x05\xa7\x00\x00\x03\x04', 'scaled_N': 100, 'scaled_R': 1000.0, 'scaled_Rmax': 100.0, 'scaled_guess_R': True, 'shape': 0, 'surface_shape': 0, 'view_type': 1, '__version__': 1}</properties>
+		<properties node_id="24" format="literal">{'angle_azimuthal': 0.0, 'angle_radial': 0.0, 'calculate_grid_only': 1, 'controlAreaVisible': True, 'height': 4e-05, 'horizontal_shift': 0.0, 'is_automatic_execution': True, 'magnification_x': 0.0001, 'magnification_y': 0.0001, 'maj_ax': 0.0, 'min_ax': 0.0, 'oe_name': '', 'p': 0.0, 'propagator': 4, 'q': 0.0, 'radius': 0.0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00d\x00\x00\x00\xe7\x00\x00\x05\x8d\x00\x00\x03\xc7\x00\x00\x00e\x00\x00\x01\x06\x00\x00\x05\x8c\x00\x00\x03\xc6\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x00e\x00\x00\x01\x06\x00\x00\x05\x8c\x00\x00\x03\xc6', 'shape': 0, 'shift_half_pixel': 0, 'shuffle_interval': 0, 'surface_shape': 0, 'vertical_shift': 0.0, 'view_type': 1, 'width': 4e-05, '__version__': 1}</properties>
+		<properties node_id="25" format="literal">{'amplitude': 1.0, 'complex_amplitude_im': 0.0, 'complex_amplitude_re': 1.0, 'controlAreaVisible': True, 'energy': 17225.0, 'gaussian_amplitude': 1.0, 'gaussian_beta_h': 1.0, 'gaussian_beta_v': 1.0, 'gaussian_mode_h': 0, 'gaussian_mode_v': 0, 'gaussian_sigma_h': 0.001, 'gaussian_sigma_v': 0.001, 'initialize_amplitude': 0, 'initialize_from': 0, 'is_automatic_execution': False, 'kind_of_wave': 0, 'number_of_points_h': 2000, 'number_of_points_v': 2000, 'phase': 0.0, 'radius': -0.05, 'range_from_h': -5e-05, 'range_from_v': -5e-05, 'range_to_h': 5e-05, 'range_to_v': 5e-05, 'savedWidgetGeometry': b"\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x7f\x00\x00\x00'\x00\x00\x05\xa8\x00\x00\x03\x07\x00\x00\x00\x80\x00\x00\x00F\x00\x00\x05\xa7\x00\x00\x03\x06\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x00\x80\x00\x00\x00F\x00\x00\x05\xa7\x00\x00\x03\x06", 'steps_start_h': -0.0005, 'steps_start_v': -0.0005, 'steps_step_h': 1e-06, 'steps_step_v': 1e-06, 'units': 0, 'view_type': 1, 'wavelength': 1e-10, '__version__': 1}</properties>
+		<properties node_id="26" format="literal">{'angle_azimuthal': 0.0, 'angle_radial': 0.0, 'calculate_grid_only': 1, 'controlAreaVisible': True, 'height': 0.0, 'horizontal_shift': 0.0, 'is_automatic_execution': True, 'magnification_x': 1.0, 'magnification_y': 1.0, 'oe_name': '', 'p': 0.0, 'propagator': 4, 'q': 1.0, 'savedWidgetGeometry': b"\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x80\x00\x00\x00'\x00\x00\x05\xa7\x00\x00\x03%\x00\x00\x00\x80\x00\x00\x00F\x00\x00\x05\xa7\x00\x00\x03%\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x00\x80\x00\x00\x00F\x00\x00\x05\xa7\x00\x00\x03%", 'shape': 0, 'shift_half_pixel': 1, 'shuffle_interval': 0, 'surface_shape': 0, 'vertical_shift': 0.0, 'view_type': 1, 'width': 0.0, '__version__': 1}</properties>
+		<properties node_id="27" format="literal">{'angle_azimuthal': 0.0, 'angle_radial': 0.0, 'calculate_grid_only': 1, 'controlAreaVisible': True, 'height': 0.0, 'horizontal_shift': 0.0, 'is_automatic_execution': True, 'magnification_x': 3.0, 'magnification_y': 3.0, 'oe_name': '', 'p': 0.0, 'propagator': 4, 'q': 15.0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\xa3\x00\x00\x00(\x00\x00\x05]\x00\x00\x03%\x00\x00\x00\xa3\x00\x00\x00F\x00\x00\x05]\x00\x00\x03%\x00\x00\x00\x00\x00\x00\x00\x00\x06\x00\x00\x00\x00\xa3\x00\x00\x00F\x00\x00\x05]\x00\x00\x03%', 'shape': 0, 'shift_half_pixel': 1, 'shuffle_interval': 0, 'surface_shape': 0, 'vertical_shift': 0.0, 'view_type': 1, 'width': 0.0, '__version__': 1}</properties>
+		<properties node_id="28" format="literal">{'angle_azimuthal': 0.0, 'angle_radial': 0.0, 'controlAreaVisible': True, 'is_automatic_execution': True, 'magnification_N': 1.0, 'magnification_x': 0.0001, 'oe_name': '', 'p': 0.05, 'propagator': 3, 'q': 0.0, 'savedWidgetGeometry': b"\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x80\x00\x00\x00'\x00\x00\x05\xa7\x00\x00\x03%\x00\x00\x00\x80\x00\x00\x00F\x00\x00\x05\xa7\x00\x00\x03%\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x00\x80\x00\x00\x00F\x00\x00\x05\xa7\x00\x00\x03%", 'scaled_N': 100, 'scaled_R': 1000.0, 'scaled_Rmax': 100.0, 'scaled_guess_R': True, 'shape': 0, 'surface_shape': 0, 'view_type': 1, '__version__': 1}</properties>
+		<properties node_id="29" format="literal">{'angle_azimuthal': 0.0, 'angle_radial': 0.0, 'calculate_grid_only': 1, 'controlAreaVisible': True, 'height': 0.0, 'horizontal_shift': 0.0, 'is_automatic_execution': True, 'magnification_x': 0.0001, 'magnification_y': 0.0001, 'oe_name': '', 'p': 0.0, 'propagator': 4, 'q': 0.05, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\xa3\x00\x00\x00(\x00\x00\x05]\x00\x00\x03%\x00\x00\x00\xa3\x00\x00\x00F\x00\x00\x05]\x00\x00\x03%\x00\x00\x00\x00\x00\x00\x00\x00\x06\x00\x00\x00\x00\xa3\x00\x00\x00F\x00\x00\x05]\x00\x00\x03%', 'shape': 0, 'shift_half_pixel': 1, 'shuffle_interval': 0, 'surface_shape': 0, 'vertical_shift': 0.0, 'view_type': 1, 'width': 0.0, '__version__': 1}</properties>
+		<properties node_id="30" format="literal">{'angle_azimuthal': 0.0, 'angle_radial': 0.0, 'controlAreaVisible': True, 'is_automatic_execution': True, 'magnification_N': 1.0, 'magnification_x': 0.0001, 'oe_name': '', 'p': 0.05, 'propagator': 3, 'q': 0.0, 'savedWidgetGeometry': b"\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x80\x00\x00\x00'\x00\x00\x05\xa7\x00\x00\x03%\x00\x00\x00\x80\x00\x00\x00F\x00\x00\x05\xa7\x00\x00\x03%\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x00\x80\x00\x00\x00F\x00\x00\x05\xa7\x00\x00\x03%", 'scaled_N': 100, 'scaled_R': 1000.0, 'scaled_Rmax': 100.0, 'scaled_guess_R': True, 'shape': 0, 'surface_shape': 0, 'view_type': 1, '__version__': 1}</properties>
+		<properties node_id="31" format="literal">{'angle_azimuthal': 0.0, 'angle_radial': 0.0, 'controlAreaVisible': True, 'is_automatic_execution': True, 'magnification_N': 1.0, 'magnification_x': 0.0001, 'oe_name': '', 'p': 0.05, 'propagator': 3, 'q': 0.0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02m\x00\x00\x01Z\x00\x00\x07\x94\x00\x00\x04X\x00\x00\x02m\x00\x00\x01y\x00\x00\x07\x94\x00\x00\x04X\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x02m\x00\x00\x01y\x00\x00\x07\x94\x00\x00\x04X', 'scaled_N': 100, 'scaled_R': 1000.0, 'scaled_Rmax': 100.0, 'scaled_guess_R': True, 'shape': 0, 'surface_shape': 0, 'view_type': 1, '__version__': 1}</properties>
+		<properties node_id="32" format="literal">{'K_vertical': 0.83, 'controlAreaVisible': True, 'correction_factor': 1.0, 'distance_to_screen': 100, 'e_energy_dispersion_flag': 0, 'e_energy_dispersion_interval_in_sigma_units': 6.0, 'e_energy_dispersion_points': 11, 'e_energy_dispersion_sigma_relative': 0.001, 'electron_energy_in_GeV': 6.0, 'flag_gsm': 0, 'initialize_from': 0, 'is_automatic_execution': False, 'magnification_x_backward': 0.01, 'magnification_x_forward': 100, 'mode_index': 0, 'number_of_periods': 117.0, 'number_of_points': 400, 'period_length': 0.017, 'photon_energy': 14957.715, 'range_from': -0.0001, 'range_to': 0.0001, 'ring_current': 0.2, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x08B\x00\x00\x00R\x00\x00\ri\x00\x00\x037\x00\x00\x08B\x00\x00\x00w\x00\x00\ri\x00\x00\x037\x00\x00\x00\x01\x00\x00\x00\x00\x07\x80\x00\x00\x08B\x00\x00\x00w\x00\x00\ri\x00\x00\x037', 'scan_direction_flag': 0, 'sigma_divergence_h': 4.36821e-06, 'sigma_divergence_v': 1.37498e-06, 'sigma_h': 3.01836e-05, 'sigma_v': 3.63641e-06, 'spectral_density_threshold': 0.99, 'steps_start': -5e-05, 'steps_step': 1e-07, 'view_type': 1, '__version__': 1}</properties>
+		<properties node_id="33" format="literal">{'controlAreaVisible': True, 'data_file_flag': 0, 'graph_file_flag': 0, 'is_automatic_run': True, 'mode_index_max': 10, 'root_file_name': 'tmp', 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x045\x00\x00\x01\xa7\x00\x00\t\\\x00\x00\x04\xa5\x00\x00\x045\x00\x00\x01\xc6\x00\x00\t\\\x00\x00\x04\xa5\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x045\x00\x00\x01\xc6\x00\x00\t\\\x00\x00\x04\xa5', 'script_file_flag': 0, 'script_file_name': 'tmp.py', 'show_graph_flag': 1, '__version__': 1}</properties>
+		<properties node_id="34" format="literal">{'K_vertical': 0.83, 'controlAreaVisible': True, 'correction_factor': 1.0, 'distance_to_screen': 100, 'e_energy_dispersion_flag': 0, 'e_energy_dispersion_interval_in_sigma_units': 6.0, 'e_energy_dispersion_points': 11, 'e_energy_dispersion_sigma_relative': 0.001, 'electron_energy_in_GeV': 6.0, 'flag_gsm': 0, 'initialize_from': 0, 'is_automatic_execution': False, 'magnification_x_backward': 0.01, 'magnification_x_forward': 100, 'mode_index': 0, 'number_of_periods': 117.0, 'number_of_points': 400, 'period_length': 0.017, 'photon_energy': 14957.715, 'range_from': -2.5e-05, 'range_to': 2.5e-05, 'ring_current': 0.2, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00`\x00\x00\x00\x1b\x00\x00\x05\x87\x00\x00\x03\x00\x00\x00\x00`\x00\x00\x00@\x00\x00\x05\x87\x00\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x00`\x00\x00\x00@\x00\x00\x05\x87\x00\x00\x03\x00', 'scan_direction_flag': 1, 'sigma_divergence_h': 4.36821e-06, 'sigma_divergence_v': 1.37498e-06, 'sigma_h': 3.01836e-05, 'sigma_v': 3.63641e-06, 'spectral_density_threshold': 0.99, 'steps_start': -5e-05, 'steps_step': 1e-07, 'view_type': 1, '__version__': 1}</properties>
+		<properties node_id="35" format="literal">{'controlAreaVisible': True, 'data_file_flag': 0, 'graph_file_flag': 0, 'is_automatic_run': True, 'mode_index_max': 10, 'root_file_name': 'tmp', 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x80\x00\x00\x00%\x00\x00\x05\xa7\x00\x00\x03#\x00\x00\x00\x80\x00\x00\x00D\x00\x00\x05\xa7\x00\x00\x03#\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x00\x80\x00\x00\x00D\x00\x00\x05\xa7\x00\x00\x03#', 'script_file_flag': 0, 'script_file_name': 'tmp.py', 'show_graph_flag': 1, '__version__': 1}</properties>
+		<properties node_id="36" format="pickle">gASVmDQAAAAAAAB9lCiMDGF1dG9fZXhlY3V0ZZSJjBJjb250cm9sQXJlYVZpc2libGWUiIwSY3Vy
+cmVudFNjcmlwdEluZGV4lEsAjAlmb250X3NpemWUSwSMEWxpYnJhcnlMaXN0U291cmNllF2UjCVv
+YXN5czIud2lkZ2V0cy50b29scy5vd19weXRob25fc2NyaXB0lIwGU2NyaXB0lJOUKYGUfZQojARu
+YW1llIwJc2NhbiBzbGl0lIwGc2NyaXB0lFhCMwAAIwojIEltcG9ydCBzZWN0aW9uCiMKaW1wb3J0
+IG51bXB5Cgpmcm9tIHN5bmVkLmJlYW1saW5lLmJlYW1saW5lX2VsZW1lbnQgaW1wb3J0IEJlYW1s
+aW5lRWxlbWVudApmcm9tIHN5bmVkLmJlYW1saW5lLmVsZW1lbnRfY29vcmRpbmF0ZXMgaW1wb3J0
+IEVsZW1lbnRDb29yZGluYXRlcwpmcm9tIHdvZnJ5LnByb3BhZ2F0b3IucHJvcGFnYXRvciBpbXBv
+cnQgUHJvcGFnYXRpb25NYW5hZ2VyLCBQcm9wYWdhdGlvbkVsZW1lbnRzLCBQcm9wYWdhdGlvblBh
+cmFtZXRlcnMKCmZyb20gd29mcnkucHJvcGFnYXRvci53YXZlZnJvbnQxRC5nZW5lcmljX3dhdmVm
+cm9udCBpbXBvcnQgR2VuZXJpY1dhdmVmcm9udDFECgpmcm9tIHdvZnJ5aW1wbC5wcm9wYWdhdG9y
+LnByb3BhZ2F0b3JzMUQuZnJlc25lbCBpbXBvcnQgRnJlc25lbDFECmZyb20gd29mcnlpbXBsLnBy
+b3BhZ2F0b3IucHJvcGFnYXRvcnMxRC5mcmVzbmVsX2NvbnZvbHV0aW9uIGltcG9ydCBGcmVzbmVs
+Q29udm9sdXRpb24xRApmcm9tIHdvZnJ5aW1wbC5wcm9wYWdhdG9yLnByb3BhZ2F0b3JzMUQuZnJh
+dW5ob2ZlciBpbXBvcnQgRnJhdW5ob2ZlcjFECmZyb20gd29mcnlpbXBsLnByb3BhZ2F0b3IucHJv
+cGFnYXRvcnMxRC5pbnRlZ3JhbCBpbXBvcnQgSW50ZWdyYWwxRApmcm9tIHdvZnJ5aW1wbC5wcm9w
+YWdhdG9yLnByb3BhZ2F0b3JzMUQuZnJlc25lbF96b29tIGltcG9ydCBGcmVzbmVsWm9vbTFECmZy
+b20gd29mcnlpbXBsLnByb3BhZ2F0b3IucHJvcGFnYXRvcnMxRC5mcmVzbmVsX3pvb21fc2NhbGlu
+Z190aGVvcmVtIGltcG9ydCBGcmVzbmVsWm9vbVNjYWxpbmcxRAoKCiMKIyBTT1VSQ0U9PT09PT09
+PT09PT09PT09PT09PT09PT0KIwoKCmRlZiBydW5fc291cmNlX2gobXlfbW9kZV9pbmRleD0wKToK
+ICAgIGdsb2JhbCBjb2hlcmVudF9tb2RlX2RlY29tcG9zaXRpb25ICiAgICB0cnk6CiAgICAgICAg
+aWYgbXlfbW9kZV9pbmRleCA9PSAwOiByYWlzZSBFeGNlcHRpb24oKQogICAgICAgIHRtcCA9IGNv
+aGVyZW50X21vZGVfZGVjb21wb3NpdGlvbkgKICAgIGV4Y2VwdDoKCiAgICAgICAgIyMjIyMjIyMj
+IyAgU09VUkNFICMjIyMjIyMjIyMKCiAgICAgICAgIwogICAgICAgICMgY3JlYXRlIG91dHB1dF93
+YXZlZnJvbnQKICAgICAgICAjCiAgICAgICAgIwogICAgICAgIGZyb20gd29mcnlpbXBsLnByb3Bh
+Z2F0b3IudXRpbC51bmR1bGF0b3JfY29oZXJlbnRfbW9kZV9kZWNvbXBvc2l0aW9uXzFkIGltcG9y
+dCBcCiAgICAgICAgICAgIFVuZHVsYXRvckNvaGVyZW50TW9kZURlY29tcG9zaXRpb24xRAogICAg
+ICAgIGNvaGVyZW50X21vZGVfZGVjb21wb3NpdGlvbkggPSBVbmR1bGF0b3JDb2hlcmVudE1vZGVE
+ZWNvbXBvc2l0aW9uMUQoCiAgICAgICAgICAgIGVsZWN0cm9uX2VuZXJneT02LAogICAgICAgICAg
+ICBlbGVjdHJvbl9jdXJyZW50PTAuMiwKICAgICAgICAgICAgdW5kdWxhdG9yX3BlcmlvZD0wLjAx
+NywKICAgICAgICAgICAgdW5kdWxhdG9yX25wZXJpb2RzPTExNywKICAgICAgICAgICAgSz0wLjgz
+LAogICAgICAgICAgICBwaG90b25fZW5lcmd5PTE0OTU3LjcsCiAgICAgICAgICAgIGFic2Npc3Nh
+c19pbnRlcnZhbD0wLjAwMDIsCiAgICAgICAgICAgIG51bWJlcl9vZl9wb2ludHM9NDAwLAogICAg
+ICAgICAgICBkaXN0YW5jZV90b19zY3JlZW49MTAwLAogICAgICAgICAgICBtYWduaWZpY2F0aW9u
+X3hfZm9yd2FyZD0xMDAsCiAgICAgICAgICAgIG1hZ25pZmljYXRpb25feF9iYWNrd2FyZD0wLjAx
+LAogICAgICAgICAgICBzY2FuX2RpcmVjdGlvbj0nSCcsCiAgICAgICAgICAgIHNpZ21heHg9My4w
+MTgzNmUtMDUsCiAgICAgICAgICAgIHNpZ21heHB4cD00LjM2ODIxZS0wNiwKICAgICAgICAgICAg
+dXNlR1NNYXBwcm94aW1hdGlvbj1GYWxzZSwKICAgICAgICAgICAgZV9lbmVyZ3lfZGlzcGVyc2lv
+bl9mbGFnPTAsCiAgICAgICAgICAgIGVfZW5lcmd5X2Rpc3BlcnNpb25fc2lnbWFfcmVsYXRpdmU9
+MC4wMDEsCiAgICAgICAgICAgIGVfZW5lcmd5X2Rpc3BlcnNpb25faW50ZXJ2YWxfaW5fc2lnbWFf
+dW5pdHM9NiwKICAgICAgICAgICAgZV9lbmVyZ3lfZGlzcGVyc2lvbl9wb2ludHM9MTEpCgogICAg
+ICAgICMgbWFrZSBjYWxjdWxhdGlvbgogICAgICAgIGNvaGVyZW50X21vZGVfZGVjb21wb3NpdGlv
+bl9yZXN1bHRzID0gY29oZXJlbnRfbW9kZV9kZWNvbXBvc2l0aW9uSC5jYWxjdWxhdGUoKQoKICAg
+ICAgICBtb2RlX2luZGV4ID0gMAogICAgICAgIG91dHB1dF93YXZlZnJvbnQgPSBjb2hlcmVudF9t
+b2RlX2RlY29tcG9zaXRpb25ILmdldF9laWdlbnZlY3Rvcl93YXZlZnJvbnQobW9kZV9pbmRleCkK
+ICAgIG91dHB1dF93YXZlZnJvbnQgPSBjb2hlcmVudF9tb2RlX2RlY29tcG9zaXRpb25ILmdldF9l
+aWdlbnZlY3Rvcl93YXZlZnJvbnQobXlfbW9kZV9pbmRleCkKICAgIHJldHVybiBvdXRwdXRfd2F2
+ZWZyb250CgoKIwojIFNPVVJDRT09PT09PT09PT09PT09PT09PT09PT09PQojCgoKZGVmIHJ1bl9z
+b3VyY2VfdihteV9tb2RlX2luZGV4PTApOgogICAgZ2xvYmFsIGNvaGVyZW50X21vZGVfZGVjb21w
+b3NpdGlvblYKICAgIHRyeToKICAgICAgICBpZiBteV9tb2RlX2luZGV4ID09IDA6IHJhaXNlIEV4
+Y2VwdGlvbigpCiAgICAgICAgdG1wID0gY29oZXJlbnRfbW9kZV9kZWNvbXBvc2l0aW9uVgogICAg
+ZXhjZXB0OgoKICAgICAgICAjIyMjIyMjIyMjICBTT1VSQ0UgIyMjIyMjIyMjIwoKICAgICAgICAj
+CiAgICAgICAgIyBjcmVhdGUgb3V0cHV0X3dhdmVmcm9udAogICAgICAgICMKICAgICAgICAjCiAg
+ICAgICAgZnJvbSB3b2ZyeWltcGwucHJvcGFnYXRvci51dGlsLnVuZHVsYXRvcl9jb2hlcmVudF9t
+b2RlX2RlY29tcG9zaXRpb25fMWQgaW1wb3J0IFwKICAgICAgICAgICAgVW5kdWxhdG9yQ29oZXJl
+bnRNb2RlRGVjb21wb3NpdGlvbjFECiAgICAgICAgY29oZXJlbnRfbW9kZV9kZWNvbXBvc2l0aW9u
+ViA9IFVuZHVsYXRvckNvaGVyZW50TW9kZURlY29tcG9zaXRpb24xRCgKICAgICAgICAgICAgZWxl
+Y3Ryb25fZW5lcmd5PTYsCiAgICAgICAgICAgIGVsZWN0cm9uX2N1cnJlbnQ9MC4yLAogICAgICAg
+ICAgICB1bmR1bGF0b3JfcGVyaW9kPTAuMDE3LAogICAgICAgICAgICB1bmR1bGF0b3JfbnBlcmlv
+ZHM9MTE3LAogICAgICAgICAgICBLPTAuODMsCiAgICAgICAgICAgIHBob3Rvbl9lbmVyZ3k9MTQ5
+NTcuNywKICAgICAgICAgICAgYWJzY2lzc2FzX2ludGVydmFsPTVlLTA1LAogICAgICAgICAgICBu
+dW1iZXJfb2ZfcG9pbnRzPTQwMCwKICAgICAgICAgICAgZGlzdGFuY2VfdG9fc2NyZWVuPTEwMCwK
+ICAgICAgICAgICAgbWFnbmlmaWNhdGlvbl94X2ZvcndhcmQ9MTAwLAogICAgICAgICAgICBtYWdu
+aWZpY2F0aW9uX3hfYmFja3dhcmQ9MC4wMSwKICAgICAgICAgICAgc2Nhbl9kaXJlY3Rpb249J1Yn
+LAogICAgICAgICAgICBzaWdtYXh4PTMuNjM2NDFlLTA2LAogICAgICAgICAgICBzaWdtYXhweHA9
+MS4zNzQ5OGUtMDYsCiAgICAgICAgICAgIHVzZUdTTWFwcHJveGltYXRpb249RmFsc2UsCiAgICAg
+ICAgICAgIGVfZW5lcmd5X2Rpc3BlcnNpb25fZmxhZz0wLAogICAgICAgICAgICBlX2VuZXJneV9k
+aXNwZXJzaW9uX3NpZ21hX3JlbGF0aXZlPTAuMDAxLAogICAgICAgICAgICBlX2VuZXJneV9kaXNw
+ZXJzaW9uX2ludGVydmFsX2luX3NpZ21hX3VuaXRzPTYsCiAgICAgICAgICAgIGVfZW5lcmd5X2Rp
+c3BlcnNpb25fcG9pbnRzPTExKQoKICAgICAgICAjIG1ha2UgY2FsY3VsYXRpb24KICAgICAgICBj
+b2hlcmVudF9tb2RlX2RlY29tcG9zaXRpb25fcmVzdWx0cyA9IGNvaGVyZW50X21vZGVfZGVjb21w
+b3NpdGlvblYuY2FsY3VsYXRlKCkKCiAgICAgICAgbW9kZV9pbmRleCA9IDAKICAgICAgICBvdXRw
+dXRfd2F2ZWZyb250ID0gY29oZXJlbnRfbW9kZV9kZWNvbXBvc2l0aW9uVi5nZXRfZWlnZW52ZWN0
+b3Jfd2F2ZWZyb250KG1vZGVfaW5kZXgpCiAgICBvdXRwdXRfd2F2ZWZyb250ID0gY29oZXJlbnRf
+bW9kZV9kZWNvbXBvc2l0aW9uVi5nZXRfZWlnZW52ZWN0b3Jfd2F2ZWZyb250KG15X21vZGVfaW5k
+ZXgpCiAgICByZXR1cm4gb3V0cHV0X3dhdmVmcm9udAoKIwojIEJFQU1MSU5FPT09PT09PT09PT09
+PT09PT09PT09PT09CiMKCgpkZWYgcnVuX2JlYW1saW5lX2gob3V0cHV0X3dhdmVmcm9udCxzbGl0
+PTUwZS02KToKICAgICMjIyMjIyMjIyMgIE9QVElDQUwgU1lTVEVNICMjIyMjIyMjIyMKCiAgICAj
+IyMjIyMjIyMjICBPUFRJQ0FMIEVMRU1FTlQgTlVNQkVSIDEgIyMjIyMjIyMjIwoKICAgIGlucHV0
+X3dhdmVmcm9udCA9IG91dHB1dF93YXZlZnJvbnQuZHVwbGljYXRlKCkKICAgIGZyb20gc3luZWQu
+YmVhbWxpbmUuc2hhcGUgaW1wb3J0IFJlY3RhbmdsZQogICAgYm91bmRhcnlfc2hhcGUgPSBSZWN0
+YW5nbGUoLTAuNSpzbGl0LCAwLjUqc2xpdCwgLTAuNSpzbGl0LCAwLjUqc2xpdCkKICAgIGZyb20g
+d29mcnlpbXBsLmJlYW1saW5lLm9wdGljYWxfZWxlbWVudHMuYWJzb3JiZXJzLnNsaXQgaW1wb3J0
+IFdPU2xpdDFECiAgICBvcHRpY2FsX2VsZW1lbnQgPSBXT1NsaXQxRChib3VuZGFyeV9zaGFwZT1i
+b3VuZGFyeV9zaGFwZSkKCiAgICAjIGRyaWZ0X2JlZm9yZSAyMCBtCiAgICAjCiAgICAjIHByb3Bh
+Z2F0aW5nCiAgICAjCiAgICAjCiAgICBwcm9wYWdhdGlvbl9lbGVtZW50cyA9IFByb3BhZ2F0aW9u
+RWxlbWVudHMoKQogICAgYmVhbWxpbmVfZWxlbWVudCA9IEJlYW1saW5lRWxlbWVudChvcHRpY2Fs
+X2VsZW1lbnQ9b3B0aWNhbF9lbGVtZW50LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICBjb29yZGluYXRlcz1FbGVtZW50Q29vcmRpbmF0ZXMocD0yMC4wMDAwMDAsIHE9MC4w
+MDAwMDAsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICBhbmdsZV9yYWRpYWw9bnVtcHkucmFkaWFucygwLjAwMDAwMCks
+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICBhbmdsZV9hemltdXRoYWw9bnVtcHkucmFkaWFucygwLjAwMDAwMCkpKQog
+ICAgcHJvcGFnYXRpb25fZWxlbWVudHMuYWRkX2JlYW1saW5lX2VsZW1lbnQoYmVhbWxpbmVfZWxl
+bWVudCkKICAgIHByb3BhZ2F0aW9uX3BhcmFtZXRlcnMgPSBQcm9wYWdhdGlvblBhcmFtZXRlcnMo
+d2F2ZWZyb250PWlucHV0X3dhdmVmcm9udCwgcHJvcGFnYXRpb25fZWxlbWVudHM9cHJvcGFnYXRp
+b25fZWxlbWVudHMpCiAgICAjIHNlbGYuc2V0X2FkZGl0aW9uYWxfcGFyYW1ldGVycyhwcm9wYWdh
+dGlvbl9wYXJhbWV0ZXJzKQogICAgIwogICAgcHJvcGFnYXRpb25fcGFyYW1ldGVycy5zZXRfYWRk
+aXRpb25hbF9wYXJhbWV0ZXJzKCdtYWduaWZpY2F0aW9uX3gnLCAxLjUpCiAgICAjCiAgICBwcm9w
+YWdhdG9yID0gUHJvcGFnYXRpb25NYW5hZ2VyLkluc3RhbmNlKCkKICAgIHRyeToKICAgICAgICBw
+cm9wYWdhdG9yLmFkZF9wcm9wYWdhdG9yKEZyZXNuZWxab29tMUQoKSkKICAgIGV4Y2VwdDoKICAg
+ICAgICBwYXNzCiAgICBvdXRwdXRfd2F2ZWZyb250ID0gcHJvcGFnYXRvci5kb19wcm9wYWdhdGlv
+bihwcm9wYWdhdGlvbl9wYXJhbWV0ZXJzPXByb3BhZ2F0aW9uX3BhcmFtZXRlcnMsCiAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBoYW5kbGVyX25hbWU9J0ZS
+RVNORUxfWk9PTV8xRCcpCgogICAgIyMjIyMjIyMjIyAgT1BUSUNBTCBFTEVNRU5UIE5VTUJFUiAy
+ICMjIyMjIyMjIyMKCiAgICBpbnB1dF93YXZlZnJvbnQgPSBvdXRwdXRfd2F2ZWZyb250LmR1cGxp
+Y2F0ZSgpCiAgICBmcm9tIHdvZnJ5aW1wbC5iZWFtbGluZS5vcHRpY2FsX2VsZW1lbnRzLmlkZWFs
+X2VsZW1lbnRzLnNjcmVlbiBpbXBvcnQgV09TY3JlZW4xRAoKICAgIG9wdGljYWxfZWxlbWVudCA9
+IFdPU2NyZWVuMUQoKQoKICAgICMgZHJpZnRfYmVmb3JlIDEgbQogICAgIwogICAgIyBwcm9wYWdh
+dGluZwogICAgIwogICAgIwogICAgcHJvcGFnYXRpb25fZWxlbWVudHMgPSBQcm9wYWdhdGlvbkVs
+ZW1lbnRzKCkKICAgIGJlYW1saW5lX2VsZW1lbnQgPSBCZWFtbGluZUVsZW1lbnQob3B0aWNhbF9l
+bGVtZW50PW9wdGljYWxfZWxlbWVudCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgY29vcmRpbmF0ZXM9RWxlbWVudENvb3JkaW5hdGVzKHA9MS4wMDAwMDAsIHE9MC4wMDAw
+MDAsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICBhbmdsZV9yYWRpYWw9bnVtcHkucmFkaWFucygwLjAwMDAwMCksCiAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICBhbmdsZV9hemltdXRoYWw9bnVtcHkucmFkaWFucygwLjAwMDAwMCkpKQogICAg
+cHJvcGFnYXRpb25fZWxlbWVudHMuYWRkX2JlYW1saW5lX2VsZW1lbnQoYmVhbWxpbmVfZWxlbWVu
+dCkKICAgIHByb3BhZ2F0aW9uX3BhcmFtZXRlcnMgPSBQcm9wYWdhdGlvblBhcmFtZXRlcnMod2F2
+ZWZyb250PWlucHV0X3dhdmVmcm9udCwgcHJvcGFnYXRpb25fZWxlbWVudHM9cHJvcGFnYXRpb25f
+ZWxlbWVudHMpCiAgICAjIHNlbGYuc2V0X2FkZGl0aW9uYWxfcGFyYW1ldGVycyhwcm9wYWdhdGlv
+bl9wYXJhbWV0ZXJzKQogICAgIwogICAgcHJvcGFnYXRpb25fcGFyYW1ldGVycy5zZXRfYWRkaXRp
+b25hbF9wYXJhbWV0ZXJzKCdtYWduaWZpY2F0aW9uX3gnLCAwLjUpCiAgICAjCiAgICBwcm9wYWdh
+dG9yID0gUHJvcGFnYXRpb25NYW5hZ2VyLkluc3RhbmNlKCkKICAgIHRyeToKICAgICAgICBwcm9w
+YWdhdG9yLmFkZF9wcm9wYWdhdG9yKEZyZXNuZWxab29tMUQoKSkKICAgIGV4Y2VwdDoKICAgICAg
+ICBwYXNzCiAgICBvdXRwdXRfd2F2ZWZyb250ID0gcHJvcGFnYXRvci5kb19wcm9wYWdhdGlvbihw
+cm9wYWdhdGlvbl9wYXJhbWV0ZXJzPXByb3BhZ2F0aW9uX3BhcmFtZXRlcnMsCiAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBoYW5kbGVyX25hbWU9J0ZSRVNO
+RUxfWk9PTV8xRCcpCiAgICByZXR1cm4gb3V0cHV0X3dhdmVmcm9udAoKCgoKCgojCiMgQkVBTUxJ
+TkU9PT09PT09PT09PT09PT09PT09PT09PT0KIwoKCmRlZiBydW5fYmVhbWxpbmVfdihvdXRwdXRf
+d2F2ZWZyb250LHNsaXQ9NTBlLTYpOgogICAgIyMjIyMjIyMjIyAgT1BUSUNBTCBTWVNURU0gIyMj
+IyMjIyMjIwoKICAgICMjIyMjIyMjIyMgIE9QVElDQUwgRUxFTUVOVCBOVU1CRVIgMSAjIyMjIyMj
+IyMjCgogICAgaW5wdXRfd2F2ZWZyb250ID0gb3V0cHV0X3dhdmVmcm9udC5kdXBsaWNhdGUoKQog
+ICAgZnJvbSBzeW5lZC5iZWFtbGluZS5zaGFwZSBpbXBvcnQgUmVjdGFuZ2xlCiAgICBib3VuZGFy
+eV9zaGFwZSA9IFJlY3RhbmdsZSgtMC41KnNsaXQsIDAuNSpzbGl0LCAtMC41KnNsaXQsIDAuNSpz
+bGl0KQogICAgZnJvbSB3b2ZyeWltcGwuYmVhbWxpbmUub3B0aWNhbF9lbGVtZW50cy5hYnNvcmJl
+cnMuc2xpdCBpbXBvcnQgV09TbGl0MUQKICAgIG9wdGljYWxfZWxlbWVudCA9IFdPU2xpdDFEKGJv
+dW5kYXJ5X3NoYXBlPWJvdW5kYXJ5X3NoYXBlKQoKICAgICMgZHJpZnRfYmVmb3JlIDIwIG0KICAg
+ICMKICAgICMgcHJvcGFnYXRpbmcKICAgICMKICAgICMKICAgIHByb3BhZ2F0aW9uX2VsZW1lbnRz
+ID0gUHJvcGFnYXRpb25FbGVtZW50cygpCiAgICBiZWFtbGluZV9lbGVtZW50ID0gQmVhbWxpbmVF
+bGVtZW50KG9wdGljYWxfZWxlbWVudD1vcHRpY2FsX2VsZW1lbnQsCiAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgIGNvb3JkaW5hdGVzPUVsZW1lbnRDb29yZGluYXRlcyhwPTIw
+LjAwMDAwMCwgcT0wLjAwMDAwMCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFuZ2xlX3JhZGlhbD1udW1weS5yYWRp
+YW5zKDAuMDAwMDAwKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFuZ2xlX2F6aW11dGhhbD1udW1weS5yYWRpYW5z
+KDAuMDAwMDAwKSkpCiAgICBwcm9wYWdhdGlvbl9lbGVtZW50cy5hZGRfYmVhbWxpbmVfZWxlbWVu
+dChiZWFtbGluZV9lbGVtZW50KQogICAgcHJvcGFnYXRpb25fcGFyYW1ldGVycyA9IFByb3BhZ2F0
+aW9uUGFyYW1ldGVycyh3YXZlZnJvbnQ9aW5wdXRfd2F2ZWZyb250LCBwcm9wYWdhdGlvbl9lbGVt
+ZW50cz1wcm9wYWdhdGlvbl9lbGVtZW50cykKICAgICMgc2VsZi5zZXRfYWRkaXRpb25hbF9wYXJh
+bWV0ZXJzKHByb3BhZ2F0aW9uX3BhcmFtZXRlcnMpCiAgICAjCiAgICBwcm9wYWdhdGlvbl9wYXJh
+bWV0ZXJzLnNldF9hZGRpdGlvbmFsX3BhcmFtZXRlcnMoJ21hZ25pZmljYXRpb25feCcsIDcuMCkK
+ICAgICMKICAgIHByb3BhZ2F0b3IgPSBQcm9wYWdhdGlvbk1hbmFnZXIuSW5zdGFuY2UoKQogICAg
+dHJ5OgogICAgICAgIHByb3BhZ2F0b3IuYWRkX3Byb3BhZ2F0b3IoRnJlc25lbFpvb20xRCgpKQog
+ICAgZXhjZXB0OgogICAgICAgIHBhc3MKICAgIG91dHB1dF93YXZlZnJvbnQgPSBwcm9wYWdhdG9y
+LmRvX3Byb3BhZ2F0aW9uKHByb3BhZ2F0aW9uX3BhcmFtZXRlcnM9cHJvcGFnYXRpb25fcGFyYW1l
+dGVycywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGhh
+bmRsZXJfbmFtZT0nRlJFU05FTF9aT09NXzFEJykKCiAgICAjIyMjIyMjIyMjICBPUFRJQ0FMIEVM
+RU1FTlQgTlVNQkVSIDIgIyMjIyMjIyMjIwoKICAgIGlucHV0X3dhdmVmcm9udCA9IG91dHB1dF93
+YXZlZnJvbnQuZHVwbGljYXRlKCkKICAgIGZyb20gd29mcnlpbXBsLmJlYW1saW5lLm9wdGljYWxf
+ZWxlbWVudHMuaWRlYWxfZWxlbWVudHMuc2NyZWVuIGltcG9ydCBXT1NjcmVlbjFECgogICAgb3B0
+aWNhbF9lbGVtZW50ID0gV09TY3JlZW4xRCgpCgogICAgIyBkcmlmdF9iZWZvcmUgMSBtCiAgICAj
+CiAgICAjIHByb3BhZ2F0aW5nCiAgICAjCiAgICAjCiAgICBwcm9wYWdhdGlvbl9lbGVtZW50cyA9
+IFByb3BhZ2F0aW9uRWxlbWVudHMoKQogICAgYmVhbWxpbmVfZWxlbWVudCA9IEJlYW1saW5lRWxl
+bWVudChvcHRpY2FsX2VsZW1lbnQ9b3B0aWNhbF9lbGVtZW50LAogICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICBjb29yZGluYXRlcz1FbGVtZW50Q29vcmRpbmF0ZXMocD0xLjAw
+MDAwMCwgcT0wLjAwMDAwMCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFuZ2xlX3JhZGlhbD1udW1weS5yYWRpYW5z
+KDAuMDAwMDAwKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgIGFuZ2xlX2F6aW11dGhhbD1udW1weS5yYWRpYW5zKDAu
+MDAwMDAwKSkpCiAgICBwcm9wYWdhdGlvbl9lbGVtZW50cy5hZGRfYmVhbWxpbmVfZWxlbWVudChi
+ZWFtbGluZV9lbGVtZW50KQogICAgcHJvcGFnYXRpb25fcGFyYW1ldGVycyA9IFByb3BhZ2F0aW9u
+UGFyYW1ldGVycyh3YXZlZnJvbnQ9aW5wdXRfd2F2ZWZyb250LCBwcm9wYWdhdGlvbl9lbGVtZW50
+cz1wcm9wYWdhdGlvbl9lbGVtZW50cykKICAgICMgc2VsZi5zZXRfYWRkaXRpb25hbF9wYXJhbWV0
+ZXJzKHByb3BhZ2F0aW9uX3BhcmFtZXRlcnMpCiAgICAjCiAgICBwcm9wYWdhdGlvbl9wYXJhbWV0
+ZXJzLnNldF9hZGRpdGlvbmFsX3BhcmFtZXRlcnMoJ21hZ25pZmljYXRpb25feCcsIDAuNSkKICAg
+ICMKICAgIHByb3BhZ2F0b3IgPSBQcm9wYWdhdGlvbk1hbmFnZXIuSW5zdGFuY2UoKQogICAgdHJ5
+OgogICAgICAgIHByb3BhZ2F0b3IuYWRkX3Byb3BhZ2F0b3IoRnJlc25lbFpvb20xRCgpKQogICAg
+ZXhjZXB0OgogICAgICAgIHBhc3MKICAgIG91dHB1dF93YXZlZnJvbnQgPSBwcm9wYWdhdG9yLmRv
+X3Byb3BhZ2F0aW9uKHByb3BhZ2F0aW9uX3BhcmFtZXRlcnM9cHJvcGFnYXRpb25fcGFyYW1ldGVy
+cywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGhhbmRs
+ZXJfbmFtZT0nRlJFU05FTF9aT09NXzFEJykKICAgIHJldHVybiBvdXRwdXRfd2F2ZWZyb250CgoK
+IwojIE1BSU4gRlVOQ1RJT049PT09PT09PT09PT09PT09PT09PT09PT0KIwoKCmRlZiBtYWluX2go
+c2xpdD01MGUtNik6CiAgICBmcm9tIHNyeHJheWxpYi5wbG90LmdvbCBpbXBvcnQgcGxvdCwgcGxv
+dF9pbWFnZQogICAgZnJvbSB3b2ZyeWltcGwucHJvcGFnYXRvci51dGlsLnRhbGx5IGltcG9ydCBU
+YWxseUNvaGVyZW50TW9kZXMKCiAgICB0YWxseSA9IFRhbGx5Q29oZXJlbnRNb2RlcygpCiAgICBm
+b3IgbXlfbW9kZV9pbmRleCBpbiByYW5nZSgxMCk6CiAgICAgICAgb3V0cHV0X3dhdmVmcm9udCA9
+IHJ1bl9zb3VyY2VfaChteV9tb2RlX2luZGV4PW15X21vZGVfaW5kZXgpCiAgICAgICAgb3V0cHV0
+X3dhdmVmcm9udCA9IHJ1bl9iZWFtbGluZV9oKG91dHB1dF93YXZlZnJvbnQsIHNsaXQ9c2xpdCkK
+ICAgICAgICB0YWxseS5hcHBlbmQob3V0cHV0X3dhdmVmcm9udCkKCiAgICByZXR1cm4gdGFsbHkK
+ICAgICMgdGFsbHkucGxvdF9jcm9zc19zcGVjdHJhbF9kZW5zaXR5KCkKICAgICMgdGFsbHkucGxv
+dF9zcGVjdHJhbF9kZW5zaXR5KCkKICAgICMgdGFsbHkucGxvdF9vY2N1cGF0aW9uKCkKCgoKZGVm
+IG1haW5fdihzbGl0PTUwZS02KToKICAgIGZyb20gc3J4cmF5bGliLnBsb3QuZ29sIGltcG9ydCBw
+bG90LCBwbG90X2ltYWdlCiAgICBmcm9tIHdvZnJ5aW1wbC5wcm9wYWdhdG9yLnV0aWwudGFsbHkg
+aW1wb3J0IFRhbGx5Q29oZXJlbnRNb2RlcwoKICAgIHRhbGx5ID0gVGFsbHlDb2hlcmVudE1vZGVz
+KCkKICAgIGZvciBteV9tb2RlX2luZGV4IGluIHJhbmdlKDEwKToKICAgICAgICBvdXRwdXRfd2F2
+ZWZyb250ID0gcnVuX3NvdXJjZV92KG15X21vZGVfaW5kZXg9bXlfbW9kZV9pbmRleCkKICAgICAg
+ICBvdXRwdXRfd2F2ZWZyb250ID0gcnVuX2JlYW1saW5lX3Yob3V0cHV0X3dhdmVmcm9udCwgc2xp
+dD1zbGl0KQogICAgICAgIHRhbGx5LmFwcGVuZChvdXRwdXRfd2F2ZWZyb250KQoKICAgIHJldHVy
+biB0YWxseQogICAgIyB0YWxseS5wbG90X2Nyb3NzX3NwZWN0cmFsX2RlbnNpdHkoKQogICAgIyB0
+YWxseS5wbG90X3NwZWN0cmFsX2RlbnNpdHkoKQogICAgIyB0YWxseS5wbG90X29jY3VwYXRpb24o
+KQoKIwojIE1BSU49PT09PT09PT09PT09PT09PT09PT09PT0KIwppZiBUcnVlOgoKICAgIGRvX2Nh
+bGN1bGF0ZSA9IFRydWUKCgoKICAgICMKICAgICMKICAgICMKCgoKCiAgICBpZiBkb19jYWxjdWxh
+dGU6CiAgICAgICAgb3V0ZmlsZSA9ICJjb2hlcmVudF9mcmFjdGlvbl92c19zbGl0X2FwZXJ0dXJl
+LmRhdCIKCiAgICAgICAgc2xpdHMgPSBudW1weS5saW5zcGFjZSgxMGUtNiwgMjAwZS02LCAxMCkK
+CiAgICAgICAgZiA9IG9wZW4ob3V0ZmlsZSwgInciKQoKICAgICAgICBmb3IgaSxzbGl0IGluIGVu
+dW1lcmF0ZShzbGl0cyk6CiAgICAgICAgICAgIHByaW50KCI+Pj4+Pj4+Pj4+PiVkIG9mICVkIHNs
+aXQ6ICVnIiAlIChpLHNsaXRzLnNpemUtMSwgc2xpdCoxZTYpKQogICAgICAgICAgICB0YWxseV92
+ID0gbWFpbl92KHNsaXQ9c2xpdCkKICAgICAgICAgICAgdGFsbHlfaCA9IG1haW5faChzbGl0PXNs
+aXQpCgoKICAgICAgICAgICAgbW9kZXNfdiwgb2NjX3YgPSB0YWxseV92LmdldF9vY2N1cGF0aW9u
+KCkKICAgICAgICAgICAgbW9kZXNfaCwgb2NjX2ggPSB0YWxseV9oLmdldF9vY2N1cGF0aW9uKCkK
+CiAgICAgICAgICAgIHByaW50KCI+Pj4+IiwgdGFsbHlfdi5nZXRfY3Jvc3NfcGVjdHJhbF9kZW5z
+aXR5KCkuc2hhcGUsIHRhbGx5X3YuZ2V0X2Fic2Npc3NhcygpLnNoYXBlKQogICAgICAgICAgICBz
+ZF9oID0gbnVtcHkudHJhcHooIHRhbGx5X3YuZ2V0X3NwZWN0cmFsX2RlbnNpdHkoKSwgdGFsbHlf
+di5nZXRfYWJzY2lzc2FzKCkpCiAgICAgICAgICAgIHNkX3YgPSBudW1weS50cmFweiggdGFsbHlf
+aC5nZXRfc3BlY3RyYWxfZGVuc2l0eSgpLCB0YWxseV9oLmdldF9hYnNjaXNzYXMoKSkKCiAgICAg
+ICAgICAgIHByaW50KCJzbGl0LCBDRiBILCBWOiAiLCAxZTYqc2xpdCwgb2NjX2hbMF0sIG9jY192
+WzBdLCBzZF9oLCBzZF92KQogICAgICAgICAgICBwcmludCgic2xpdCwgSU5UIEgsIFY6ICIsIDFl
+NipzbGl0LCBzZF9oLCBzZF92KQogICAgICAgICAgICBmLndyaXRlKCIlZyAlZyAlZyAlZyAlZ1xu
+IiAlIChzbGl0LCBvY2NfaFswXSwgb2NjX3ZbMF0sIHNkX2gsIHNkX3YpKQogICAgICAgIGYuY2xv
+c2UoKQogICAgICAgIHByaW50KCJGaWxlIHdyaXR0ZW4gdG8gZGlzazogJXMiICUgb3V0ZmlsZSkK
+CgogICAgIwogICAgIyBwbG90cwogICAgIwogICAgIyBhID0gbnVtcHkubG9hZHR4dCgiY29oZXJl
+bnRfZnJhY3Rpb25fdnNfc2xpdF9hcGVydHVyZUcuZGF0IikKICAgIGIgPSBudW1weS5sb2FkdHh0
+KCJjb2hlcmVudF9mcmFjdGlvbl92c19zbGl0X2FwZXJ0dXJlLmRhdCIpCgogICAgZnJvbSBzcnhy
+YXlsaWIucGxvdC5nb2wgaW1wb3J0IHBsb3QsIHBsb3Rfc2hvdwoKICAgIGlmIFRydWU6CiAgICAg
+ICAgZyA9IHBsb3QoCiAgICAgICAgICAgICAxZTYgKiBiWzosIDBdLCBiWzosIDFdLAogICAgICAg
+ICAgICAgMWU2ICogYls6LCAwXSwgYls6LCAyXSwKICAgICAgICAgICAgIGxlZ2VuZD1bJ0hvcml6
+b250YWwnLCAnVmVydGljYWwnXSwKICAgICAgICAgICAgIHh0aXRsZT0iU2xpdCBhcGVydHVyZSBb
+dW1dIiwgeXRpdGxlPSJDb2hlcmVudCBGcmFjdGlvbiIsCiAgICAgICAgICAgICBjb2xvciA9IFsn
+Z3JlZW4nLCAnYmx1ZSddLAogICAgICAgICAgICAgbGluZXN0eWxlPVtOb25lLE5vbmVdLAogICAg
+ICAgICAgICAgeGxvZz1GYWxzZSwgeXJhbmdlPVswLDEuMDFdLCBzaG93PUZhbHNlKQoKICAgICAg
+ICBnWzFdLmdyaWQoKQogICAgICAgIGltcG9ydCBtYXRwbG90bGliLnB5bGFiIGFzIHBsdAogICAg
+ICAgIHBsdC55dGlja3MobnVtcHkuYXJhbmdlKDAsIDEuMSwgc3RlcD0wLjEpKQogICAgICAgIHBs
+dC5zYXZlZmlnKCJDRnZzR2FwLnBkZiIpCiAgICAgICAgcHJpbnQoIkZpbGUgd3JpdHRlbiB0byBk
+aXNrOiBDRnZzR2FwLnBkZiIpCgoKICAgICAgICBwbG90X3Nob3coKQoKlIwFZmxhZ3OUSwCMCGZp
+bGVuYW1llE51YmGME3NhdmVkV2lkZ2V0R2VvbWV0cnmUQ0IB2dDLAAMAAAAAAGcAAAAgAAAEqQAA
+AxIAAABnAAAAPwAABKkAAAMSAAAAAAAAAAAKAAAAAGcAAAA/AAAEqQAAAxKUjA1zcGxpdHRlclN0
+YXRllE6MC19fdmVyc2lvbl9flEsBdS4=
+</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>
