@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheme version="2.0" title="☀️EOS26_XOPPY_sources" description="EOS26_XOPPY_Sources: &#10;- Bending magnets&#10;- Wigglers&#10;-Undulators&#10;-Others" working_directory="C:\Users\juan.reyesherrera\Oasys\EOS_2026">
+<scheme version="2.0" title="☀️EOS26_XOPPY_sources" description="EOS26_XOPPY_Sources: &#10;- Bending magnets&#10;- Wigglers&#10;-Undulators&#10;-Others" working_directory="C:\Users\juan.reyesherrera\Oasys2_testing">
 	<nodes>
 		<node id="0" name="Undulator Spectrum" qualified_name="orangecontrib.xoppy.widgets.source.undulator_spectrum.OWundulator_spectrum" project_name="OASYS2-XOPPY" version="" title="Undulator Spectrum (1x1mm2)" position="(-203.0, 72.0)" />
 		<node id="1" name="Undulator Spectrum" qualified_name="orangecontrib.xoppy.widgets.source.undulator_spectrum.OWundulator_spectrum" project_name="OASYS2-XOPPY" version="" title="Undulator Spectrum (4x4mm2)" position="(-204.0, -51.0)" />
@@ -161,10 +161,10 @@ SwF1Lg==
 		<properties node_id="21" format="literal">{'CONVOLUTION': 1, 'DISTANCE': 30.0, 'ELECTRONCURRENT': 0.25, 'ELECTRONENERGY': 2.4, 'FIELD': 1, 'FILE': 'Bz_BEATS.dat', 'H5_FILE_DUMP': 0, 'HSLITPOINTS': 500, 'KV': 22.416, 'NPERIODS': 37.0, 'NTRAJPOINTS': 1001, 'PASSEPARTOUT': 3.0, 'PERIODID': 0.12, 'PHOTONENERGYMAX': 100100.0, 'PHOTONENERGYMIN': 100.0, 'PHOTONENERGYPOINTS': 101, 'POLARIZATION': 0, 'SHIFT_BETAX_FLAG': 1, 'SHIFT_BETAX_VALUE': 0.0, 'SHIFT_X_FLAG': 0, 'SHIFT_X_VALUE': 0.0, 'VSLITPOINTS': 500, 'bm_divergence': 0.001, 'bm_magnetic_field': 1.001, 'bm_magnetic_radius': 10.0, 'controlAreaVisible': True, 'h5_entry_name': 'XOPPY_RADIATION', 'h5_file': 'wiggler_radiation.h5', 'h5_initialize': True, 'h5_parameters': None, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x0b\x87\x00\x00\x00\xb2\x00\x00\x10\xae\x00\x00\x03\xb0\x00\x00\x0b\x87\x00\x00\x00\xd1\x00\x00\x10\xae\x00\x00\x03\xb0\x00\x00\x00\x01\x00\x00\x00\x00\x07\x80\x00\x00\x0b\x87\x00\x00\x00\xd1\x00\x00\x10\xae\x00\x00\x03\xb0', 'view_type': 1, '__version__': 1}</properties>
 		<properties node_id="22" format="literal">{'CONVOLUTION': 1, 'DISTANCE': 30.0, 'ELECTRONCURRENT': 0.3, 'ELECTRONENERGY': 3.0, 'FIELD': 2, 'FILE': '', 'H5_FILE_DUMP': 0, 'HSLITPOINTS': 500, 'KV': 20.4911, 'NPERIODS': 6.0, 'NTRAJPOINTS': 1001, 'PASSEPARTOUT': 3.0, 'PERIODID': 0.15, 'PHOTONENERGYMAX': 100100.0, 'PHOTONENERGYMIN': 100.0, 'PHOTONENERGYPOINTS': 101, 'POLARIZATION': 0, 'SHIFT_BETAX_FLAG': 0, 'SHIFT_BETAX_VALUE': 0.0, 'SHIFT_X_FLAG': 0, 'SHIFT_X_VALUE': 0.0, 'VSLITPOINTS': 500, 'bm_divergence': 0.002, 'bm_magnetic_field': 1.42, 'bm_magnetic_radius': 7.047, 'controlAreaVisible': True, 'h5_entry_name': 'XOPPY_RADIATION', 'h5_file': 'wiggler_radiation.h5', 'h5_initialize': True, 'h5_parameters': None, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x035\x00\x00\x00\x9c\x00\x00\x08\\\x00\x00\x03\x9a\x00\x00\x035\x00\x00\x00\xbb\x00\x00\x08\\\x00\x00\x03\x9a\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x035\x00\x00\x00\xbb\x00\x00\x08\\\x00\x00\x03\x9a', 'view_type': 1, '__version__': 1}</properties>
 		<properties node_id="23" format="literal">{'CURRENT': 200.0, 'ENERGY': 6.0, 'FIELD': 1, 'FILE': 'SW_2PAcut.txt', 'K': 22.591, 'NPERIODS': 1, 'NPOINTS': 500, 'NTRAJPOINTS': 101, 'PHOT_ENERGY_MAX': 100000.0, 'PHOT_ENERGY_MIN': 1000.0, 'SHIFT_BETAX_FLAG': 0, 'SHIFT_BETAX_VALUE': 0.0, 'SHIFT_X_FLAG': 0, 'SHIFT_X_VALUE': 0.0, 'SLIT_CENTER_H_MM': 0.0, 'SLIT_CENTER_V_MM': 0.0, 'SLIT_D': 23.5, 'SLIT_FLAG': 1, 'SLIT_HEIGHT_V_MM': 4.2, 'SLIT_NY': 100, 'SLIT_POINTS_FACTOR': 2.0, 'SLIT_WIDTH_H_MM': 8.5, 'TRAJ_RESAMPLING_FACTOR': 10000.0, 'ULAMBDA': 0.15, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x0b`\x00\x00\x00r\x00\x00\x10\x87\x00\x00\x03p\x00\x00\x0b`\x00\x00\x00\x91\x00\x00\x10\x87\x00\x00\x03p\x00\x00\x00\x01\x00\x00\x00\x00\x07\x80\x00\x00\x0b`\x00\x00\x00\x91\x00\x00\x10\x87\x00\x00\x03p', 'view_type': 1, '__version__': 1}</properties>
-		<properties node_id="24" format="pickle">gASVJwYAAAAAAAB9lCiMDGF1dG9fZXhlY3V0ZZSJjBJjb250cm9sQXJlYVZpc2libGWUiIwSY3Vy
+		<properties node_id="24" format="pickle">gASVLQYAAAAAAAB9lCiMDGF1dG9fZXhlY3V0ZZSJjBJjb250cm9sQXJlYVZpc2libGWUiIwSY3Vy
 cmVudFNjcmlwdEluZGV4lEsAjAlmb250X3NpemWUSwOMEWxpYnJhcnlMaXN0U291cmNllF2UjCVv
 YXN5czIud2lkZ2V0cy50b29scy5vd19weXRob25fc2NyaXB0lIwGU2NyaXB0lJOUKYGUfZQojARu
-YW1llIwQZ2V0X21hZ19maWxlcy5weZSMBnNjcmlwdJRYygQAAGltcG9ydCByZXF1ZXN0cwppbXBv
+YW1llIwQZ2V0X21hZ19maWxlcy5weZSMBnNjcmlwdJRY0AQAAGltcG9ydCByZXF1ZXN0cwppbXBv
 cnQgb3MKCmRlZiBkb3dubG9hZF9maWxlKHVybCwgc2F2ZV9wYXRoKToKICAgICIiIgogICAgRG93
 bmxvYWQgQi1maWxlcwogICAgdXJsOiBGdWxsIHJhdyBHaXRIdWIgVVJMCiAgICBzYXZlX3BhdGg6
 IFBhdGggd2hlcmUgdG8gc2F2ZSB0aGUgZmlsZSAoaW5jbHVkaW5nIGZpbGVuYW1lKQogICAgIiIi
@@ -182,13 +182,13 @@ KQogICAgICAgIHJldHVybiBGYWxzZQoKIyBEb3dubG9hZCBtYWduZXRpYyBmaWxlcwojIDMgUG9s
 ZSB3aWdnbGVyIGZyb20gQkVBVFMgRy4gSW9yaSBldCBhbC4gaHR0cHM6Ly9kb2kub3JnLzEwLjEx
 MDcvUzE2MDA1Nzc1MjQwMDUyNzcgCnJhd191cmxfYmVhdHMgPSAiaHR0cHM6Ly9yYXcuZ2l0aHVi
 dXNlcmNvbnRlbnQuY29tL29hc3lzLWtpdC9vYXN5c19zY2hvb2xfZW9zMjYvcmVmcy9oZWFkcy9t
-YWluL2p1YW4vQnpfQkVBVFMuZGF0Igpkb3dubG9hZF9maWxlKHJhd191cmxfYmVhdHMsICIuL0J6
-X0JFQVRTLmRhdCIpCgpyYXdfdXJsX2JlYXRzID0gImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250
-ZW50LmNvbS9vYXN5cy1raXQvb2FzeXNfc2Nob29sX2VvczI2L3JlZnMvaGVhZHMvbWFpbi9qdWFu
-L1NXXzJQQWN1dC50eHQiCmRvd25sb2FkX2ZpbGUocmF3X3VybF9iZWF0cywgIi4vU1dfMlBBY3V0
-LnR4dCIpCgoKlIwFZmxhZ3OUSwCMCGZpbGVuYW1llE51YmGME3NhdmVkV2lkZ2V0R2VvbWV0cnmU
-Q0IB2dDLAAMAAAAADIwAAABWAAARKgAAA/MAAAyMAAAAdQAAESoAAAPzAAAAAQAAAAAHgAAADIwA
-AAB1AAARKgAAA/OUjA1zcGxpdHRlclN0YXRllE6MC19fdmVyc2lvbl9flEsBdS4=
+YWluL2p1YW5yZXkvQnpfQkVBVFMuZGF0Igpkb3dubG9hZF9maWxlKHJhd191cmxfYmVhdHMsICIu
+L0J6X0JFQVRTLmRhdCIpCgpyYXdfdXJsX2JlYXRzID0gImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJj
+b250ZW50LmNvbS9vYXN5cy1raXQvb2FzeXNfc2Nob29sX2VvczI2L3JlZnMvaGVhZHMvbWFpbi9q
+dWFucmV5L1NXXzJQQWN1dC50eHQiCmRvd25sb2FkX2ZpbGUocmF3X3VybF9iZWF0cywgIi4vU1df
+MlBBY3V0LnR4dCIpCgoKlIwFZmxhZ3OUSwCMCGZpbGVuYW1llE51YmGME3NhdmVkV2lkZ2V0R2Vv
+bWV0cnmUQ0IB2dDLAAMAAAAADIwAAABWAAARKgAAA/MAAAyMAAAAdQAAESoAAAPzAAAAAQAAAAAH
+gAAADIwAAAB1AAARKgAAA/OUjA1zcGxpdHRlclN0YXRllE6MC19fdmVyc2lvbl9flEsBdS4=
 </properties>
 		<properties node_id="25" format="literal">{'BEAM_ENERGY_GEV': 3.0, 'BFIELD_T': 1.42, 'CURRENT_A': 0.3, 'FILE_DUMP': 0, 'HOR_DIV_MRAD': 2.0, 'LOG_CHOICE': 0, 'MACHINE_NAME': 'ALBA S-Bend', 'MACHINE_R_M': 25.0, 'NPOINTS': 1000, 'PHOT_ENERGY_MAX': 70000.0, 'PHOT_ENERGY_MIN': 500.0, 'PSI_MAX': 0.055, 'PSI_MIN': -0.055, 'PSI_MRAD_PLOT': 2.0, 'PSI_NPOINTS': 200, 'RB_CHOICE': 1, 'TYPE_CALC': 1, 'VER_DIV': 2, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x0b&gt;\x00\x00\x00}\x00\x00\x10e\x00\x00\x03{\x00\x00\x0b&gt;\x00\x00\x00\x9c\x00\x00\x10e\x00\x00\x03{\x00\x00\x00\x01\x00\x00\x00\x00\x07\x80\x00\x00\x0b&gt;\x00\x00\x00\x9c\x00\x00\x10e\x00\x00\x03{', 'view_type': 1, '__version__': 1}</properties>
 	</node_properties>
