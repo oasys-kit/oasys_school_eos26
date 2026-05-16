@@ -26,7 +26,7 @@ SHORTCUT TO TALKS
 
 | Day | Speaker | ShortTitle    | File                        |
 |-----|---------|---------------|-----------------------------|
-| 1   | Rafael  | History       | [xxx.pptx](https://github.com/oasys-kit/oasys_school_eos26/blob/main/rcelestre/xxx.pptx) |
+| 1   | Rafael  | History       | [x-ray_early_days_v1.pdf](https://github.com/oasys-kit/oasys_school_eos26/blob/main/rcelestre/x-ray_early_days_v1.pdf) |
 | 1   | Manuel  | Ray-tracing   | [intro.pptx](https://github.com/oasys-kit/oasys_school_eos26/blob/main/srio/raytracing.pptx) |
 | 1   | Juan    | XOPPY: Sources, filters & mirrors | [xoppy_sources_filters_and_mirrors_part1.pptx](https://github.com/oasys-kit/oasys_school_eos26/blob/main/juanrey/EOS26_XOPPY-Sources_Filter_Mirrors_JuanR_part1.pptx) [xoppy_sources_filters_and_mirrors_part2.pptx](https://github.com/oasys-kit/oasys_school_eos26/blob/main/juanrey/EOS26_XOPPY-Sources_Filter_Mirrors_JuanR_part2.pptx) |
 | 1   | Rafael  | Soft x-ray    | [xxx.pptx](https://github.com/oasys-kit/oasys_school_eos26/blob/main/rcelestre/xxx.pptx) |
