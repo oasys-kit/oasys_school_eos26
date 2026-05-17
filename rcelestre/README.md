@@ -3,7 +3,7 @@
 ## Wednesday (22/05/2026):
 
 - X-rays: a historical perspective (9h30 - 9h50) ```x-ray_early_days_v1.pdf```
-- Soft x-ray beamline design (16h30-17h00) ```soft_x-ray_bl_design_intro.pdf```
+- Soft x-ray beamline design (16h30-17h00) ```soft_x-ray_bl_design_intro_v1.pdf```
 
 ## Thursday (23/05/2026):
 
