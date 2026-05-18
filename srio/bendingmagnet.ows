@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="bending magnet" description="Bending Magnets" working_directory="/home/srio/Oasys">
+	<nodes>
+		<node id="0" name="Bending Magnet" qualified_name="orangecontrib.shadow4.widgets.sources.ow_bending_magnet.OWBendingMagnet" project_name="OASYS2-SHADOW4" version="" title="Bending Magnet 8 keV" position="(159.0, 819.0)" />
+		<node id="1" name="Histogram" qualified_name="orangecontrib.shadow4.widgets.tools.ow_histogram.Histogram" project_name="OASYS2-SHADOW4" version="" title="Histogram intensity vs Z'" position="(672.0, 863.0)" />
+		<node id="2" name="Python Script" qualified_name="oasys2.widgets.tools.ow_python_script.OWPythonScript" project_name="oasys2" version="" title="Python Script (plots, phase space)" position="(665.0, 768.0)" />
+		<node id="3" name="Histogram" qualified_name="orangecontrib.shadow4.widgets.tools.ow_histogram.Histogram" project_name="OASYS2-SHADOW4" version="" title="Histogram: s-polarization" position="(675.0, 965.0)" />
+		<node id="4" name="Histogram" qualified_name="orangecontrib.shadow4.widgets.tools.ow_histogram.Histogram" project_name="OASYS2-SHADOW4" version="" title="Histogram: p-polarization" position="(673.0, 1068.0)" />
+		<node id="5" name="Histogram" qualified_name="orangecontrib.shadow4.widgets.tools.ow_histogram.Histogram" project_name="OASYS2-SHADOW4" version="" title="Histogram: S3 circular polarization" position="(672.0, 1162.0)" />
+		<node id="6" name="Plot XY" qualified_name="orangecontrib.shadow4.widgets.tools.ow_plot_xy.PlotXY" project_name="OASYS2-SHADOW4" version="" title="Plot XY" position="(660.0, 678.0)" />
+		<node id="7" name="Python Script" qualified_name="oasys2.widgets.tools.ow_python_script.OWPythonScript" project_name="oasys2" version="" title="Python Script (create all histograms)" position="(890.0, 988.0)" />
+		<node id="8" name="Bending Magnet" qualified_name="orangecontrib.shadow4.widgets.sources.ow_bending_magnet.OWBendingMagnet" project_name="OASYS2-SHADOW4" version="" title="Bending Magnet 8 keV" position="(253.0, 1331.0)" />
+		<node id="9" name="Bending Magnet" qualified_name="orangecontrib.shadow4.widgets.sources.ow_bending_magnet.OWBendingMagnet" project_name="OASYS2-SHADOW4" version="" title="Bending Magnet 18 keV" position="(255.0, 1455.0)" />
+		<node id="10" name="Python Script" qualified_name="oasys2.widgets.tools.ow_python_script.OWPythonScript" project_name="oasys2" version="" title="Python Script (create all histograms)" position="(655.0, 1383.0)" />
+	</nodes>
+	<links>
+		<link id="0" source_node_id="0" sink_node_id="1" source_channel="Shadow Data" sink_channel="Shadow Data" enabled="true" source_channel_id="shadow_data" sink_channel_id="shadow_data" />
+		<link id="1" source_node_id="0" sink_node_id="6" source_channel="Shadow Data" sink_channel="Shadow Data" enabled="true" source_channel_id="shadow_data" sink_channel_id="shadow_data" />
+		<link id="2" source_node_id="0" sink_node_id="3" source_channel="Shadow Data" sink_channel="Shadow Data" enabled="true" source_channel_id="shadow_data" sink_channel_id="shadow_data" />
+		<link id="3" source_node_id="0" sink_node_id="4" source_channel="Shadow Data" sink_channel="Shadow Data" enabled="true" source_channel_id="shadow_data" sink_channel_id="shadow_data" />
+		<link id="4" source_node_id="0" sink_node_id="5" source_channel="Shadow Data" sink_channel="Shadow Data" enabled="true" source_channel_id="shadow_data" sink_channel_id="shadow_data" />
+		<link id="5" source_node_id="0" sink_node_id="2" source_channel="Shadow Data" sink_channel="In Object #1" enabled="true" source_channel_id="shadow_data" sink_channel_id="object_1" />
+		<link id="6" source_node_id="8" sink_node_id="10" source_channel="Shadow Data" sink_channel="In Object #1" enabled="true" source_channel_id="shadow_data" sink_channel_id="object_1" />
+		<link id="7" source_node_id="9" sink_node_id="10" source_channel="Shadow Data" sink_channel="In Object #2" enabled="true" source_channel_id="shadow_data" sink_channel_id="object_2" />
+	</links>
+	<annotations>
+		<text id="0" type="text/plain" rect="(149.0, 18.0, 480.0, 66.0)" font-family="Helvetica" font-size="16">Bending Magnet</text>
+		<text id="1" type="text/plain" rect="(33.0, 68.0, 309.0, 276.0)" font-family="Helvetica" font-size="16">ESRF1 bending magnet, full emission in vertical (set limits to 1rad, which is like infinity) at a fixed energy (8 keV), one mrad of horizontal divergence. 
+See the intensity distribution versus  the Z' direction for the different polatizations (total, parallel, perpendicular).
+Change also the energy to 18 keV, and see how the resulting beam is more collimated.</text>
+	</annotations>
+	<thumbnail />
+	<node_properties>
+		<properties node_id="0" format="literal">{'controlAreaVisible': True, 'divergence': 0.001, 'electron_beam_alpha_h': 0.0, 'electron_beam_alpha_v': 0.0, 'electron_beam_beta_h': 40.020263, 'electron_beam_beta_v': 34.811321, 'electron_beam_divergence_h': 9.87e-06, 'electron_beam_divergence_v': 1.06e-06, 'electron_beam_emittance_h': 3.89865e-09, 'electron_beam_emittance_v': 3.9114e-11, 'electron_beam_eta_h': 0.0, 'electron_beam_eta_v': 0.0, 'electron_beam_etap_h': 0.0, 'electron_beam_etap_v': 0.0, 'electron_beam_size_h': 0.000395, 'electron_beam_size_v': 3.69e-05, 'electron_energy_in_GeV': 6.04, 'electron_energy_spread': 0.0, 'emax': 8000.0, 'emin': 8000.0, 'flag_energy_spread': 0, 'is_automatic_run': True, 'magnetic_field': 0.8, 'moment_xpxp': 9.74169e-11, 'moment_xx': 1.56025e-07, 'moment_xxp': 0.0, 'moment_ypyp': 1.1236e-12, 'moment_yy': 1.36161e-09, 'moment_yyp': 0.0, 'ng_e': 100, 'number_of_rays': 50000, 'ring_current': 0.2, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00`\x00\x00\x00 \x00\x00\x05\x87\x00\x00\x03\x00\x00\x00\x00`\x00\x00\x00E\x00\x00\x05\x87\x00\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x00`\x00\x00\x00E\x00\x00\x05\x87\x00\x00\x03\x00', 'seed': 5676561, 'type_of_properties': 1, 'view_type': 0, '__version__': 1}</properties>
+		<properties node_id="1" format="literal">{'autosave': 0, 'autosave_file_name': 'autosave_histogram_plot.hdf5', 'autosave_partial_results': 0, 'controlAreaVisible': True, 'conversion_active': 1, 'image_plane': 0, 'image_plane_new_position': 10.0, 'image_plane_rel_abs_position': 0, 'is_automatic_run': True, 'keep_result': 0, 'number_of_bins': 100, 'rays': 1, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00`\x00\x00\x00 \x00\x00\x05\x87\x00\x00\x03\x00\x00\x00\x00`\x00\x00\x00E\x00\x00\x05\x87\x00\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x00`\x00\x00\x00E\x00\x00\x05\x87\x00\x00\x03\x00', 'title': " 6: Z' direction or divergence", 'weight_column_index': 23, 'x_column_index': 5, 'x_range': 0, 'x_range_max': 0.0, 'x_range_min': 0.0, '__version__': 1}</properties>
+		<properties node_id="2" format="pickle">gASVAgQAAAAAAAB9lCiMDGF1dG9fZXhlY3V0ZZSJjBJjb250cm9sQXJlYVZpc2libGWUiIwSY3Vy
+cmVudFNjcmlwdEluZGV4lEsAjAlmb250X3NpemWUSwSMEWxpYnJhcnlMaXN0U291cmNllF2UjCVv
+YXN5czIud2lkZ2V0cy50b29scy5vd19weXRob25fc2NyaXB0lIwGU2NyaXB0lJOUKYGUfZQojARu
+YW1llIwDQk1zlIwGc2NyaXB0lFiyAgAAWCA9IGluX29iamVjdF8xLmJlYW0uZ2V0X2NvbHVtbigx
+KQpaID0gaW5fb2JqZWN0XzEuYmVhbS5nZXRfY29sdW1uKDMpClhwcmltZSA9IGluX29iamVjdF8x
+LmJlYW0uZ2V0X2NvbHVtbig0KQpacHJpbWUgPSBpbl9vYmplY3RfMS5iZWFtLmdldF9jb2x1bW4o
+NikKCgppbXBvcnQgbWF0cGxvdGxpYi5weXBsb3QgYXMgcGx0CgpmaWcsIGF4ZXMgPSBwbHQuc3Vi
+cGxvdHMoMiwgMiwgZmlnc2l6ZT0oMTAsIDgpKQoKZGF0YXNldHMgPSBbCiAgICAoWCwgWiwgIlgs
+WiIpLAogICAgKFhwcmltZSwgWnByaW1lLCAiWCcsIFonIiksCiAgICAoWCwgWHByaW1lLCAiWCwg
+WCciKSwKICAgIChaLCBacHJpbWUsICJaLCBaJyIpLApdCgpmb3IgYXgsICh4LCB6LCBsYWJlbCkg
+aW4gemlwKGF4ZXMuZmxhdCwgZGF0YXNldHMpOgogICAgYXguc2NhdHRlcih4LCB6LCBzPTEsIG1h
+cmtlcj0nLicsIGFscGhhPTAuNikKICAgIGF4LnNldF90aXRsZShsYWJlbCkKICAgIGF4LnNldF94
+bGFiZWwoIngiKQogICAgYXguc2V0X3lsYWJlbCgieiIpCiAgICBheC5zZXRfeGxpbSgtMC4wMDIs
+IDAuMDAyKQogICAgYXguc2V0X3lsaW0oLTAuMDAyLCAwLjAwMikKICAgIGF4LnNldF9hc3BlY3Qo
+ImVxdWFsIikKCmZpZy5zdXB0aXRsZSgiQmVhbSBTY2F0dGVyIFBsb3RzIiwgZm9udHNpemU9MTQp
+CnBsdC50aWdodF9sYXlvdXQoKQpwbHQuc2hvdygplIwFZmxhZ3OUSwCMCGZpbGVuYW1llE51YmGM
+E3NhdmVkV2lkZ2V0R2VvbWV0cnmUQ0IB2dDLAAMAAAAAB3X////PAAAKqgAAAmIAAAeAAAAAAAAA
+Cp8AAAJXAAAAAQAAAAAHgAAAB4AAAAAAAAAKnwAAAleUjA1zcGxpdHRlclN0YXRllE6MC19fdmVy
+c2lvbl9flEsBdS4=
+</properties>
+		<properties node_id="3" format="literal">{'autosave': 0, 'autosave_file_name': 'autosave_histogram_plot.hdf5', 'autosave_partial_results': 0, 'controlAreaVisible': True, 'conversion_active': 1, 'image_plane': 0, 'image_plane_new_position': 10.0, 'image_plane_rel_abs_position': 0, 'is_automatic_run': True, 'keep_result': 0, 'number_of_bins': 100, 'rays': 1, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00`\x00\x00\x00 \x00\x00\x05\x87\x00\x00\x03\x00\x00\x00\x00`\x00\x00\x00E\x00\x00\x05\x87\x00\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x00`\x00\x00\x00E\x00\x00\x05\x87\x00\x00\x03\x00', 'title': " 6: Z' direction or divergence", 'weight_column_index': 24, 'x_column_index': 5, 'x_range': 0, 'x_range_max': 0.0, 'x_range_min': 0.0, '__version__': 1}</properties>
+		<properties node_id="4" format="literal">{'autosave': 0, 'autosave_file_name': 'autosave_histogram_plot.hdf5', 'autosave_partial_results': 0, 'controlAreaVisible': True, 'conversion_active': 1, 'image_plane': 0, 'image_plane_new_position': 10.0, 'image_plane_rel_abs_position': 0, 'is_automatic_run': True, 'keep_result': 0, 'number_of_bins': 100, 'rays': 1, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00`\x00\x00\x00 \x00\x00\x05\x87\x00\x00\x03\x00\x00\x00\x00`\x00\x00\x00E\x00\x00\x05\x87\x00\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x00`\x00\x00\x00E\x00\x00\x05\x87\x00\x00\x03\x00', 'title': " 6: Z' direction or divergence", 'weight_column_index': 25, 'x_column_index': 5, 'x_range': 0, 'x_range_max': 0.0, 'x_range_min': 0.0, '__version__': 1}</properties>
+		<properties node_id="5" format="literal">{'autosave': 0, 'autosave_file_name': 'autosave_histogram_plot.hdf5', 'autosave_partial_results': 0, 'controlAreaVisible': True, 'conversion_active': 1, 'image_plane': 0, 'image_plane_new_position': 10.0, 'image_plane_rel_abs_position': 0, 'is_automatic_run': True, 'keep_result': 0, 'number_of_bins': 100, 'rays': 1, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x01\xc7\x00\x00\x00J\x00\x00\x06\xee\x00\x00\x03*\x00\x00\x01\xc7\x00\x00\x00o\x00\x00\x06\xee\x00\x00\x03*\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x01\xc7\x00\x00\x00o\x00\x00\x06\xee\x00\x00\x03*', 'title': " 6: Z' direction or divergence", 'weight_column_index': 33, 'x_column_index': 5, 'x_range': 0, 'x_range_max': 0.0, 'x_range_min': 0.0, '__version__': 1}</properties>
+		<properties node_id="6" format="literal">{'autosave': 0, 'autosave_file_name': 'autosave_xy_plot.hdf5', 'autosave_partial_results': 0, 'cartesian_axis': 0, 'controlAreaVisible': True, 'conversion_active': 1, 'flip_h': 0, 'flip_v': 0, 'image_plane': 0, 'image_plane_new_position': 10.0, 'is_automatic_run': True, 'keep_result': 0, 'number_of_bins_h': 100, 'number_of_bins_v': 100, 'rays': 1, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x07u\xff\xff\xff\xcf\x00\x00\x0c\xb2\x00\x00\x02\xd4\x00\x00\x07\x80\x00\x00\x00\x00\x00\x00\x0c\xa7\x00\x00\x02\xc9\x00\x00\x00\x01\x00\x00\x00\x00\x07\x80\x00\x00\x07\x80\x00\x00\x00\x00\x00\x00\x0c\xa7\x00\x00\x02\xc9', 'title': 'X,Z', 'weight_column_index': 23, 'x_column_index': 0, 'x_range': 0, 'x_range_max': 0.0, 'x_range_min': 0.0, 'y_column_index': 2, 'y_range': 0, 'y_range_max': 0.0, 'y_range_min': 0.0, '__version__': 1}</properties>
+		<properties node_id="7" format="pickle">gASVwAsAAAAAAAB9lCiMDGF1dG9fZXhlY3V0ZZSIjBJjb250cm9sQXJlYVZpc2libGWUiIwSY3Vy
+cmVudFNjcmlwdEluZGV4lEsAjAlmb250X3NpemWUSwSMEWxpYnJhcnlMaXN0U291cmNllF2UjCVv
+YXN5czIud2lkZ2V0cy50b29scy5vd19weXRob25fc2NyaXB0lIwGU2NyaXB0lJOUKYGUfZQojARu
+YW1llIwKaGlzdG9ncmFtc5SMBnNjcmlwdJRYaQoAAGRlZiBydW5fYmVhbWxpbmUoKToKICAgIGZy
+b20gc2hhZG93NC5iZWFtbGluZS5zNF9iZWFtbGluZSBpbXBvcnQgUzRCZWFtbGluZQogICAgaW1w
+b3J0IG51bXB5IGFzIG5wCiAgICAKICAgIGJlYW1saW5lID0gUzRCZWFtbGluZSgpCiAgICAKICAg
+ICMgZWxlY3Ryb24gYmVhbQogICAgZnJvbSBzaGFkb3c0LnNvdXJjZXMuczRfZWxlY3Ryb25fYmVh
+bSBpbXBvcnQgUzRFbGVjdHJvbkJlYW0KICAgIGVsZWN0cm9uX2JlYW0gPSBTNEVsZWN0cm9uQmVh
+bShlbmVyZ3lfaW5fR2VWPTYuMDQsZW5lcmd5X3NwcmVhZD0wLGN1cnJlbnQ9MC4yKQogICAgZWxl
+Y3Ryb25fYmVhbS5zZXRfc2lnbWFzX2FsbChzaWdtYV94PTAuMDAwMzk1LCBzaWdtYV95PTMuNjll
+LTA1LCBzaWdtYV94cD05Ljg3ZS0wNiwgc2lnbWFfeXA9MS4wNmUtMDYpCiAgICBlbGVjdHJvbl9i
+ZWFtLnNldF9kaXNwZXJzaW9uX2FsbCgwLDAsMCwgMCkKICAgIAogICAgI21hZ25ldGljIHN0cnVj
+dHVyZQogICAgZnJvbSBzaGFkb3c0LnNvdXJjZXMuYmVuZGluZ19tYWduZXQuczRfYmVuZGluZ19t
+YWduZXQgaW1wb3J0IFM0QmVuZGluZ01hZ25ldAogICAgc291cmNlID0gUzRCZW5kaW5nTWFnbmV0
+KAogICAgICAgICAgICAgICAgICAgICByYWRpdXM9MjUuMTg0MDg5MTg3NDYwNDgsICMgZnJvbSBz
+eW5lZCBCTSwgY2FuIGJlIG9idGFpbmVkIGFzIG51bXB5LmFicyhTNEJlbmRpbmdNYWduZXQuY2Fs
+Y3VsYXRlX21hZ25ldGljX3JhZGl1cygwLjgsIGVsZWN0cm9uX2JlYW0uZW5lcmd5KCkpKQogICAg
+ICAgICAgICAgICAgICAgICBtYWduZXRpY19maWVsZD0wLjgsICMgZnJvbSBzeW5lZCBCTQogICAg
+ICAgICAgICAgICAgICAgICBsZW5ndGg9MC4wMjUxODQwODkxODc0NjA0OCwgIyBmcm9tIHN5bmVk
+IEJNID0gYWJzKEJNIGRpdmVyZ2VuY2UgKiBtYWduZXRpY19yYWRpdXMpCiAgICAgICAgICAgICAg
+ICAgICAgIGVtaW49ODAwMC4wLCAgICAgIyBQaG90b24gZW5lcmd5IHNjYW4gZnJvbSBlbmVyZ3kg
+KGluIGVWKQogICAgICAgICAgICAgICAgICAgICBlbWF4PTgwMDAuMCwgICAgICMgUGhvdG9uIGVu
+ZXJneSBzY2FuIHRvIGVuZXJneSAoaW4gZVYpCiAgICAgICAgICAgICAgICAgICAgIG5nX2U9MTAw
+LCAgICAgIyBQaG90b24gZW5lcmd5IHNjYW4gbnVtYmVyIG9mIHBvaW50cwogICAgICAgICAgICAg
+ICAgICAgICBmbGFnX2VtaXR0YW5jZT0xLCAjIHdoZW4gc2FtcGxpbmcgcmF5czogVXNlIGVtaXR0
+YW5jZSAoMD1ObywgMT1ZZXMpCiAgICAgICAgICAgICAgICAgICAgICkKICAgIAogICAgCiAgICAK
+ICAgICNsaWdodCBzb3VyY2UKICAgIGZyb20gc2hhZG93NC5zb3VyY2VzLmJlbmRpbmdfbWFnbmV0
+LnM0X2JlbmRpbmdfbWFnbmV0X2xpZ2h0X3NvdXJjZSBpbXBvcnQgUzRCZW5kaW5nTWFnbmV0TGln
+aHRTb3VyY2UKICAgIGxpZ2h0X3NvdXJjZSA9IFM0QmVuZGluZ01hZ25ldExpZ2h0U291cmNlKG5h
+bWU9J0JlbmRpbmcgTWFnbmV0JywgZWxlY3Ryb25fYmVhbT1lbGVjdHJvbl9iZWFtLCBtYWduZXRp
+Y19zdHJ1Y3R1cmU9c291cmNlLCBucmF5cz01MDAwMCwgc2VlZD01Njc2NTYxKQogICAgYmVhbSA9
+IGxpZ2h0X3NvdXJjZS5nZXRfYmVhbSgpCiAgICAKICAgIGJlYW1saW5lLnNldF9saWdodF9zb3Vy
+Y2UobGlnaHRfc291cmNlKQogICAgcmV0dXJuIGJlYW0KCiMKIyBtYWluIAojCmZyb20gc3J4cmF5
+bGliLnBsb3QuZ29sIGltcG9ydCBwbG90LCBwbG90X3Nob3cKCiMgV0FSTklORzogTk8gaW5jcmVt
+ZW50YWwgcmVzdWx0IGFsbG93ZWQhISIKYmVhbSA9IHJ1bl9iZWFtbGluZSgpCgoKdGlja2V0MjMg
+PSBiZWFtLmhpc3RvMSg2LCBuYmlucz0xMDAsIHhyYW5nZT1bLTAuMDAwMjI4NDc1Mzc5MzYzNDA2
+NDIsIDAuMDAwMjI5OTM5OTI5Nzg0NjAyMDZdLCBub2xvc3Q9MSwgcmVmPTIzKQp0aWNrZXQyNCA9
+IGJlYW0uaGlzdG8xKDYsIG5iaW5zPTEwMCwgeHJhbmdlPVstMC4wMDAyMjg0NzUzNzkzNjM0MDY0
+MiwgMC4wMDAyMjk5Mzk5Mjk3ODQ2MDIwNl0sIG5vbG9zdD0xLCByZWY9MjQpCnRpY2tldDI1ID0g
+YmVhbS5oaXN0bzEoNiwgbmJpbnM9MTAwLCB4cmFuZ2U9Wy0wLjAwMDIyODQ3NTM3OTM2MzQwNjQy
+LCAwLjAwMDIyOTkzOTkyOTc4NDYwMjA2XSwgbm9sb3N0PTEsIHJlZj0yNSkKdGlja2V0MzMgPSBi
+ZWFtLmhpc3RvMSg2LCBuYmlucz0xMDAsIHhyYW5nZT1bLTAuMDAwMjI4NDc1Mzc5MzYzNDA2NDIs
+IDAuMDAwMjI5OTM5OTI5Nzg0NjAyMDZdLCBub2xvc3Q9MSwgcmVmPTMzKQoKCnRpdGxlID0gIiIK
+IyBpZiB0aWNrZXRbJ2Z3aG0nXSBpcyBub3QgTm9uZTogdGl0bGUgKz0gIkZXSE06ICVmICIgJSB0
+aWNrZXRbJ2Z3aG0nXQoKcGxvdCh0aWNrZXQyM1snYmluX3BhdGgnXSwgdGlja2V0MjNbJ2hpc3Rv
+Z3JhbV9wYXRoJ10sCiAgICB0aWNrZXQyNFsnYmluX3BhdGgnXSwgdGlja2V0MjRbJ2hpc3RvZ3Jh
+bV9wYXRoJ10sCiAgICB0aWNrZXQyNVsnYmluX3BhdGgnXSwgdGlja2V0MjVbJ2hpc3RvZ3JhbV9w
+YXRoJ10sCiAgICB0aWNrZXQzM1snYmluX3BhdGgnXSwgdGlja2V0MzNbJ2hpc3RvZ3JhbV9wYXRo
+J10sCiAgICB0aXRsZT10aXRsZSwgeHRpdGxlPSJpbnRlbnNpdHkgKGFyYml0cmFyeSB1bml0cyki
+LCBsZWdlbmQ9WydUb3RhbCcsJ1MtcG9sJywgJ1AtcG9sJywgJ0NpcmN1bGFyIHBvbGFyaXouJ10s
+IGdyaWQ9MSwgc2hvdz0xKQqUjAVmbGFnc5RLAIwIZmlsZW5hbWWUTnViYYwTc2F2ZWRXaWRnZXRH
+ZW9tZXRyeZRDQgHZ0MsAAwAA////9f///88AAAMqAAACYgAAAAAAAAAAAAADHwAAAlcAAAAAAAAA
+AAeAAAAAAAAAAAAAAAMfAAACV5SMDXNwbGl0dGVyU3RhdGWUTowLX192ZXJzaW9uX1+USwF1Lg==
+</properties>
+		<properties node_id="8" format="literal">{'controlAreaVisible': True, 'divergence': 0.001, 'electron_beam_alpha_h': 0.0, 'electron_beam_alpha_v': 0.0, 'electron_beam_beta_h': 40.020263, 'electron_beam_beta_v': 34.811321, 'electron_beam_divergence_h': 9.87e-06, 'electron_beam_divergence_v': 1.06e-06, 'electron_beam_emittance_h': 3.89865e-09, 'electron_beam_emittance_v': 3.9114e-11, 'electron_beam_eta_h': 0.0, 'electron_beam_eta_v': 0.0, 'electron_beam_etap_h': 0.0, 'electron_beam_etap_v': 0.0, 'electron_beam_size_h': 0.000395, 'electron_beam_size_v': 3.69e-05, 'electron_energy_in_GeV': 6.04, 'electron_energy_spread': 0.0, 'emax': 8000.0, 'emin': 8000.0, 'flag_energy_spread': 0, 'is_automatic_run': True, 'magnetic_field': 0.8, 'moment_xpxp': 9.74169e-11, 'moment_xx': 1.56025e-07, 'moment_xxp': 0.0, 'moment_ypyp': 1.1236e-12, 'moment_yy': 1.36161e-09, 'moment_yyp': 0.0, 'ng_e': 100, 'number_of_rays': 50000, 'ring_current': 0.2, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00`\x00\x00\x00 \x00\x00\x05\x87\x00\x00\x03\x00\x00\x00\x00`\x00\x00\x00E\x00\x00\x05\x87\x00\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x00`\x00\x00\x00E\x00\x00\x05\x87\x00\x00\x03\x00', 'seed': 5676561, 'type_of_properties': 1, 'view_type': 0, '__version__': 1}</properties>
+		<properties node_id="9" format="literal">{'controlAreaVisible': True, 'divergence': 0.001, 'electron_beam_alpha_h': 0.0, 'electron_beam_alpha_v': 0.0, 'electron_beam_beta_h': 40.020263, 'electron_beam_beta_v': 34.811321, 'electron_beam_divergence_h': 9.87e-06, 'electron_beam_divergence_v': 1.06e-06, 'electron_beam_emittance_h': 3.89865e-09, 'electron_beam_emittance_v': 3.9114e-11, 'electron_beam_eta_h': 0.0, 'electron_beam_eta_v': 0.0, 'electron_beam_etap_h': 0.0, 'electron_beam_etap_v': 0.0, 'electron_beam_size_h': 0.000395, 'electron_beam_size_v': 3.69e-05, 'electron_energy_in_GeV': 6.04, 'electron_energy_spread': 0.0, 'emax': 18000.0, 'emin': 18000.0, 'flag_energy_spread': 0, 'is_automatic_run': True, 'magnetic_field': 0.8, 'moment_xpxp': 9.74169e-11, 'moment_xx': 1.56025e-07, 'moment_xxp': 0.0, 'moment_ypyp': 1.1236e-12, 'moment_yy': 1.36161e-09, 'moment_yyp': 0.0, 'ng_e': 100, 'number_of_rays': 50000, 'ring_current': 0.2, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00`\x00\x00\x00 \x00\x00\x05\x87\x00\x00\x03\x00\x00\x00\x00`\x00\x00\x00E\x00\x00\x05\x87\x00\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x00`\x00\x00\x00E\x00\x00\x05\x87\x00\x00\x03\x00', 'seed': 5676561, 'type_of_properties': 1, 'view_type': 0, '__version__': 1}</properties>
+		<properties node_id="10" format="pickle">gASVrwMAAAAAAAB9lCiMDGF1dG9fZXhlY3V0ZZSJjBJjb250cm9sQXJlYVZpc2libGWUiIwSY3Vy
+cmVudFNjcmlwdEluZGV4lEsAjAlmb250X3NpemWUSwSMEWxpYnJhcnlMaXN0U291cmNllF2UjCVv
+YXN5czIud2lkZ2V0cy50b29scy5vd19weXRob25fc2NyaXB0lIwGU2NyaXB0lJOUKYGUfZQojARu
+YW1llIwUaGlzdG9ncmFtcyA4LCAxOCBrZVaUjAZzY3JpcHSUWE4CAAB0aWNrZXQwOCA9IGluX29i
+amVjdF8xLmJlYW0uaGlzdG8xKDYsIG5iaW5zPTEwMCwgeHJhbmdlPVstMC4wMDAyMjg0NzUzNzkz
+NjM0MDY0MiwgMC4wMDAyMjk5Mzk5Mjk3ODQ2MDIwNl0sIG5vbG9zdD0xLCByZWY9MjMpCnRpY2tl
+dDE4ID0gaW5fb2JqZWN0XzIuYmVhbS5oaXN0bzEoNiwgbmJpbnM9MTAwLCB4cmFuZ2U9Wy0wLjAw
+MDIyODQ3NTM3OTM2MzQwNjQyLCAwLjAwMDIyOTkzOTkyOTc4NDYwMjA2XSwgbm9sb3N0PTEsIHJl
+Zj0yMykKCgp0aXRsZSA9ICIiCiMgaWYgdGlja2V0Wydmd2htJ10gaXMgbm90IE5vbmU6IHRpdGxl
+ICs9ICJGV0hNOiAlZiAiICUgdGlja2V0Wydmd2htJ10KCmZyb20gc3J4cmF5bGliLnBsb3QuZ29s
+IGltcG9ydCBwbG90CnBsb3QodGlja2V0MDhbJ2Jpbl9wYXRoJ10sIHRpY2tldDA4WydoaXN0b2dy
+YW1fcGF0aCddLAogICAgdGlja2V0MThbJ2Jpbl9wYXRoJ10sIHRpY2tldDE4WydoaXN0b2dyYW1f
+cGF0aCddLAogICAgdGl0bGU9dGl0bGUsIHh0aXRsZT0iaW50ZW5zaXR5IChhcmJpdHJhcnkgdW5p
+dHMpIiwgbGVnZW5kPVsnVG90YWwgOCBrZVYnLCdUb3RhbCAxOCBrZVYnXSwgZ3JpZD0xLCBzaG93
+PTEpCpSMBWZsYWdzlEsAjAhmaWxlbmFtZZROdWJhjBNzYXZlZFdpZGdldEdlb21ldHJ5lENCAdnQ
+ywADAAAAAAd1////zwAADQ8AAAOTAAAHgAAAAAAAAA0EAAADiAAAAAEAAAAAB4AAAAeAAAAAAAAA
+DQQAAAOIlIwNc3BsaXR0ZXJTdGF0ZZROjAtfX3ZlcnNpb25fX5RLAXUu
+</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>
