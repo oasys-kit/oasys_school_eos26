@@ -24,6 +24,8 @@ Through a combination of lectures and practical sessions, attendees will gain ex
 SHORTCUT TO TALKS
 -----------------
 
+This site (https://github.com/oasys-kit/oasys_school_eos26) can also be accessed vua the shortcut:  https://tinyurl.com/oasys2
+
 | Day | Speaker | ShortTitle    | File                        |
 |-----|---------|---------------|-----------------------------|
 | 1   | Rafael  | History       | [x-ray_early_days_v1.pdf](https://github.com/oasys-kit/oasys_school_eos26/blob/main/rcelestre/x-ray_early_days_v1.pdf) |
