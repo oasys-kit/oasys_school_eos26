@@ -1,0 +1,28 @@
+{
+    "CLASS_NAME": "LightSource",
+    "name": "ESRF_ID01_U27",
+    "electron_beam": {
+        "CLASS_NAME": "ElectronBeam",
+        "energy_in_GeV": 6.0,
+        "energy_spread": 0.00094,
+        "current": 0.2,
+        "number_of_bunches": 400,
+        "moment_xx": 9.162570830000001e-10,
+        "moment_xxp": -7.208600000000001e-13,
+        "moment_xpxp": 1.9306284193973973e-11,
+        "moment_yy": 2.6621139999999997e-11,
+        "moment_yyp": 1.2979999999999999e-14,
+        "moment_ypyp": 3.756419465146872e-12,
+        "dispersion_x": -3.5e-06,
+        "dispersion_y": 0.0,
+        "dispersionp_x": 0.0,
+        "dispersionp_y": -0.0
+    },
+    "magnetic_structure": {
+        "CLASS_NAME": "Undulator",
+        "K_vertical": 0.90207,
+        "K_horizontal": 0.0,
+        "period_length": 0.027,
+        "number_of_periods": 52.0
+    }
+}
