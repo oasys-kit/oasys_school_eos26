@@ -38,6 +38,7 @@ This site (https://github.com/oasys-kit/oasys_school_eos26) can also be accessed
 | 2   | Rafael  | Coherence     | [xxx.pptx](https://github.com/oasys-kit/oasys_school_eos26/blob/main/rcelestre/xxx.pptx) |
 | 2   | Manuel  | Coherence     | [partial_coherence.pptx](https://github.com/oasys-kit/oasys_school_eos26/blob/main/srio/partial_coherence.pptx) |
 | 2   | Juan    | Hands-on XOPPY crystals | [Hands-on_XOPPY_Crystals_JuanR.pptx](https://github.com/oasys-kit/oasys_school_eos26/blob/main/juanrey/EOS26_Hands-on_XOPPY_Crystals_JuanR.pptx) |
+| 3   | Philipp    | Heat load, power propagation, Finite Element Analysis|  [EOS26_HeatLoads_Power_FEA-PB.pdf](https://github.com/oasys-kit/oasys_school_eos26/blob/main/pbrumund/EOS26_HeatLoads_Power_FEA-PB.pdf) |
 | 3   | Juan+Manuel    | Hands-on SHADOW4 programming, scripts|  [programming.pptx](https://github.com/oasys-kit/oasys_school_eos26/blob/main/srio/programming.pptx) [Hands-on_scripting_JuanR.pptx](https://github.com/oasys-kit/oasys_school_eos26/blob/main/juanrey/EOS26_Hands-on_scripting_JuanR.pptx) |
 
 
