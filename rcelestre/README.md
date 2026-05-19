@@ -8,4 +8,4 @@
 ## Thursday (23/05/2026):
 
 - Lenses and refractors (10h30 - 11h30) - lecture + live demo ```refractive_optics_v2.pdf``` and ```refractive_optics/refractive_optics.ows```
-- Wave optics and coherence (14h15 - 15h00) + live demo ```wave_optics.pdf```
+- Wave optics and coherence (14h15 - 15h00) + live demo ```srw_and_coherence_v1.pdf``` and ```coherence/id01.ows```
