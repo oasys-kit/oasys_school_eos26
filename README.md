@@ -24,7 +24,7 @@ Through a combination of lectures and practical sessions, attendees will gain ex
 SHORTCUT TO TALKS
 -----------------
 
-This site (https://github.com/oasys-kit/oasys_school_eos26) can also be accessed vua the shortcut:  https://tinyurl.com/oasys2
+This site (https://github.com/oasys-kit/oasys_school_eos26) can also be accessed via the shortcut:  https://tinyurl.com/oasys2
 
 | Day | Speaker | ShortTitle    | File                        |
 |-----|---------|---------------|-----------------------------|
