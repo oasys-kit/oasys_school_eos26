@@ -28,14 +28,14 @@ This site (https://github.com/oasys-kit/oasys_school_eos26) can also be accessed
 
 | Day | Speaker | ShortTitle    | File                        |
 |-----|---------|---------------|-----------------------------|
-| 1   | Rafael  | History       | [x-ray_early_days_v1.pdf](https://github.com/oasys-kit/oasys_school_eos26/blob/main/rcelestre/x-ray_early_days_v1.pdf) |
+| 1   | Rafael  | History       | [x-ray_early_days.pdf](https://github.com/oasys-kit/oasys_school_eos26/blob/main/rcelestre/x-ray_early_days_v1.pdf) |
 | 1   | Manuel  | Ray-tracing   | [intro.pptx](https://github.com/oasys-kit/oasys_school_eos26/blob/main/srio/raytracing.pptx) |
 | 1   | Juan    | XOPPY: Sources, filters & mirrors | [xoppy_sources_filters_and_mirrors_part1.pptx](https://github.com/oasys-kit/oasys_school_eos26/blob/main/juanrey/EOS26_XOPPY-Sources_Filter_Mirrors_JuanR_part1.pptx) [xoppy_sources_filters_and_mirrors_part2.pptx](https://github.com/oasys-kit/oasys_school_eos26/blob/main/juanrey/EOS26_XOPPY-Sources_Filter_Mirrors_JuanR_part2.pptx) |
-| 1   | Rafael  | Soft x-ray    | [soft_x-ray_bl_design_intro_v1.pdf](https://github.com/oasys-kit/oasys_school_eos26/blob/main/rcelestre/soft_x-ray_bl_design_intro_v1.pdf) |
+| 1   | Rafael  | Soft x-ray    | [soft_x-ray_bl_design_intro.pdf](https://github.com/oasys-kit/oasys_school_eos26/blob/main/rcelestre/soft_x-ray_bl_design_intro_v1.pdf) |
 | 1   | Manuel  | Gratings      | [grating_simulations_reininger.pptx](https://github.com/oasys-kit/oasys_school_eos26/blob/main/srio/grating_simulations_reininger.pptx) |
 | 2   | Manuel  | Crystals      | [crystals.pptx](https://github.com/oasys-kit/oasys_school_eos26/blob/main/srio/crystals.pptx) |
-| 2   | Rafael  | Lenses        | [refractive_optics_v2.pdf](https://github.com/oasys-kit/oasys_school_eos26/blob/main/rcelestre/refractive_optics_v2.pdf) |
-| 2   | Rafael  | Coherence     | [xxx.pptx](https://github.com/oasys-kit/oasys_school_eos26/blob/main/rcelestre/xxx.pptx) |
+| 2   | Rafael  | Lenses        | [refractive_optics.pdf](https://github.com/oasys-kit/oasys_school_eos26/blob/main/rcelestre/refractive_optics_v2.pdf) |
+| 2   | Rafael  | Coherence     | [srw_and_coherence.pptx](https://github.com/oasys-kit/oasys_school_eos26/blob/main/rcelestre/srw_and_coherence_v1.pdf) |
 | 2   | Manuel  | Coherence     | [partial_coherence.pptx](https://github.com/oasys-kit/oasys_school_eos26/blob/main/srio/partial_coherence.pptx) |
 | 2   | Juan    | Hands-on XOPPY crystals | [Hands-on_XOPPY_Crystals_JuanR.pptx](https://github.com/oasys-kit/oasys_school_eos26/blob/main/juanrey/EOS26_Hands-on_XOPPY_Crystals_JuanR.pptx) |
 | 3   | Philipp    | Heat load & FEA |  [EOS26_HeatLoads_Power_FEA-PB.pdf](./pbrumund/EOS26_HeatLoads_Power_FEA-PB.pdf) |
@@ -54,7 +54,7 @@ SHORTCUT TO WORKSPACES
 | 2   | Rafael       | hands-on SRW refractors | [refractive_optics.ows](https://raw.githubusercontent.com/oasys-kit/oasys_school_eos26/main/rcelestre/refractive_optics/refractive_optics.ows) |
 | 2   | Manuel       | hands-on S4 refractors  | [refractors_CRL_Snigirev_1996.ows](https://raw.githubusercontent.com/oasys-kit/oasys_school_eos26/main/srio/refractors_CRL_Snigirev_1996.ows)  [refractors_transfocators.ows](https://raw.githubusercontent.com/oasys-kit/oasys_school_eos26/main/srio/refractors_transfocators.ows)  [refractors_lens_elliptical.ows](https://raw.githubusercontent.com/oasys-kit/oasys_school_eos26/main/srio/refractors_lens_elliptical.ows)|
 | 2   | Juan+Manuel  | hands-on beamlines     | [xoppy_hands-on_crystals.ows](https://raw.githubusercontent.com/oasys-kit/oasys_school_eos26/main/juanrey/eos26_xoppy_hands-on_crystals.ows) [xoppy_hands-beamline.ows](https://raw.githubusercontent.com/oasys-kit/oasys_school_eos26/main/juanrey/xoppy_hands-beamline.ows) [beamline.ows](https://raw.githubusercontent.com/oasys-kit/oasys_school_eos26/main/srio/beamline.ows)|
-| 2   | Rafael       | hands-on coherence     | [xxx.ows](https://raw.githubusercontent.com/oasys-kit/oasys_school_eos26/main/rcelestre/xxx.ows) |
+| 2   | Rafael       | hands-on coherence     | [id01.ows](https://raw.githubusercontent.com/oasys-kit/oasys_school_eos26/main/rcelestre/coherence/id01.ows) |
 | 2   | Manuel       | hands-on coherence     | [wofry_coherence_transport.ows](https://raw.githubusercontent.com/oasys-kit/oasys_school_eos26/main/srio/wofry_coherence_transport.ows) [wofry_ISN.ows](https://raw.githubusercontent.com/oasys-kit/oasys_school_eos26/main/srio/wofry_ISN.ows) [wofry_ISN_CMD1d.ows](https://raw.githubusercontent.com/oasys-kit/oasys_school_eos26/main/srio/wofry_ISN_CMD1d.ows)|
 | 3   |Juan          |hands-on SHADOW4 scripts| [hands-on_SHADOW4_scripting_part1.ows](https://raw.githubusercontent.com/oasys-kit/oasys_school_eos26/main/juanrey/eos26_hands-on_SHADOW4_scripting_part1.ows), [hands-on_SHADOW4_scripting_part2_misalignment.ows](https://raw.githubusercontent.com/oasys-kit/oasys_school_eos26/main/juanrey/eos26_hands-on_SHADOW4_scripting_part2_misalignment.ows) |
 
